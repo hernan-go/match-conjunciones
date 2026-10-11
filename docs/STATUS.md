@@ -27,6 +27,14 @@ Cobertura por área (las obras pueden pertenecer a varias): Salud mental 8, Infa
 - Dispositivos reales iOS/Android/tablet no disponibles; procedimiento manual en README. Emulación no equivale a pruebas reales.
 - Ampliación a 60+ títulos posterior; no es bloqueo del MVP autorizado.
 
+## Rediseño visual definitivo
+
+Intervención visual completada: src/styles.css y src/App.tsx. Paleta siempre clara (#FFFFFF, texto #303030), rojo #E63A2E extraído del SVG; familias Arial/Helvetica y Georgia/Times New Roman conservadas. Encabezado con SVG oficial íntegro y proporciones conservadas. Señalador de resultados mediante pseudo-elemento CSS y clip-path; texto real blanco en cursiva, adaptable a móvil. Selección roja con ✓ y foco visible. Datos, dominio, estado, textos editoriales, enlaces y recursos sin cambios.
+
+Evidencia final: TypeScript y validación aprobados; 13/13 tests unitarios; suite completa Chromium 15/15, más 2/2 repeticiones para capturas de selección y texto ampliado. Incluye seis anchos, orientación, 320 px/200%, navegación y ráfagas, tacto emulado, raíz/subcarpeta, fallback, modo claro con sistema oscuro y Axe WCAG AA sin violaciones detectadas en cuatro pantallas. Capturas de inicio, cuestionario y resultados revisadas; artifacts/results-320-text-200.png y quiz-selected-light.png además de las capturas por ancho. No sustituye pruebas reales ni revisión humana.
+
+SVG fuente/build coincidentes byte por byte. ZIP regenerado: 32 archivos, aproximadamente 657 KiB, index.html en raíz, todas las 28 portadas y SVG; comprobación byte por byte y hashes en build-report.json. REQUIREMENTS y PLAN actualizados con alcance y aceptación visual. Sin dependencias nuevas ni cambios de hosting.
+
 ## Próximo paso
 
-Usuario: crear URL temporal y subir artifacts/match-conjunciones-siteground.zip siguiendo README. Completar comprobación HTTPS y pruebas reales. Para crecer, verificar nuevos títulos y actualizar src/data; ejecutar validaciones, tests y build.
+Usuario: revisar y aprobar visualmente la vista previa local http://127.0.0.1:4173/. No publicar todavía en SiteGround. Tras aprobación y datos de hosting, seguir README para subir el ZIP y comprobar HTTPS y dispositivos reales.

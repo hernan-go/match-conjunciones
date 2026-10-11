@@ -58,9 +58,13 @@ export default function App() {
           }}
           aria-label="Match Conjunciones, volver al inicio"
         >
-          <span className="mark" aria-hidden="true">
-            n
-          </span>
+          <img
+            className="mark"
+            src={`${import.meta.env.BASE_URL}covers/n_portada.svg`}
+            alt=""
+            width="44"
+            height="48"
+          />
           <span>
             NOVEDUC
             <span className="wordmark-sub">ENCUENTROS CON LA LECTURA</span>
@@ -272,7 +276,8 @@ export default function App() {
           <section className="results">
             <div className="eyebrow">MATCH CONJUNCIONES · TU RECORRIDO</div>
             <h1 tabIndex={-1} ref={titleRef}>
-              Tu match <em>literario.</em>
+              <span className="match-title">Tu match</span>{" "}
+              <em className="match-ribbon">literario.</em>
             </h1>
             <p className="results-intro">
               Tus respuestas abrieron estas lecturas. Acercate, explorá y seguí

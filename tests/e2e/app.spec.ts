@@ -62,6 +62,11 @@ for (const width of widths)
       if (r.status() >= 400) failures.push(r.url());
     });
     await page.goto("/evento/");
+    if (width === 390 || width === 1440)
+      await page.screenshot({
+        path: `artifacts/${info.project.name}-home-${width}.png`,
+        fullPage: true,
+      });
     await noOverflow(page);
     await page.getByRole("button", { name: "Elegir una temática" }).click();
     await noOverflow(page);
@@ -197,6 +202,52 @@ test("Orientación y texto 200% conservan respuestas sin desbordar", async ({
     await noOverflow(page);
   }
   await images(page);
+  await noOverflow(page);
+  await expect(page.locator(".match-ribbon")).toHaveText("literario.");
+  await page.screenshot({
+    path: "artifacts/results-320-text-200.png",
+    fullPage: true,
+  });
+});
+
+test("Identidad oficial y apariencia clara incluso con sistema oscuro", async ({
+  page,
+}) => {
+  await page.emulateMedia({ colorScheme: "dark" });
+  await page.goto("/");
+  expect(
+    await page.evaluate(
+      () => getComputedStyle(document.documentElement).backgroundColor,
+    ),
+  ).toBe("rgb(255, 255, 255)");
+  expect(
+    await page.evaluate(
+      () => getComputedStyle(document.documentElement).colorScheme,
+    ),
+  ).toBe("light");
+  const mark = page.locator(".mark");
+  await expect(mark).toHaveAttribute("src", /covers\/n_portada.svg$/);
+  expect(
+    await mark.evaluate((el) => (el as HTMLImageElement).naturalWidth > 0),
+  ).toBe(true);
+  await page.getByRole("button", { name: "Sorprendeme" }).click();
+  await page.locator(".answer-tile").first().click();
+  await expect(page.locator(".selected .selection-indicator")).toHaveText("✓");
+  await page.screenshot({
+    path: "artifacts/quiz-selected-light.png",
+    fullPage: true,
+  });
+  await finish(page);
+  expect(
+    await page
+      .locator(".match-ribbon")
+      .evaluate((el) => getComputedStyle(el).color),
+  ).toBe("rgb(255, 255, 255)");
+  expect(
+    await page
+      .locator(".match-ribbon")
+      .evaluate((el) => getComputedStyle(el, "::before").backgroundColor),
+  ).toBe("rgb(230, 58, 46)");
   await noOverflow(page);
 });
 test("Teclado, foco y objetivos táctiles", async ({ page }) => {

@@ -33,3 +33,11 @@ Mobile-first desde 320 px; probar 320/375/390/768/1024/1440, ambas orientaciones
 ## Entrega
 
 Documentación AGENTS, REQUIREMENTS, PLAN, STATUS y README. Git público match-conjunciones con descripción autorizada; exclusiones antes de commit, commits por etapas y push final. No secretos ni recursos restringidos. Build dist y artifacts/match-conjunciones-siteground.zip con index.html en raíz y todas las imágenes. Probar raíz/subcarpeta. Publicación manual SiteGround pendiente de URL, HTTPS y comprobación externa. No esperar URL para desarrollar.
+
+## Identidad visual definitiva — 11/10/2026
+
+Intervención exclusivamente visual: mantener catálogo, preguntas, pesos, algoritmo, navegación, reinicio, enlaces y recursos de portada. Fondo blanco #FFFFFF y apariencia siempre clara con color-scheme: light. Texto principal #303030, secundarios grises con contraste, superficies neutras y tarjetas blancas. Rojo institucional #E63A2E extraído de n_portada.svg y centralizado en CSS. N oficial en encabezado como imagen, sin alterar archivo, geometría ni colores; mismo SVG para fallback institucional.
+
+Conservar Arial/Helvetica/sans-serif y Georgia/Times New Roman/serif, incluida cursiva editorial. Resultados con «Tu match literario.» como texto real: gris oscuro y «literario.» blanco dentro de señalador CSS rojo con punta derecha, adaptable a dos líneas en teléfonos. Sin sombras fuertes, gradientes o animaciones añadidas. Selección con rojo e indicador ✓; foco y controles de 48 px. Blanco/rojo (4,19:1) reservado a texto grande; acciones blancas en negrita de 1,2 rem y texto pequeño en gris oscuro.
+
+Repetir TypeScript, tests unitarios y E2E, seis anchos, orientación, texto 200%, contraste, carga de imágenes, señalador sin recortes y sistema oscuro conservando modo claro. Regenerar build y ZIP, documentar evidencia y sincronizar repositorio existente. Mostrar vista previa local para aprobación visual antes de publicar en SiteGround. Sin nuevas dependencias, PWA ni ampliación editorial.

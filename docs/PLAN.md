@@ -20,3 +20,11 @@ Pesos no negativos; cada opción de cada pregunta habilitada debe alcanzar tres 
 ## Imágenes reproducibles
 
 Manifiesto versionado con URLs públicas, tipo, evidencia y nombre. Caché original privada, transformaciones fijadas por lockfile, copia a dist/covers. SVG privado aportado por usuario, ruta configurable para reconstrucción. Todas las imágenes decodificables y presentes; conteo por tipo y hashes de publicación. Sin descargas durante juego. Recursos privados no se publican en GitHub.
+
+## Intervención visual autorizada — 11/10/2026
+
+1. Extraer rojo del SVG oficial y conservar tipografías y contenido existentes.
+2. Centralizar paleta clara y estados en CSS; sustituir N tipográfica por el SVG original y construir señalador con pseudo-elemento y clip-path, manteniendo texto accesible.
+3. Verificar selección, navegación, seis tamaños, orientación, texto 200%, imágenes y contraste; añadir comprobación de modo claro con sistema oscuro. Contrastar SVG fuente/build byte por byte.
+4. Revisar capturas, actualizar documentación, regenerar y verificar ZIP; commit y push al repositorio existente.
+5. Mostrar preview local. Publicación SiteGround pendiente de aprobación visual y datos externos. Sin cambios en datos, dominio, estado o recursos editoriales.
