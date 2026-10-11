@@ -11,6 +11,24 @@
     "covers": "tsx scripts/prepare-covers.ts",
     "build": "npm run check && npm run validate && npm run covers && vite build && tsx scripts/package-build.ts",
     "preview": "vite preview --host 127.0.0.1",
-    "test:e2e": "playwright test"
+    "test:e2e": "node scripts/run-e2e.mjs",
+    "verify:sources": "tsx scripts/verify-sources.ts"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "cheerio": "^1.2.0",
+    "fflate": "^0.8.3",
+    "sharp": "^0.35.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3"
   }
 }

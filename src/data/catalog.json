@@ -1,0 +1,1943 @@
+{
+  "books": [
+    {
+      "id": "practicas-en-salud-mental",
+      "workId": "practicas-en-salud-mental",
+      "title": "Prácticas en Salud Mental",
+      "authorIds": [
+        "a1"
+      ],
+      "contributors": [
+        {
+          "authorId": "a1",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c1",
+      "isbn": "978-987-538-842-0",
+      "topicIds": [
+        "salud",
+        "emociones"
+      ],
+      "weights": {
+        "salud": 1,
+        "emociones": 1,
+        "derechos": 3,
+        "comunidad": 2,
+        "interdisciplina": 3,
+        "instituciones": 2,
+        "subjetividad": 2
+      },
+      "summary": "Un recorrido por la salud mental, la interdisciplina y las prácticas desde una perspectiva social y de derechos.",
+      "productUrl": "https://www.noveduc.com/productos/practicas-en-salud-mental/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "La ficha organiza el contenido en campo de salud mental, interdisciplina y gestión e investigación.",
+      "cover": {
+        "kind": "original",
+        "file": "practicas-en-salud-mental.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109469789875388420-0ec09fa4d64ff86f8417917453816526-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "ley-nacional-de-salud-mental-una-brujula-para-la-crisis",
+      "workId": "ley-nacional-de-salud-mental-una-brujula-para-la-crisis",
+      "title": "Ley Nacional de Salud Mental: una brújula para la crisis",
+      "authorIds": [
+        "a2",
+        "a3"
+      ],
+      "contributors": [
+        {
+          "authorId": "a2",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a3",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": null,
+      "isbn": "978-631-91457-5-5",
+      "topicIds": [
+        "salud"
+      ],
+      "weights": {
+        "salud": 1,
+        "derechos": 3,
+        "comunidad": 3,
+        "instituciones": 3,
+        "interdisciplina": 2
+      },
+      "summary": "Una lectura de la Ley Nacional de Salud Mental y de las experiencias que buscan llevar sus principios a la práctica.",
+      "productUrl": "https://www.noveduc.com/productos/ley-nacional-de-salud-mental-una-brujula-para-la-crisis/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Descripción: derechos, atención en comunidad, abordajes interdisciplinarios y experiencias de implementación.",
+      "cover": {
+        "kind": "original",
+        "file": "ley-nacional-de-salud-mental-una-brujula-para-la-crisis.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110869786319145755-4261c72581ead0531b17917454082017-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "abordajes-del-sufrimiento-psicosocial-en-las-infancias-y-adolescencias",
+      "workId": "abordajes-del-sufrimiento-psicosocial-en-las-infancias-y-adolescencias",
+      "title": "Abordajes del sufrimiento psicosocial en las infancias y adolescencias",
+      "authorIds": [
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a19"
+      ],
+      "contributors": [
+        {
+          "authorId": "a4",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a5",
+          "role": "autoría y compilación"
+        },
+        {
+          "authorId": "a6",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a7",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a8",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a9",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a10",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a11",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a12",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a13",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a14",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a15",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a16",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a17",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a18",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a19",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-928-1",
+      "topicIds": [
+        "salud",
+        "infancias"
+      ],
+      "weights": {
+        "salud": 1,
+        "infancias": 1,
+        "derechos": 3,
+        "comunidad": 3,
+        "interdisciplina": 3,
+        "instituciones": 2,
+        "diversidad": 1
+      },
+      "summary": "Experiencias y conceptos para pensar el cuidado de infancias y adolescencias desde la integralidad y los derechos.",
+      "productUrl": "https://www.noveduc.com/productos/abordajes-del-sufrimiento-psicosocial-en-las-infancias-y-adolescencias/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: protección integral, reforma de atención, salud mental comunitaria y transición a la vida autónoma.",
+      "cover": {
+        "kind": "original",
+        "file": "abordajes-del-sufrimiento-psicosocial-en-las-infancias-y-adolescencias.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109839789875389281-5a986e346f6cea6a9817916014888828-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "cuando-la-clinica-desborda-el-consultorio",
+      "workId": "cuando-la-clinica-desborda-el-consultorio",
+      "title": "Cuando la clínica desborda el consultorio",
+      "authorIds": [
+        "a20"
+      ],
+      "contributors": [
+        {
+          "authorId": "a20",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-365-4",
+      "topicIds": [
+        "salud",
+        "infancias",
+        "emociones"
+      ],
+      "weights": {
+        "salud": 1,
+        "infancias": 1,
+        "emociones": 1,
+        "comunidad": 3,
+        "instituciones": 2,
+        "interdisciplina": 2,
+        "juego": 2,
+        "clinica": 3,
+        "expresion": 2
+      },
+      "summary": "Experiencias de atención primaria que conectan el trabajo clínico con escuelas, familias y espacios del barrio.",
+      "productUrl": "https://www.noveduc.com/productos/cuando-la-clinica-desborda-el-consultorio/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: redes en APS, juegoteca, talleres de narración y expresión y vínculo afectivo.",
+      "cover": {
+        "kind": "original",
+        "file": "cuando-la-clinica-desborda-el-consultorio.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-105329789875383654-cff0fe5c02a3f55cdd17916477228312-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "existe-el-autismo-en-la-ninez",
+      "workId": "existe-el-autismo-en-la-ninez",
+      "title": "¿Existe el autismo en la niñez?",
+      "authorIds": [
+        "a21"
+      ],
+      "contributors": [
+        {
+          "authorId": "a21",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-999-1",
+      "topicIds": [
+        "infancias"
+      ],
+      "weights": {
+        "infancias": 1,
+        "diversidad": 3,
+        "diagnosticos": 3,
+        "juego": 2,
+        "cuerpo": 2
+      },
+      "summary": "Una mirada de Esteban Levin sobre las experiencias infantiles, el juego y las preguntas que abren los diagnósticos.",
+      "productUrl": "https://www.noveduc.com/productos/existe-el-autismo-en-la-ninez/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Descripción e índice abordan diagnósticos, autismo, imagen del cuerpo y experiencias de juego.",
+      "cover": {
+        "kind": "original",
+        "file": "existe-el-autismo-en-la-ninez.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110279789875389991-ff5df746625013cdbe17916877823560-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "plasticidad-simbolica",
+      "workId": "plasticidad-simbolica",
+      "title": "Plasticidad simbólica",
+      "authorIds": [
+        "a21"
+      ],
+      "contributors": [
+        {
+          "authorId": "a21",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-995-3",
+      "topicIds": [
+        "infancias"
+      ],
+      "weights": {
+        "infancias": 1,
+        "cuerpo": 3,
+        "juego": 3,
+        "diagnosticos": 2,
+        "diversidad": 2
+      },
+      "summary": "Explora la relación entre experiencia infantil, cuerpo, representación, escritura y plasticidad simbólica.",
+      "productUrl": "https://www.noveduc.com/productos/plasticidad-simbolica/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: sensibilidad, plasticidad simbólica, representación, diagnóstico y pronóstico.",
+      "cover": {
+        "kind": "original",
+        "file": "plasticidad-simbolica.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110259789875389953-be0186b55e3ddebd6417915510953317-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "autismo-y-acompanamiento-terapeutico",
+      "workId": "autismo-y-acompanamiento-terapeutico",
+      "title": "Autismo y acompañamiento terapéutico",
+      "authorIds": [
+        "a22"
+      ],
+      "contributors": [
+        {
+          "authorId": "a22",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6603-96-8",
+      "topicIds": [
+        "infancias",
+        "salud"
+      ],
+      "weights": {
+        "infancias": 1,
+        "salud": 1,
+        "diversidad": 3,
+        "cuerpo": 3,
+        "juego": 2,
+        "comunidad": 2,
+        "derechos": 1
+      },
+      "summary": "Una propuesta de acompañamiento que pone atención en la experiencia sensorial, el juego y las redes de sostén.",
+      "productUrl": "https://www.noveduc.com/productos/autismo-y-acompanamiento-terapeutico/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: experiencia sensorial, juego, familia y comunidad; descripción: ética y derecho.",
+      "cover": {
+        "kind": "original",
+        "file": "autismo-y-acompanamiento-terapeutico.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110799786316603968-874cfb497f41c75d4c17917454079109-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "en-la-infancia-los-diagnosticos-se-escriben-con-lapiz",
+      "workId": "en-la-infancia-los-diagnosticos-se-escriben-con-lapiz",
+      "title": "En la infancia los diagnósticos se escriben con lápiz",
+      "authorIds": [
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29"
+      ],
+      "contributors": [
+        {
+          "authorId": "a23",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a24",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a25",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a26",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a27",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a28",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a29",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-373-9",
+      "topicIds": [
+        "infancias",
+        "educacion"
+      ],
+      "weights": {
+        "infancias": 1,
+        "educacion": 1,
+        "diagnosticos": 3,
+        "diversidad": 3,
+        "aprendizaje": 2,
+        "didactica": 1
+      },
+      "summary": "Reflexiones interdisciplinarias sobre diagnósticos infantiles y posibilidades de inclusión en la clínica y la escuela.",
+      "productUrl": "https://www.noveduc.com/productos/en-la-infancia-los-diagnosticos-se-escriben-con-lapiz/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: patologización, diagnósticos e inclusión educativa; descripción: abordaje educacional.",
+      "cover": {
+        "kind": "original",
+        "file": "en-la-infancia-los-diagnosticos-se-escriben-con-lapiz.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-105279789875383739-2d2a540ffdea9f3a7f17917453359503-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "supervision-en-la-clinica-con-ninas-y-ninos",
+      "workId": "supervision-en-la-clinica-con-ninas-y-ninos",
+      "title": "Supervisión en la clínica con niñas y niños",
+      "authorIds": [
+        "a21",
+        "a30"
+      ],
+      "contributors": [
+        {
+          "authorId": "a21",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a30",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6603-30-2",
+      "topicIds": [
+        "infancias",
+        "emociones"
+      ],
+      "weights": {
+        "infancias": 1,
+        "emociones": 1,
+        "clinica": 3,
+        "juego": 3,
+        "cuerpo": 2,
+        "diversidad": 2,
+        "escucha": 2
+      },
+      "summary": "Levin y Chávez recorren escenas de supervisión para pensar intervenciones con niñas, niños y sus entornos.",
+      "productUrl": "https://www.noveduc.com/productos/supervision-en-la-clinica-con-ninas-y-ninos/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Ficha: dos autores; índice: supervisión de experiencias infantiles, cuerpo, juego y autismo.",
+      "cover": {
+        "kind": "original",
+        "file": "supervision-en-la-clinica-con-ninas-y-ninos.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110479786316603302-cc56e5470ace0f8af317917453958075-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "ninas-ninos-y-adolescentes-en-tiempos-de-desamparo-colectivo",
+      "workId": "ninas-ninos-y-adolescentes-en-tiempos-de-desamparo-colectivo",
+      "title": "Niñas, niños y adolescentes en tiempos de desamparo colectivo",
+      "authorIds": [
+        "a31"
+      ],
+      "contributors": [
+        {
+          "authorId": "a31",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-931-1",
+      "topicIds": [
+        "infancias",
+        "salud",
+        "emociones"
+      ],
+      "weights": {
+        "infancias": 1,
+        "salud": 1,
+        "emociones": 1,
+        "comunidad": 2,
+        "instituciones": 2,
+        "derechos": 2,
+        "clinica": 2,
+        "subjetividad": 3,
+        "escucha": 2
+      },
+      "summary": "Una reflexión sobre las infancias y adolescencias, el desamparo colectivo y los modos de acompañar su sufrimiento.",
+      "productUrl": "https://www.noveduc.com/productos/ninas-ninos-y-adolescentes-en-tiempos-de-desamparo-colectivo/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Título, descripción e índice: desamparo colectivo, subjetividad y trabajo clínico con infancias.",
+      "cover": {
+        "kind": "original",
+        "file": "ninas-ninos-y-adolescentes-en-tiempos-de-desamparo-colectivo.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109859789875389311-8b47aa58b15bd885b117917332544175-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "amistad-en-las-infancias-la",
+      "workId": "amistad-en-las-infancias-la",
+      "title": "Amistad en las infancias, La",
+      "authorIds": [
+        "a21"
+      ],
+      "contributors": [
+        {
+          "authorId": "a21",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a32",
+          "role": "ilustración"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-937-3",
+      "topicIds": [
+        "infancias",
+        "vinculos"
+      ],
+      "weights": {
+        "infancias": 1,
+        "vinculos": 1,
+        "juego": 2,
+        "cuerpo": 2,
+        "diversidad": 2,
+        "familias": 1,
+        "convivencia": 3,
+        "escucha": 2
+      },
+      "summary": "Una exploración de la amistad como experiencia que transforma el juego, el cuerpo y el encuentro con otros.",
+      "productUrl": "https://www.noveduc.com/productos/amistad-en-las-infancias-la/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Descripción: comunidad, amistad, confianza y diferencia; recorrido clínico e interdisciplinario.",
+      "cover": {
+        "kind": "original",
+        "file": "amistad-en-las-infancias-la.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109879789875389373-b62a019b2f0249038817916877767240-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "educar-con-coraje",
+      "workId": "educar-con-coraje",
+      "title": "Educar con coraje",
+      "authorIds": [
+        "a33"
+      ],
+      "contributors": [
+        {
+          "authorId": "a33",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c1",
+      "isbn": "978-987-538-512-2",
+      "topicIds": [
+        "educacion"
+      ],
+      "weights": {
+        "educacion": 1,
+        "gestion": 3,
+        "didactica": 3,
+        "aprendizaje": 2,
+        "equipos": 2,
+        "juego": 1
+      },
+      "summary": "Ruth Harf reúne reflexiones sobre la gestión educativa, la didáctica y el lugar del juego en la enseñanza.",
+      "productUrl": "https://www.noveduc.com/productos/educar-con-coraje/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Subtítulo y contenido: gestión, didáctica, juego y equipos institucionales.",
+      "cover": {
+        "kind": "original",
+        "file": "educar-con-coraje.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-107379789875385122-dcfcf47be66407db3c17915725552636-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "gestionar-desde-las-oportunidades",
+      "workId": "gestionar-desde-las-oportunidades",
+      "title": "Gestionar desde las oportunidades",
+      "authorIds": [
+        "a33",
+        "a34",
+        "a35",
+        "a36"
+      ],
+      "contributors": [
+        {
+          "authorId": "a33",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a34",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a35",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a36",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c3",
+      "isbn": "978-631-660-305-0",
+      "topicIds": [
+        "educacion"
+      ],
+      "weights": {
+        "educacion": 1,
+        "gestion": 3,
+        "equipos": 3,
+        "aprendizaje": 2,
+        "didactica": 1
+      },
+      "summary": "Una propuesta para revisar desafíos y oportunidades de mejora en las instituciones educativas.",
+      "productUrl": "https://www.noveduc.com/productos/gestionar-desde-las-oportunidades/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Ficha: gestión educativa; descripción e índice: mejora institucional y trabajo compartido.",
+      "cover": {
+        "kind": "original",
+        "file": "gestionar-desde-las-oportunidades.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110319786316603050-62f4aecce89d0ee55417915736035154-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "puentes-de-la-gestion-educativa-los",
+      "workId": "puentes-de-la-gestion-educativa-los",
+      "title": "Puentes de la gestión educativa, Los",
+      "authorIds": [
+        "a33",
+        "a34"
+      ],
+      "contributors": [
+        {
+          "authorId": "a33",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a34",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c3",
+      "isbn": "978-631-6828-19-4",
+      "topicIds": [
+        "educacion"
+      ],
+      "weights": {
+        "educacion": 1,
+        "gestion": 3,
+        "equipos": 3,
+        "aprendizaje": 2,
+        "convivencia": 2
+      },
+      "summary": "Comunicación, alianzas y autoevaluación para fortalecer la gestión y la colaboración en las escuelas.",
+      "productUrl": "https://www.noveduc.com/productos/puentes-de-la-gestion-educativa-los/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Subtítulo e índice: alianzas, comunicación, autoevaluación y aprendizaje del directivo.",
+      "cover": {
+        "kind": "original",
+        "file": "puentes-de-la-gestion-educativa-los.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-111009786316828194-00c259e76f520f26ee17915736107214-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "construccion-de-liderazgos-en-la-gestion-educativa",
+      "workId": "construccion-de-liderazgos-en-la-gestion-educativa",
+      "title": "Construcción de liderazgos en la gestión educativa",
+      "authorIds": [
+        "a33",
+        "a34"
+      ],
+      "contributors": [
+        {
+          "authorId": "a33",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a34",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c3",
+      "isbn": "978-987-538-398-2",
+      "topicIds": [
+        "educacion"
+      ],
+      "weights": {
+        "educacion": 1,
+        "gestion": 3,
+        "equipos": 3,
+        "aprendizaje": 2
+      },
+      "summary": "Herramientas y reflexiones para el diálogo entre directivos y supervisores y el aprendizaje institucional.",
+      "productUrl": "https://www.noveduc.com/productos/construccion-de-liderazgos-en-la-gestion-educativa/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice y descripción: supervisión, gestión, equipos y aprendizaje de las instituciones.",
+      "cover": {
+        "kind": "original",
+        "file": "construccion-de-liderazgos-en-la-gestion-educativa.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-105629789875383982-1c33749c840ded5e8517914832195057-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "directivos-y-la-organizacion-de-la-vida-cotidiana-los",
+      "workId": "directivos-y-la-organizacion-de-la-vida-cotidiana-los",
+      "title": "Directivos y la organización de la vida cotidiana, Los",
+      "authorIds": [
+        "a33",
+        "a34"
+      ],
+      "contributors": [
+        {
+          "authorId": "a33",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a34",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c3",
+      "isbn": "978-987-538-941-0",
+      "topicIds": [
+        "educacion"
+      ],
+      "weights": {
+        "educacion": 1,
+        "gestion": 3,
+        "equipos": 2,
+        "aprendizaje": 2,
+        "convivencia": 2
+      },
+      "summary": "Una revisión de las rutinas, la autoridad y la cultura institucional para renovar la vida cotidiana de la escuela.",
+      "productUrl": "https://www.noveduc.com/productos/directivos-y-la-organizacion-de-la-vida-cotidiana-los/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: aprendizaje organizacional, autoridad, situaciones disruptivas, cultura institucional.",
+      "cover": {
+        "kind": "original",
+        "file": "directivos-y-la-organizacion-de-la-vida-cotidiana-los.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109939789875389410-dc08f3047e311f34cc17917453873341-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "caja-de-herramientas-para-la-educacion-emocional",
+      "workId": "caja-de-herramientas-para-la-educacion-emocional",
+      "title": "Caja de herramientas para la educación emocional",
+      "authorIds": [
+        "a37",
+        "a38",
+        "a39"
+      ],
+      "contributors": [
+        {
+          "authorId": "a37",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a38",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a39",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": null,
+      "isbn": "978-987-538-475-0",
+      "topicIds": [
+        "educacion",
+        "emociones"
+      ],
+      "weights": {
+        "educacion": 1,
+        "emociones": 1,
+        "didactica": 2,
+        "aprendizaje": 2,
+        "equipos": 2,
+        "expresion": 3,
+        "escucha": 3,
+        "subjetividad": 2
+      },
+      "summary": "Proyectos y experiencias grupales para explorar emociones, empatía y participación en ámbitos educativos.",
+      "productUrl": "https://www.noveduc.com/productos/caja-de-herramientas-para-la-educacion-emocional/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: emocionalidad y aprendizaje, comunicación con empatía, proyectos y redes sostenedoras.",
+      "cover": {
+        "kind": "original",
+        "file": "caja-de-herramientas-para-la-educacion-emocional.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-107059789875384750-f697d1842890ab3fc817912148604080-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "violencia-social-violencia-escolar",
+      "workId": "violencia-social-violencia-escolar",
+      "title": "Violencia social - Violencia escolar",
+      "authorIds": [
+        "a40"
+      ],
+      "contributors": [
+        {
+          "authorId": "a40",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-228-2",
+      "topicIds": [
+        "vinculos",
+        "educacion",
+        "emociones"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "educacion": 1,
+        "emociones": 1,
+        "violencias": 3,
+        "convivencia": 3,
+        "derechos": 2,
+        "subjetividad": 2,
+        "instituciones": 1
+      },
+      "summary": "Silvia Bleichmar vincula violencia social y escolar con la construcción de legalidades, justicia y protección.",
+      "productUrl": "https://www.noveduc.com/productos/violencia-social-violencia-escolar/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: construcción de legalidades, principio educativo, pacto intersubjetivo y subjetividad.",
+      "cover": {
+        "kind": "original",
+        "file": "violencia-social-violencia-escolar.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-103169789875382282-a2d6029ff270e0b42317917453119103-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "crueldades-sexuales-contra-infancias-y-adolescencias1",
+      "workId": "crueldades-sexuales-contra-infancias-y-adolescencias1",
+      "title": "Crueldades sexuales contra infancias y adolescencias",
+      "authorIds": [
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46"
+      ],
+      "contributors": [
+        {
+          "authorId": "a41",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a42",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a43",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a44",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a45",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a46",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-660-303-6",
+      "topicIds": [
+        "vinculos",
+        "infancias"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "infancias": 1,
+        "violencias": 3,
+        "derechos": 3,
+        "escucha": 2,
+        "familias": 1
+      },
+      "summary": "Recursos y experiencias para pensar el acompañamiento de infancias y adolescencias frente a las violencias sexuales.",
+      "productUrl": "https://www.noveduc.com/productos/crueldades-sexuales-contra-infancias-y-adolescencias1/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Descripción: acompañamiento de víctimas y posiciones éticas; ficha: abuso sexual y ESI.",
+      "cover": {
+        "kind": "original",
+        "file": "crueldades-sexuales-contra-infancias-y-adolescencias1.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110309786316603036-b4c7bf83c188f7068e17917453932865-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "parejas-abiertas",
+      "workId": "parejas-abiertas",
+      "title": "Parejas abiertas",
+      "authorIds": [
+        "a47",
+        "a48"
+      ],
+      "contributors": [
+        {
+          "authorId": "a47",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a48",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6828-09-5",
+      "topicIds": [
+        "vinculos",
+        "emociones"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "emociones": 1,
+        "parejas": 3,
+        "convivencia": 2,
+        "subjetividad": 3,
+        "expresion": 1
+      },
+      "summary": "Una mirada sobre los acuerdos, tensiones y transformaciones de los vínculos sexoafectivos contemporáneos.",
+      "productUrl": "https://www.noveduc.com/productos/parejas-abiertas/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Descripción e índice: acuerdos, celos, cambios sociales, subjetividad y configuraciones de pareja.",
+      "cover": {
+        "kind": "original",
+        "file": "parejas-abiertas.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110939786316828095-6388b45baaa28f6a7e17916901269927-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "psicoterapia-de-parejas-jovenes",
+      "workId": "psicoterapia-de-parejas-jovenes",
+      "title": "Psicoterapia de parejas jóvenes",
+      "authorIds": [
+        "a49"
+      ],
+      "contributors": [
+        {
+          "authorId": "a49",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6828-30-9",
+      "topicIds": [
+        "vinculos",
+        "emociones"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "emociones": 1,
+        "parejas": 3,
+        "convivencia": 2,
+        "clinica": 3,
+        "subjetividad": 2,
+        "escucha": 1
+      },
+      "summary": "Un recorrido clínico por la comunicación, el deseo y las transformaciones de las parejas jóvenes.",
+      "productUrl": "https://www.noveduc.com/productos/psicoterapia-de-parejas-jovenes/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: netrelaciones, vínculos en formación, construcción y revisión; intervención clínica.",
+      "cover": {
+        "kind": "original",
+        "file": "psicoterapia-de-parejas-jovenes.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-111069786316828309-54d3732be952f642c717916901293194-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "terapia-vincular-familiar",
+      "workId": "terapia-vincular-familiar",
+      "title": "Terapia Vincular-Familiar",
+      "authorIds": [
+        "a50"
+      ],
+      "contributors": [
+        {
+          "authorId": "a50",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-781-2",
+      "topicIds": [
+        "vinculos",
+        "emociones"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "emociones": 1,
+        "familias": 3,
+        "convivencia": 3,
+        "clinica": 3,
+        "expresion": 2,
+        "escucha": 2
+      },
+      "summary": "Un abordaje de los vínculos familiares que explora emociones, historias de crianza y herramientas terapéuticas.",
+      "productUrl": "https://www.noveduc.com/productos/terapia-vincular-familiar/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: empatía, respeto, emociones, trabajo grupal y transgeneracional; descripción de casos.",
+      "cover": {
+        "kind": "original",
+        "file": "terapia-vincular-familiar.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109119789875387812-cbfc8c6819105267fd17917453753661-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "autolesiones-y-situaciones-de-suicidioen-adolescentes",
+      "workId": "autolesiones-y-situaciones-de-suicidioen-adolescentes",
+      "title": "Autolesiones y situaciones de suicidio en adolescentes",
+      "authorIds": [
+        "a51",
+        "a52"
+      ],
+      "contributors": [
+        {
+          "authorId": "a51",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a52",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6603-11-1",
+      "topicIds": [
+        "prevencion",
+        "salud"
+      ],
+      "weights": {
+        "prevencion": 1,
+        "salud": 1,
+        "adolescencias": 3,
+        "redes": 3,
+        "intervencion": 3,
+        "instituciones": 3,
+        "escucha": 2
+      },
+      "summary": "Una perspectiva clínica ampliada para comprender autolesiones y situaciones de suicidio y trabajar desde las instituciones.",
+      "productUrl": "https://www.noveduc.com/productos/autolesiones-y-situaciones-de-suicidioen-adolescentes/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Descripción: intervención institucional antes, durante y después de situaciones; autores Korinfeld y Levy.",
+      "cover": {
+        "kind": "original",
+        "file": "autolesiones-y-situaciones-de-suicidioen-adolescentes.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110389786316603111-b44e1c2e2dfc62b80d17917453946816-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "suicidio-en-el-campo-de-las-infancias-y-adolescencias",
+      "workId": "suicidio-en-el-campo-de-las-infancias-y-adolescencias",
+      "title": "Suicidio en el campo de las infancias y adolescencias",
+      "authorIds": [
+        "a53",
+        "a54",
+        "a55",
+        "a56",
+        "a57",
+        "a58",
+        "a59",
+        "a60",
+        "a61"
+      ],
+      "contributors": [
+        {
+          "authorId": "a53",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a54",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a55",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a56",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a57",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a58",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a59",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a60",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a61",
+          "role": "autoría y compilación"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6603-87-6",
+      "topicIds": [
+        "prevencion",
+        "emociones"
+      ],
+      "weights": {
+        "prevencion": 1,
+        "emociones": 1,
+        "adolescencias": 3,
+        "intervencion": 3,
+        "escucha": 2,
+        "clinica": 3,
+        "subjetividad": 2,
+        "redes": 1
+      },
+      "summary": "Aportes psicoanalíticos e interdisciplinarios para estudiar el sufrimiento y las situaciones de suicidio en las nuevas generaciones.",
+      "productUrl": "https://www.noveduc.com/productos/suicidio-en-el-campo-de-las-infancias-y-adolescencias/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: apego, valoración vincular, psicodrama y transferencia en clínica adolescente.",
+      "cover": {
+        "kind": "original",
+        "file": "suicidio-en-el-campo-de-las-infancias-y-adolescencias.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110749786316603876-bafd2b9587f3d8dedf17916015237770-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "evaluacion-del-riesgo-suicida-y-fortalecimiento-psiquico",
+      "workId": "evaluacion-del-riesgo-suicida-y-fortalecimiento-psiquico",
+      "title": "Evaluación del riesgo suicida y fortalecimiento psíquico",
+      "authorIds": [
+        "a62"
+      ],
+      "contributors": [
+        {
+          "authorId": "a62",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6828-22-4",
+      "topicIds": [
+        "prevencion",
+        "salud"
+      ],
+      "weights": {
+        "prevencion": 1,
+        "salud": 1,
+        "intervencion": 3,
+        "redes": 3,
+        "adolescencias": 2,
+        "instituciones": 2,
+        "interdisciplina": 2
+      },
+      "summary": "Presenta el modelo RPI y sus aportes para pensar recursos de cuidado en ámbitos clínicos, educativos y comunitarios.",
+      "productUrl": "https://www.noveduc.com/productos/evaluacion-del-riesgo-suicida-y-fortalecimiento-psiquico/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Subtítulo e índice: RPI, fortalecimiento, pensar en equipo y práctica educativa.",
+      "cover": {
+        "kind": "original",
+        "file": "evaluacion-del-riesgo-suicida-y-fortalecimiento-psiquico.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-111019786316828224-ca9b79237d689a295817917454111067-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "urgencias-subjetivas-y-psicoanalisis",
+      "workId": "urgencias-subjetivas-y-psicoanalisis",
+      "title": "Urgencias subjetivas y psicoanálisis",
+      "authorIds": [
+        "a22"
+      ],
+      "contributors": [
+        {
+          "authorId": "a22",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6828-29-3",
+      "topicIds": [
+        "prevencion",
+        "emociones"
+      ],
+      "weights": {
+        "prevencion": 1,
+        "emociones": 1,
+        "intervencion": 3,
+        "clinica": 3,
+        "subjetividad": 3,
+        "escucha": 2,
+        "redes": 1
+      },
+      "summary": "Una reflexión clínica sobre urgencias subjetivas, autolesiones y posibilidades de sostener un porvenir.",
+      "productUrl": "https://www.noveduc.com/productos/urgencias-subjetivas-y-psicoanalisis/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Subtítulo: suicidios y autolesiones; índice: tiempo, lazo, mediación y orientación clínica.",
+      "cover": {
+        "kind": "original",
+        "file": "urgencias-subjetivas-y-psicoanalisis.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-111059786316828293-2af8439da77865e25317917454113449-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "mundos-adolescentes-y-vertigo-civilizatorio",
+      "workId": "mundos-adolescentes-y-vertigo-civilizatorio",
+      "title": "Mundos adolescentes y vértigo civilizatorio",
+      "authorIds": [
+        "a63"
+      ],
+      "contributors": [
+        {
+          "authorId": "a63",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-388-3",
+      "topicIds": [
+        "prevencion",
+        "vinculos",
+        "emociones"
+      ],
+      "weights": {
+        "prevencion": 1,
+        "vinculos": 1,
+        "emociones": 1,
+        "adolescencias": 3,
+        "violencias": 2,
+        "convivencia": 1,
+        "subjetividad": 3,
+        "escucha": 1
+      },
+      "summary": "Una mirada sobre adolescencias, transformaciones culturales, exclusión y construcción de proyectos de vida.",
+      "productUrl": "https://www.noveduc.com/productos/mundos-adolescentes-y-vertigo-civilizatorio/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: adolescencias, conductas de riesgo, violencia, ciudadanía y subjetividad.",
+      "cover": {
+        "kind": "original",
+        "file": "mundos-adolescentes-y-vertigo-civilizatorio.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-105449789875383883-371006311add27012a17917453414172-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    },
+    {
+      "id": "disparadores-emocionales-para-la-clinica",
+      "workId": "disparadores-emocionales-para-la-clinica",
+      "title": "Disparadores emocionales para la clínica",
+      "authorIds": [
+        "a64"
+      ],
+      "contributors": [
+        {
+          "authorId": "a64",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a65",
+          "role": "prólogo"
+        }
+      ],
+      "collectionId": null,
+      "isbn": "978-987-538-549-8",
+      "topicIds": [
+        "emociones"
+      ],
+      "weights": {
+        "emociones": 1,
+        "expresion": 3,
+        "clinica": 2,
+        "subjetividad": 2,
+        "escucha": 1
+      },
+      "summary": "Relatos, metáforas y actividades que abren preguntas sobre emociones, comunicación y situaciones de cambio.",
+      "productUrl": "https://www.noveduc.com/productos/disparadores-emocionales-para-la-clinica/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Índice: relatos y propuestas de actividades; Pavlovsky figura como prologuista, no como autor principal.",
+      "cover": {
+        "kind": "original",
+        "file": "disparadores-emocionales-para-la-clinica.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-107849789875385498-1e986db68de4b1346717916476502160-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
+        ]
+      }
+    }
+  ],
+  "topics": [
+    {
+      "id": "salud",
+      "label": "Salud mental, derechos y comunidad",
+      "shortLabel": "Salud mental",
+      "description": "Instituciones, prácticas y redes para pensar el cuidado colectivo.",
+      "facets": [
+        "derechos",
+        "comunidad",
+        "interdisciplina",
+        "instituciones"
+      ],
+      "tag": "salud",
+      "enabled": true
+    },
+    {
+      "id": "infancias",
+      "label": "Infancias, juego y diversidad",
+      "shortLabel": "Infancias",
+      "description": "Juego, cuerpo, desarrollo y miradas sobre las diferencias.",
+      "facets": [
+        "juego",
+        "cuerpo",
+        "diversidad",
+        "diagnosticos"
+      ],
+      "tag": "infancias",
+      "enabled": true
+    },
+    {
+      "id": "educacion",
+      "label": "Educación, pedagogía y gestión institucional",
+      "shortLabel": "Educación",
+      "description": "Enseñanza, aprendizaje, didáctica y trabajo en las instituciones.",
+      "facets": [
+        "didactica",
+        "gestion",
+        "aprendizaje",
+        "equipos"
+      ],
+      "tag": "educacion",
+      "enabled": true
+    },
+    {
+      "id": "vinculos",
+      "label": "Violencias, vínculos y convivencia",
+      "shortLabel": "Vínculos",
+      "description": "Relaciones, familias, convivencia y prevención de violencias.",
+      "facets": [
+        "violencias",
+        "convivencia",
+        "parejas",
+        "familias"
+      ],
+      "tag": "vinculos",
+      "enabled": true
+    },
+    {
+      "id": "prevencion",
+      "label": "Prevención, autolesiones y adolescencias",
+      "shortLabel": "Prevención",
+      "description": "Lecturas sobre prevención del suicidio, acompañamiento y redes.",
+      "facets": [
+        "adolescencias",
+        "redes",
+        "intervencion",
+        "escucha"
+      ],
+      "tag": "prevencion",
+      "enabled": true
+    },
+    {
+      "id": "emociones",
+      "label": "Emociones, subjetividad y herramientas clínicas",
+      "shortLabel": "Emociones",
+      "description": "La expresión, la escucha y los modos de comprender la subjetividad.",
+      "facets": [
+        "expresion",
+        "subjetividad",
+        "clinica",
+        "escucha"
+      ],
+      "tag": "emociones",
+      "enabled": true
+    }
+  ],
+  "tags": [
+    {
+      "id": "salud",
+      "label": "salud mental"
+    },
+    {
+      "id": "infancias",
+      "label": "infancias"
+    },
+    {
+      "id": "educacion",
+      "label": "educación"
+    },
+    {
+      "id": "vinculos",
+      "label": "vínculos"
+    },
+    {
+      "id": "prevencion",
+      "label": "prevención"
+    },
+    {
+      "id": "emociones",
+      "label": "emociones"
+    },
+    {
+      "id": "derechos",
+      "label": "salud mental y derechos"
+    },
+    {
+      "id": "comunidad",
+      "label": "cuidado comunitario"
+    },
+    {
+      "id": "interdisciplina",
+      "label": "trabajo interdisciplinario"
+    },
+    {
+      "id": "instituciones",
+      "label": "prácticas institucionales"
+    },
+    {
+      "id": "juego",
+      "label": "juego en las infancias"
+    },
+    {
+      "id": "cuerpo",
+      "label": "cuerpo y experiencia"
+    },
+    {
+      "id": "diversidad",
+      "label": "diversidad en las infancias"
+    },
+    {
+      "id": "diagnosticos",
+      "label": "miradas sobre los diagnósticos"
+    },
+    {
+      "id": "didactica",
+      "label": "didáctica y enseñanza"
+    },
+    {
+      "id": "gestion",
+      "label": "gestión educativa"
+    },
+    {
+      "id": "aprendizaje",
+      "label": "aprendizaje"
+    },
+    {
+      "id": "equipos",
+      "label": "equipos educativos"
+    },
+    {
+      "id": "violencias",
+      "label": "violencias y protección"
+    },
+    {
+      "id": "convivencia",
+      "label": "convivencia y lazos"
+    },
+    {
+      "id": "parejas",
+      "label": "vínculos de pareja"
+    },
+    {
+      "id": "familias",
+      "label": "vínculos familiares"
+    },
+    {
+      "id": "adolescencias",
+      "label": "adolescencias"
+    },
+    {
+      "id": "redes",
+      "label": "redes de acompañamiento"
+    },
+    {
+      "id": "intervencion",
+      "label": "abordajes preventivos"
+    },
+    {
+      "id": "escucha",
+      "label": "escucha y acompañamiento"
+    },
+    {
+      "id": "expresion",
+      "label": "expresión de emociones"
+    },
+    {
+      "id": "subjetividad",
+      "label": "subjetividad"
+    },
+    {
+      "id": "clinica",
+      "label": "perspectivas clínicas"
+    }
+  ],
+  "authors": [
+    {
+      "id": "a1",
+      "name": "Alicia Stolkiner"
+    },
+    {
+      "id": "a2",
+      "name": "Leonardo Gorbacz"
+    },
+    {
+      "id": "a3",
+      "name": "Alberto Trimboli"
+    },
+    {
+      "id": "a4",
+      "name": "Alejandra Barcala"
+    },
+    {
+      "id": "a5",
+      "name": "Alejandro Michalewicz"
+    },
+    {
+      "id": "a6",
+      "name": "Melina Trajtenberg"
+    },
+    {
+      "id": "a7",
+      "name": "Carla Pierri"
+    },
+    {
+      "id": "a8",
+      "name": "Sara Ardila-Gómez"
+    },
+    {
+      "id": "a9",
+      "name": "Gisela Cardozo"
+    },
+    {
+      "id": "a10",
+      "name": "Laura Poverene"
+    },
+    {
+      "id": "a11",
+      "name": "Gabriela Wagner"
+    },
+    {
+      "id": "a12",
+      "name": "Silvia Sisto"
+    },
+    {
+      "id": "a13",
+      "name": "María Rosa Coppola"
+    },
+    {
+      "id": "a14",
+      "name": "Nidia Viviana Caballero"
+    },
+    {
+      "id": "a15",
+      "name": "Laura Lueiro"
+    },
+    {
+      "id": "a16",
+      "name": "Leonardo García Iglesias"
+    },
+    {
+      "id": "a17",
+      "name": "Sofía C. Arcieri Ciucci"
+    },
+    {
+      "id": "a18",
+      "name": "Carolina Kasimierski"
+    },
+    {
+      "id": "a19",
+      "name": "Martín Maydana"
+    },
+    {
+      "id": "a20",
+      "name": "Adriana Montobbio"
+    },
+    {
+      "id": "a21",
+      "name": "Esteban Levin"
+    },
+    {
+      "id": "a22",
+      "name": "Brian Banszczyk"
+    },
+    {
+      "id": "a23",
+      "name": "Gisela Untoiglich"
+    },
+    {
+      "id": "a24",
+      "name": "María Alicia Terzaghi"
+    },
+    {
+      "id": "a25",
+      "name": "María Aparecida Affonso Moysés"
+    },
+    {
+      "id": "a26",
+      "name": "Cecilia Azevedo Lima Collares"
+    },
+    {
+      "id": "a27",
+      "name": "Carla Biancha Angelucci"
+    },
+    {
+      "id": "a28",
+      "name": "Rosa de Jesús de Bastos Nunes"
+    },
+    {
+      "id": "a29",
+      "name": "João Wanderley Geraldi"
+    },
+    {
+      "id": "a30",
+      "name": "Candela Chávez"
+    },
+    {
+      "id": "a31",
+      "name": "Beatriz Janin"
+    },
+    {
+      "id": "a32",
+      "name": "Laura T. Jaite"
+    },
+    {
+      "id": "a33",
+      "name": "Ruth Harf"
+    },
+    {
+      "id": "a34",
+      "name": "Delia Rosa Azzerboni"
+    },
+    {
+      "id": "a35",
+      "name": "Néstor Zorzoli"
+    },
+    {
+      "id": "a36",
+      "name": "Sandra Sánchez"
+    },
+    {
+      "id": "a37",
+      "name": "Diana Zac"
+    },
+    {
+      "id": "a38",
+      "name": "Isabel Mansione"
+    },
+    {
+      "id": "a39",
+      "name": "Juan Pablo Temelini"
+    },
+    {
+      "id": "a40",
+      "name": "Silvia Bleichmar"
+    },
+    {
+      "id": "a41",
+      "name": "Vita Escardó"
+    },
+    {
+      "id": "a42",
+      "name": "Octavio Bassó"
+    },
+    {
+      "id": "a43",
+      "name": "Romina De Lorenzo"
+    },
+    {
+      "id": "a44",
+      "name": "Romina Lusso"
+    },
+    {
+      "id": "a45",
+      "name": "María Fernanda Pagura"
+    },
+    {
+      "id": "a46",
+      "name": "Paula Vessoni"
+    },
+    {
+      "id": "a47",
+      "name": "Roberta Gorischnik"
+    },
+    {
+      "id": "a48",
+      "name": "Andrea María Razzetti"
+    },
+    {
+      "id": "a49",
+      "name": "Gabriela Artaza Toro"
+    },
+    {
+      "id": "a50",
+      "name": "Claudia Messing"
+    },
+    {
+      "id": "a51",
+      "name": "Daniel Levy"
+    },
+    {
+      "id": "a52",
+      "name": "Daniel Korinfeld"
+    },
+    {
+      "id": "a53",
+      "name": "Fernando Castiglione"
+    },
+    {
+      "id": "a54",
+      "name": "María Victoria Mariño"
+    },
+    {
+      "id": "a55",
+      "name": "Silvia Pezzini"
+    },
+    {
+      "id": "a56",
+      "name": "Federico Oyola"
+    },
+    {
+      "id": "a57",
+      "name": "Claudio G. Goscilo"
+    },
+    {
+      "id": "a58",
+      "name": "Ana Clara Giménez"
+    },
+    {
+      "id": "a59",
+      "name": "Lautaro Carrera"
+    },
+    {
+      "id": "a60",
+      "name": "Mónica Ameijeiras"
+    },
+    {
+      "id": "a61",
+      "name": "Liliana Verónica Moneta"
+    },
+    {
+      "id": "a62",
+      "name": "Diana Altavilla"
+    },
+    {
+      "id": "a63",
+      "name": "Marcelo N. Viñar"
+    },
+    {
+      "id": "a64",
+      "name": "León Benasayag"
+    },
+    {
+      "id": "a65",
+      "name": "Eduardo Pavlovsky"
+    }
+  ],
+  "collections": [
+    {
+      "id": "c1",
+      "name": "Perfiles"
+    },
+    {
+      "id": "c2",
+      "name": "Conjunciones"
+    },
+    {
+      "id": "c3",
+      "name": "Noveduc Gestión"
+    }
+  ],
+  "requiredAuthorIds": [
+    "a1",
+    "a21",
+    "a33",
+    "a40"
+  ]
+}

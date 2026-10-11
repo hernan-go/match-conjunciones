@@ -1,0 +1,82 @@
+import type { Question } from '../domain/types';
+
+// Cada fila es una pregunta curada; las cuatro opciones siguen el orden de sus facetas.
+// El peso común identifica el área explícita de la pregunta; el específico diferencia intereses.
+const banks: Record<string, {facets:string[];rows:[string,string,string,string,string][]}> = {
+ salud:{facets:['derechos','comunidad','interdisciplina','instituciones'],rows:[
+ ['¿Qué conversación sobre salud mental te gustaría abrir?','Los derechos de quienes reciben atención','El cuidado que se construye en el barrio','El encuentro entre distintas profesiones','Cómo funcionan los espacios de atención'],
+ ['¿Qué recorrido elegirías en una jornada de salud mental?','Un debate sobre inclusión y ciudadanía','Una experiencia de trabajo comunitario','Una mesa de equipos interdisciplinarios','Una visita a dispositivos institucionales'],
+ ['¿Qué pregunta te interesa hacerle a una institución de salud?','Cómo escucha y respeta las decisiones de las personas','Cómo se conecta con las redes del territorio','Cómo articula saberes profesionales','Cómo organiza sus prácticas cotidianas'],
+ ['¿Qué cambio te gustaría comprender mejor?','El paso hacia una atención basada en derechos','La construcción de apoyos fuera del consultorio','El trabajo conjunto entre disciplinas','La transformación de los servicios de salud'],
+ ['¿Qué tipo de experiencia buscarías en un libro de salud mental?','Historias sobre inclusión y trato digno','Proyectos de cuidado en comunidad','Encuentros entre saberes diferentes','Experiencias de gestión y atención'],
+ ['Si participaras de una lectura compartida, ¿qué discutirías?','La relación entre salud mental y ciudadanía','El papel de las redes locales','Los desafíos de pensar en equipo','Las formas de organizar el cuidado'],
+ ['¿Qué vínculo de la salud mental te da más curiosidad?','Con los derechos humanos','Con la vida de los barrios','Con otras áreas del conocimiento','Con las políticas y las instituciones'],
+ ['¿Qué enfoque elegirías para analizar una práctica de cuidado?','La participación de quienes son atendidos','El contexto social y comunitario','El intercambio entre profesiones','El modo en que se construye el dispositivo'],
+ ['¿Qué detalle mirarías primero en un proyecto de salud mental?','Si permite decidir y participar','Si fortalece apoyos en el territorio','Si integra diferentes miradas','Si revisa sus reglas y modos de atención'],
+ ['¿Qué te gustaría llevarte de una lectura sobre salud mental?','Preguntas para pensar los derechos','Ideas sobre cuidado colectivo','Una mirada que conecte disciplinas','Herramientas para revisar instituciones']
+ ]},
+ infancias:{facets:['juego','cuerpo','diversidad','diagnosticos'],rows:[
+ ['¿Qué aspecto de las infancias te despierta más curiosidad?','Lo que aparece cuando se juega','Cómo el cuerpo participa de la experiencia','Los distintos modos de estar con otros','Las preguntas detrás de un diagnóstico'],
+ ['¿Qué escena infantil te gustaría comprender mediante una lectura?','Un juego que inventa sus propias reglas','Un gesto que comunica sin palabras','Un encuentro entre maneras diferentes de sentir','Una etiqueta que cambia cómo se mira a un niño'],
+ ['¿A qué taller sobre infancias te sumarías?','Juego e imaginación','Cuerpo, movimiento y expresión','Diversidad y acompañamiento','Diagnósticos y miradas abiertas'],
+ ['¿Qué pregunta elegirías para investigar sobre la niñez?','Qué transforma una experiencia de juego','Cómo se relacionan sentidos y movimiento','Cómo acompañar sin uniformar experiencias','Cómo distinguir comprensión de clasificación'],
+ ['¿Qué lugar te gustaría explorar en un libro sobre infancias?','El espacio que abre el jugar','Las experiencias que se expresan con el cuerpo','Los entornos que alojan diferencias','La historia que una etiqueta no alcanza a contar'],
+ ['¿Qué conversación entre adultos te resultaría más interesante?','Cómo hacer lugar a la imaginación infantil','Cómo escuchar gestos y movimientos','Cómo respetar ritmos y formas de comunicación','Cómo revisar certezas sobre los diagnósticos'],
+ ['¿Qué mirarías en una propuesta de acompañamiento infantil?','Las posibilidades de inventar y jugar','El cuidado de la experiencia sensorial','El respeto por formas singulares de participar','La apertura a revisar las categorías usadas'],
+ ['¿Qué vínculo te interesa explorar en las infancias?','Entre juego y encuentro con otros','Entre cuerpo y pensamiento','Entre diferencias y comunidad','Entre diagnóstico y mirada adulta'],
+ ['¿Qué experiencia preferirías leer con más detalle?','Una escena de juego compartido','Una exploración del movimiento y los sentidos','Una forma de acompañar experiencias autistas','Una revisión de etiquetas infantiles'],
+ ['¿Qué idea sobre la niñez te gustaría seguir pensando?','Jugar como una experiencia transformadora','El cuerpo como parte del aprendizaje del mundo','La diversidad como punto de partida','Los diagnósticos como preguntas abiertas']
+ ]},
+ educacion:{facets:['didactica','gestion','aprendizaje','equipos'],rows:[
+ ['¿Qué parte de la vida educativa te interesa explorar?','Cómo se diseña una propuesta de enseñanza','Cómo se organiza una institución','Cómo se construyen los aprendizajes','Cómo trabaja un equipo educativo'],
+ ['¿Qué conversación elegirías en una sala de docentes?','Las decisiones didácticas del aula','Los desafíos de la conducción escolar','Los modos diversos de aprender','La colaboración entre colegas'],
+ ['¿Qué pregunta le harías a una autora sobre educación?','Cómo elegir estrategias de enseñanza','Cómo transformar la gestión cotidiana','Qué ayuda a comprender un proceso de aprendizaje','Cómo sostener acuerdos dentro de un equipo'],
+ ['¿Qué experiencia escolar te gustaría conocer a través de un libro?','Una propuesta didáctica que invita a participar','Un proyecto de mejora institucional','Un recorrido de aprendizaje con nuevas posibilidades','Una experiencia de trabajo entre docentes'],
+ ['¿Qué desafío educativo te gustaría pensar con más tiempo?','Conectar contenidos y experiencias del aula','Revisar rutinas y decisiones institucionales','Acompañar trayectorias de aprendizaje','Construir comunicación entre colegas'],
+ ['¿A qué encuentro de formación te sumarías?','Didáctica y juego en la enseñanza','Dirección y gestión educativa','Aprendizaje y diversidad de recorridos','Equipos y cooperación en la escuela'],
+ ['¿Qué mirarías primero en un proyecto pedagógico?','Las actividades y cómo se enseñan','La organización que lo hace posible','Las oportunidades de aprender que ofrece','Los acuerdos entre quienes lo llevan adelante'],
+ ['¿Qué relación de la educación te genera preguntas?','Entre enseñanza y creatividad','Entre conducción y vida cotidiana','Entre experiencias y aprendizaje','Entre trabajo individual y colectivo'],
+ ['¿Qué tipo de herramientas buscarías en una lectura educativa?','Preguntas para revisar propuestas didácticas','Orientaciones para pensar la gestión','Miradas sobre cómo se aprende','Recursos para conversar y trabajar en equipo'],
+ ['¿Qué te gustaría discutir después de leer sobre educación?','Cómo renovar la enseñanza','Cómo mejorar la vida institucional','Cómo ampliar oportunidades de aprendizaje','Cómo fortalecer vínculos entre docentes']
+ ]},
+ vinculos:{facets:['violencias','convivencia','parejas','familias'],rows:[
+ ['¿Qué aspecto de los vínculos te gustaría comprender mejor?','La prevención y el abordaje de las violencias','La construcción de una convivencia respetuosa','Los cambios en las relaciones de pareja','Las historias que atraviesan a las familias'],
+ ['¿Qué mesa de conversación elegirías?','Violencias y protección de las infancias','Acuerdos y lazos en la vida compartida','Nuevas configuraciones de pareja','Crianza y vínculos familiares'],
+ ['¿Qué pregunta buscarías en una lectura sobre relaciones?','Cómo acompañar sin reproducir violencias','Cómo se construyen reglas de convivencia','Cómo cambian los pactos de una pareja','Cómo influyen los vínculos entre generaciones'],
+ ['¿Qué transformación social te da más curiosidad?','Las respuestas frente a la violencia','Los modos de vivir con otros','Las nuevas formas de estar en pareja','Los cambios en las formas de familia'],
+ ['¿Qué enfoque elegirías para conversar sobre vínculos?','La protección y el cuidado ante las violencias','El respeto y los acuerdos cotidianos','El deseo y la comunicación en la pareja','Las relaciones entre adultos, niñas y niños'],
+ ['¿Qué tipo de experiencia te gustaría encontrar en un libro?','Un abordaje de situaciones de violencia','Una reflexión sobre la convivencia','Un recorrido por vínculos de pareja actuales','Una experiencia de trabajo con familias'],
+ ['¿Qué relación entre lo personal y lo social te interesa?','La violencia social y sus efectos en los vínculos','La justicia y los acuerdos para vivir juntos','Los cambios culturales y las parejas','Las historias sociales y la crianza'],
+ ['¿Qué discusión te gustaría profundizar con otras personas?','Cómo proteger sin silenciar','Cómo sostener lazos y diferencias','Cómo pensar acuerdos sexoafectivos','Cómo revisar modelos de autoridad familiar'],
+ ['¿Qué aspecto mirarías en una propuesta de acompañamiento vincular?','El cuidado frente a situaciones de violencia','El lugar del respeto mutuo','La comunicación entre integrantes de una pareja','La escucha de historias familiares'],
+ ['¿Qué idea te gustaría llevarte de una lectura sobre vínculos?','Una mirada sobre violencias y protección','Preguntas para pensar la convivencia','Perspectivas sobre las parejas contemporáneas','Herramientas para comprender relaciones familiares']
+ ]},
+ prevencion:{facets:['adolescencias','redes','intervencion','escucha'],rows:[
+ ['¿Qué lectura sobre prevención te gustaría explorar?','Los cambios y desafíos de las adolescencias','Las redes que acompañan y sostienen','Los abordajes profesionales e institucionales','La escucha frente al sufrimiento'],
+ ['¿Qué encuentro de formación sobre prevención elegirías?','Adolescencias y proyectos de vida','Comunidad y redes de apoyo','Herramientas para pensar intervenciones','Escucha y construcción de confianza'],
+ ['¿Qué pregunta te interesa estudiar sobre el acompañamiento?','Cómo comprender las adolescencias en su contexto','Cómo articular apoyos entre distintos espacios','Cómo se construyen respuestas ante situaciones complejas','Qué lugar tiene escuchar antes de interpretar'],
+ ['¿Qué aspecto de un proyecto preventivo mirarías primero?','Su comprensión del mundo adolescente','Los lazos entre familias, escuelas y comunidad','El trabajo y la formación de los equipos','El espacio que da a la palabra de quienes participan'],
+ ['¿Qué perspectiva te interesa para leer sobre autolesiones y prevención del suicidio?','La experiencia adolescente y sus transformaciones','Las redes de sostén y el cuidado compartido','Los modos de abordaje y la práctica profesional','La escucha y el vínculo de acompañamiento'],
+ ['¿Qué relación te gustaría comprender a través de estas lecturas?','Entre adolescencia y contexto social','Entre cuidado y redes institucionales','Entre conceptos y formas de intervención','Entre palabra, confianza y acompañamiento'],
+ ['¿Qué tipo de experiencia preventiva preferirías conocer?','Una reflexión sobre proyectos de vida adolescentes','Un trabajo que conecta comunidad e instituciones','Un equipo que revisa sus modos de abordar situaciones','Un espacio que construye escucha y lazos'],
+ ['¿Qué debate sobre prevención te parece interesante?','Evitar miradas únicas sobre las adolescencias','Cómo sostener apoyos más allá de una institución','Cómo pensar intervenciones con distintas profesiones','Cómo hacer lugar al relato y a los tiempos del otro'],
+ ['¿Qué buscarías en un libro para una lectura compartida sobre cuidado?','Una mirada situada de las adolescencias','Ideas sobre redes y responsabilidades compartidas','Reflexiones sobre abordajes y herramientas profesionales','Preguntas sobre la escucha y el vínculo'],
+ ['¿Qué te gustaría seguir pensando después de una lectura preventiva?','Los horizontes y cambios de las adolescencias','El valor de los apoyos colectivos','Las posibilidades y límites de intervenir','La importancia de escuchar y acompañar']
+ ]},
+ emociones:{facets:['expresion','subjetividad','clinica','escucha'],rows:[
+ ['¿Qué aspecto de las emociones te gustaría explorar?','Cómo se expresan con palabras, relatos o gestos','Cómo se relacionan con la historia y la época','Cómo se piensan en el trabajo clínico','Cómo se escuchan en el encuentro con otros'],
+ ['¿Qué tipo de lectura sobre emociones elegirías?','Relatos y actividades que abren la expresión','Ensayos sobre formas de sentir y vivir','Experiencias y preguntas clínicas','Reflexiones sobre escucha y acompañamiento'],
+ ['¿Qué pregunta te da más curiosidad?','Cómo una historia ayuda a poner algo en palabras','Cómo cambia la subjetividad con el contexto','Cómo se construye una intervención clínica','Cómo escuchar sin apresurar respuestas'],
+ ['¿A qué taller te gustaría asistir?','Emociones, narración y expresión','Subjetividad y transformaciones sociales','Herramientas y experiencias clínicas','Escucha y comunicación con otros'],
+ ['¿Qué vínculo entre emociones y vida cotidiana te interesa?','La expresión a través de la creatividad','Los modos de sentir en nuestra época','Las preguntas que llegan al consultorio','Los encuentros que permiten ser escuchado'],
+ ['¿Qué buscarías en una actividad de lectura compartida?','Una metáfora que invite a expresar ideas','Un debate sobre cómo se construye la subjetividad','Un caso que permita pensar una práctica clínica','Una conversación que dé lugar a escuchar'],
+ ['¿Qué recurso de un libro te atraería más?','Narraciones y propuestas expresivas','Conceptos para pensar la experiencia subjetiva','Reflexiones sobre abordajes clínicos','Preguntas para comprender la palabra del otro'],
+ ['¿Qué perspectiva elegirías ante una historia de cambio?','Cómo se encuentra una forma de expresar lo vivido','Cómo se enlazan historia personal y contexto','Cómo se piensa el acompañamiento clínico','Cómo se construye un espacio de escucha'],
+ ['¿Qué detalle te gustaría conocer de una experiencia de acompañamiento?','Los recursos usados para abrir la expresión','La relación entre lo singular y lo colectivo','Las decisiones y preguntas de la práctica clínica','El lugar de la conversación y la confianza'],
+ ['¿Qué te gustaría llevarte de una lectura sobre emociones?','Nuevas formas de pensar la expresión','Preguntas sobre subjetividad y época','Una mirada sobre herramientas clínicas','Ideas para valorar la escucha']
+ ]}
+};
+export const questions:Question[]=Object.entries(banks).flatMap(([topic,{facets,rows}])=>rows.map(([text,...texts],i)=>({
+ id:`${topic}-${i+1}`,topicIds:[topic],text,approach:['conversacion','experiencia','pregunta','formacion','lectura'][i%5],
+ options:texts.map((text,j)=>({id:`o${j+1}`,text,weights:{[topic]:0.5,[facets[j]]:3}}))
+})));
