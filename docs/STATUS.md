@@ -2,7 +2,7 @@
 
 ## Actual
 
-Fases 1–6 completadas con las pruebas ejecutables disponibles. Fase 7: dist y ZIP entregables preparados, publicación externa pendiente. Fase 8: documentación final y sincronización con GitHub.
+Fases 1–6 y 8 completadas con las pruebas ejecutables disponibles; documentación y código sincronizados con GitHub. Fase 7: dist y ZIP entregables preparados, publicación externa pendiente. HEAD local y rama main remota contrastados. No afirmar aceptación final en dispositivos reales o SiteGround hasta completar las comprobaciones externas.
 
 ## Verificado
 
