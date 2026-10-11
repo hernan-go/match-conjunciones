@@ -4,9 +4,7 @@
       "id": "practicas-en-salud-mental",
       "workId": "practicas-en-salud-mental",
       "title": "Prácticas en Salud Mental",
-      "authorIds": [
-        "a1"
-      ],
+      "authorIds": ["a1"],
       "contributors": [
         {
           "authorId": "a1",
@@ -15,10 +13,7 @@
       ],
       "collectionId": "c1",
       "isbn": "978-987-538-842-0",
-      "topicIds": [
-        "salud",
-        "emociones"
-      ],
+      "topicIds": ["salud", "emociones"],
       "weights": {
         "salud": 1,
         "emociones": 1,
@@ -48,10 +43,7 @@
       "id": "ley-nacional-de-salud-mental-una-brujula-para-la-crisis",
       "workId": "ley-nacional-de-salud-mental-una-brujula-para-la-crisis",
       "title": "Ley Nacional de Salud Mental: una brújula para la crisis",
-      "authorIds": [
-        "a2",
-        "a3"
-      ],
+      "authorIds": ["a2", "a3"],
       "contributors": [
         {
           "authorId": "a2",
@@ -64,9 +56,7 @@
       ],
       "collectionId": null,
       "isbn": "978-631-91457-5-5",
-      "topicIds": [
-        "salud"
-      ],
+      "topicIds": ["salud"],
       "weights": {
         "salud": 1,
         "derechos": 3,
@@ -180,10 +170,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-928-1",
-      "topicIds": [
-        "salud",
-        "infancias"
-      ],
+      "topicIds": ["salud", "infancias"],
       "weights": {
         "salud": 1,
         "infancias": 1,
@@ -213,9 +200,7 @@
       "id": "cuando-la-clinica-desborda-el-consultorio",
       "workId": "cuando-la-clinica-desborda-el-consultorio",
       "title": "Cuando la clínica desborda el consultorio",
-      "authorIds": [
-        "a20"
-      ],
+      "authorIds": ["a20"],
       "contributors": [
         {
           "authorId": "a20",
@@ -224,11 +209,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-365-4",
-      "topicIds": [
-        "salud",
-        "infancias",
-        "emociones"
-      ],
+      "topicIds": ["salud", "infancias", "emociones"],
       "weights": {
         "salud": 1,
         "infancias": 1,
@@ -260,9 +241,7 @@
       "id": "existe-el-autismo-en-la-ninez",
       "workId": "existe-el-autismo-en-la-ninez",
       "title": "¿Existe el autismo en la niñez?",
-      "authorIds": [
-        "a21"
-      ],
+      "authorIds": ["a21"],
       "contributors": [
         {
           "authorId": "a21",
@@ -271,9 +250,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-999-1",
-      "topicIds": [
-        "infancias"
-      ],
+      "topicIds": ["infancias"],
       "weights": {
         "infancias": 1,
         "diversidad": 3,
@@ -301,9 +278,7 @@
       "id": "plasticidad-simbolica",
       "workId": "plasticidad-simbolica",
       "title": "Plasticidad simbólica",
-      "authorIds": [
-        "a21"
-      ],
+      "authorIds": ["a21"],
       "contributors": [
         {
           "authorId": "a21",
@@ -312,9 +287,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-995-3",
-      "topicIds": [
-        "infancias"
-      ],
+      "topicIds": ["infancias"],
       "weights": {
         "infancias": 1,
         "cuerpo": 3,
@@ -342,9 +315,7 @@
       "id": "autismo-y-acompanamiento-terapeutico",
       "workId": "autismo-y-acompanamiento-terapeutico",
       "title": "Autismo y acompañamiento terapéutico",
-      "authorIds": [
-        "a22"
-      ],
+      "authorIds": ["a22"],
       "contributors": [
         {
           "authorId": "a22",
@@ -353,10 +324,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6603-96-8",
-      "topicIds": [
-        "infancias",
-        "salud"
-      ],
+      "topicIds": ["infancias", "salud"],
       "weights": {
         "infancias": 1,
         "salud": 1,
@@ -386,15 +354,7 @@
       "id": "en-la-infancia-los-diagnosticos-se-escriben-con-lapiz",
       "workId": "en-la-infancia-los-diagnosticos-se-escriben-con-lapiz",
       "title": "En la infancia los diagnósticos se escriben con lápiz",
-      "authorIds": [
-        "a23",
-        "a24",
-        "a25",
-        "a26",
-        "a27",
-        "a28",
-        "a29"
-      ],
+      "authorIds": ["a23", "a24", "a25", "a26", "a27", "a28", "a29"],
       "contributors": [
         {
           "authorId": "a23",
@@ -427,10 +387,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-373-9",
-      "topicIds": [
-        "infancias",
-        "educacion"
-      ],
+      "topicIds": ["infancias", "educacion"],
       "weights": {
         "infancias": 1,
         "educacion": 1,
@@ -459,10 +416,7 @@
       "id": "supervision-en-la-clinica-con-ninas-y-ninos",
       "workId": "supervision-en-la-clinica-con-ninas-y-ninos",
       "title": "Supervisión en la clínica con niñas y niños",
-      "authorIds": [
-        "a21",
-        "a30"
-      ],
+      "authorIds": ["a21", "a30"],
       "contributors": [
         {
           "authorId": "a21",
@@ -475,10 +429,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6603-30-2",
-      "topicIds": [
-        "infancias",
-        "emociones"
-      ],
+      "topicIds": ["infancias", "emociones"],
       "weights": {
         "infancias": 1,
         "emociones": 1,
@@ -508,9 +459,7 @@
       "id": "ninas-ninos-y-adolescentes-en-tiempos-de-desamparo-colectivo",
       "workId": "ninas-ninos-y-adolescentes-en-tiempos-de-desamparo-colectivo",
       "title": "Niñas, niños y adolescentes en tiempos de desamparo colectivo",
-      "authorIds": [
-        "a31"
-      ],
+      "authorIds": ["a31"],
       "contributors": [
         {
           "authorId": "a31",
@@ -519,11 +468,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-931-1",
-      "topicIds": [
-        "infancias",
-        "salud",
-        "emociones"
-      ],
+      "topicIds": ["infancias", "salud", "emociones"],
       "weights": {
         "infancias": 1,
         "salud": 1,
@@ -555,9 +500,7 @@
       "id": "amistad-en-las-infancias-la",
       "workId": "amistad-en-las-infancias-la",
       "title": "Amistad en las infancias, La",
-      "authorIds": [
-        "a21"
-      ],
+      "authorIds": ["a21"],
       "contributors": [
         {
           "authorId": "a21",
@@ -570,10 +513,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-937-3",
-      "topicIds": [
-        "infancias",
-        "vinculos"
-      ],
+      "topicIds": ["infancias", "vinculos"],
       "weights": {
         "infancias": 1,
         "vinculos": 1,
@@ -604,9 +544,7 @@
       "id": "educar-con-coraje",
       "workId": "educar-con-coraje",
       "title": "Educar con coraje",
-      "authorIds": [
-        "a33"
-      ],
+      "authorIds": ["a33"],
       "contributors": [
         {
           "authorId": "a33",
@@ -615,9 +553,7 @@
       ],
       "collectionId": "c1",
       "isbn": "978-987-538-512-2",
-      "topicIds": [
-        "educacion"
-      ],
+      "topicIds": ["educacion"],
       "weights": {
         "educacion": 1,
         "gestion": 3,
@@ -646,12 +582,7 @@
       "id": "gestionar-desde-las-oportunidades",
       "workId": "gestionar-desde-las-oportunidades",
       "title": "Gestionar desde las oportunidades",
-      "authorIds": [
-        "a33",
-        "a34",
-        "a35",
-        "a36"
-      ],
+      "authorIds": ["a33", "a34", "a35", "a36"],
       "contributors": [
         {
           "authorId": "a33",
@@ -672,9 +603,7 @@
       ],
       "collectionId": "c3",
       "isbn": "978-631-660-305-0",
-      "topicIds": [
-        "educacion"
-      ],
+      "topicIds": ["educacion"],
       "weights": {
         "educacion": 1,
         "gestion": 3,
@@ -702,10 +631,7 @@
       "id": "puentes-de-la-gestion-educativa-los",
       "workId": "puentes-de-la-gestion-educativa-los",
       "title": "Puentes de la gestión educativa, Los",
-      "authorIds": [
-        "a33",
-        "a34"
-      ],
+      "authorIds": ["a33", "a34"],
       "contributors": [
         {
           "authorId": "a33",
@@ -718,9 +644,7 @@
       ],
       "collectionId": "c3",
       "isbn": "978-631-6828-19-4",
-      "topicIds": [
-        "educacion"
-      ],
+      "topicIds": ["educacion"],
       "weights": {
         "educacion": 1,
         "gestion": 3,
@@ -748,10 +672,7 @@
       "id": "construccion-de-liderazgos-en-la-gestion-educativa",
       "workId": "construccion-de-liderazgos-en-la-gestion-educativa",
       "title": "Construcción de liderazgos en la gestión educativa",
-      "authorIds": [
-        "a33",
-        "a34"
-      ],
+      "authorIds": ["a33", "a34"],
       "contributors": [
         {
           "authorId": "a33",
@@ -764,9 +685,7 @@
       ],
       "collectionId": "c3",
       "isbn": "978-987-538-398-2",
-      "topicIds": [
-        "educacion"
-      ],
+      "topicIds": ["educacion"],
       "weights": {
         "educacion": 1,
         "gestion": 3,
@@ -793,10 +712,7 @@
       "id": "directivos-y-la-organizacion-de-la-vida-cotidiana-los",
       "workId": "directivos-y-la-organizacion-de-la-vida-cotidiana-los",
       "title": "Directivos y la organización de la vida cotidiana, Los",
-      "authorIds": [
-        "a33",
-        "a34"
-      ],
+      "authorIds": ["a33", "a34"],
       "contributors": [
         {
           "authorId": "a33",
@@ -809,9 +725,7 @@
       ],
       "collectionId": "c3",
       "isbn": "978-987-538-941-0",
-      "topicIds": [
-        "educacion"
-      ],
+      "topicIds": ["educacion"],
       "weights": {
         "educacion": 1,
         "gestion": 3,
@@ -839,11 +753,7 @@
       "id": "caja-de-herramientas-para-la-educacion-emocional",
       "workId": "caja-de-herramientas-para-la-educacion-emocional",
       "title": "Caja de herramientas para la educación emocional",
-      "authorIds": [
-        "a37",
-        "a38",
-        "a39"
-      ],
+      "authorIds": ["a37", "a38", "a39"],
       "contributors": [
         {
           "authorId": "a37",
@@ -860,10 +770,7 @@
       ],
       "collectionId": null,
       "isbn": "978-987-538-475-0",
-      "topicIds": [
-        "educacion",
-        "emociones"
-      ],
+      "topicIds": ["educacion", "emociones"],
       "weights": {
         "educacion": 1,
         "emociones": 1,
@@ -894,9 +801,7 @@
       "id": "violencia-social-violencia-escolar",
       "workId": "violencia-social-violencia-escolar",
       "title": "Violencia social - Violencia escolar",
-      "authorIds": [
-        "a40"
-      ],
+      "authorIds": ["a40"],
       "contributors": [
         {
           "authorId": "a40",
@@ -905,11 +810,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-228-2",
-      "topicIds": [
-        "vinculos",
-        "educacion",
-        "emociones"
-      ],
+      "topicIds": ["vinculos", "educacion", "emociones"],
       "weights": {
         "vinculos": 1,
         "educacion": 1,
@@ -940,14 +841,7 @@
       "id": "crueldades-sexuales-contra-infancias-y-adolescencias1",
       "workId": "crueldades-sexuales-contra-infancias-y-adolescencias1",
       "title": "Crueldades sexuales contra infancias y adolescencias",
-      "authorIds": [
-        "a41",
-        "a42",
-        "a43",
-        "a44",
-        "a45",
-        "a46"
-      ],
+      "authorIds": ["a41", "a42", "a43", "a44", "a45", "a46"],
       "contributors": [
         {
           "authorId": "a41",
@@ -976,10 +870,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-660-303-6",
-      "topicIds": [
-        "vinculos",
-        "infancias"
-      ],
+      "topicIds": ["vinculos", "infancias"],
       "weights": {
         "vinculos": 1,
         "infancias": 1,
@@ -1008,10 +899,7 @@
       "id": "parejas-abiertas",
       "workId": "parejas-abiertas",
       "title": "Parejas abiertas",
-      "authorIds": [
-        "a47",
-        "a48"
-      ],
+      "authorIds": ["a47", "a48"],
       "contributors": [
         {
           "authorId": "a47",
@@ -1024,10 +912,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6828-09-5",
-      "topicIds": [
-        "vinculos",
-        "emociones"
-      ],
+      "topicIds": ["vinculos", "emociones"],
       "weights": {
         "vinculos": 1,
         "emociones": 1,
@@ -1056,9 +941,7 @@
       "id": "psicoterapia-de-parejas-jovenes",
       "workId": "psicoterapia-de-parejas-jovenes",
       "title": "Psicoterapia de parejas jóvenes",
-      "authorIds": [
-        "a49"
-      ],
+      "authorIds": ["a49"],
       "contributors": [
         {
           "authorId": "a49",
@@ -1067,10 +950,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6828-30-9",
-      "topicIds": [
-        "vinculos",
-        "emociones"
-      ],
+      "topicIds": ["vinculos", "emociones"],
       "weights": {
         "vinculos": 1,
         "emociones": 1,
@@ -1100,9 +980,7 @@
       "id": "terapia-vincular-familiar",
       "workId": "terapia-vincular-familiar",
       "title": "Terapia Vincular-Familiar",
-      "authorIds": [
-        "a50"
-      ],
+      "authorIds": ["a50"],
       "contributors": [
         {
           "authorId": "a50",
@@ -1111,10 +989,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-781-2",
-      "topicIds": [
-        "vinculos",
-        "emociones"
-      ],
+      "topicIds": ["vinculos", "emociones"],
       "weights": {
         "vinculos": 1,
         "emociones": 1,
@@ -1144,10 +1019,7 @@
       "id": "autolesiones-y-situaciones-de-suicidioen-adolescentes",
       "workId": "autolesiones-y-situaciones-de-suicidioen-adolescentes",
       "title": "Autolesiones y situaciones de suicidio en adolescentes",
-      "authorIds": [
-        "a51",
-        "a52"
-      ],
+      "authorIds": ["a51", "a52"],
       "contributors": [
         {
           "authorId": "a51",
@@ -1160,10 +1032,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6603-11-1",
-      "topicIds": [
-        "prevencion",
-        "salud"
-      ],
+      "topicIds": ["prevencion", "salud"],
       "weights": {
         "prevencion": 1,
         "salud": 1,
@@ -1244,10 +1113,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6603-87-6",
-      "topicIds": [
-        "prevencion",
-        "emociones"
-      ],
+      "topicIds": ["prevencion", "emociones"],
       "weights": {
         "prevencion": 1,
         "emociones": 1,
@@ -1278,9 +1144,7 @@
       "id": "evaluacion-del-riesgo-suicida-y-fortalecimiento-psiquico",
       "workId": "evaluacion-del-riesgo-suicida-y-fortalecimiento-psiquico",
       "title": "Evaluación del riesgo suicida y fortalecimiento psíquico",
-      "authorIds": [
-        "a62"
-      ],
+      "authorIds": ["a62"],
       "contributors": [
         {
           "authorId": "a62",
@@ -1289,10 +1153,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6828-22-4",
-      "topicIds": [
-        "prevencion",
-        "salud"
-      ],
+      "topicIds": ["prevencion", "salud"],
       "weights": {
         "prevencion": 1,
         "salud": 1,
@@ -1322,9 +1183,7 @@
       "id": "urgencias-subjetivas-y-psicoanalisis",
       "workId": "urgencias-subjetivas-y-psicoanalisis",
       "title": "Urgencias subjetivas y psicoanálisis",
-      "authorIds": [
-        "a22"
-      ],
+      "authorIds": ["a22"],
       "contributors": [
         {
           "authorId": "a22",
@@ -1333,10 +1192,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6828-29-3",
-      "topicIds": [
-        "prevencion",
-        "emociones"
-      ],
+      "topicIds": ["prevencion", "emociones"],
       "weights": {
         "prevencion": 1,
         "emociones": 1,
@@ -1366,9 +1222,7 @@
       "id": "mundos-adolescentes-y-vertigo-civilizatorio",
       "workId": "mundos-adolescentes-y-vertigo-civilizatorio",
       "title": "Mundos adolescentes y vértigo civilizatorio",
-      "authorIds": [
-        "a63"
-      ],
+      "authorIds": ["a63"],
       "contributors": [
         {
           "authorId": "a63",
@@ -1377,11 +1231,7 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-388-3",
-      "topicIds": [
-        "prevencion",
-        "vinculos",
-        "emociones"
-      ],
+      "topicIds": ["prevencion", "vinculos", "emociones"],
       "weights": {
         "prevencion": 1,
         "vinculos": 1,
@@ -1412,9 +1262,7 @@
       "id": "disparadores-emocionales-para-la-clinica",
       "workId": "disparadores-emocionales-para-la-clinica",
       "title": "Disparadores emocionales para la clínica",
-      "authorIds": [
-        "a64"
-      ],
+      "authorIds": ["a64"],
       "contributors": [
         {
           "authorId": "a64",
@@ -1427,9 +1275,7 @@
       ],
       "collectionId": null,
       "isbn": "978-987-538-549-8",
-      "topicIds": [
-        "emociones"
-      ],
+      "topicIds": ["emociones"],
       "weights": {
         "emociones": 1,
         "expresion": 3,
@@ -1460,12 +1306,7 @@
       "label": "Salud mental, derechos y comunidad",
       "shortLabel": "Salud mental",
       "description": "Instituciones, prácticas y redes para pensar el cuidado colectivo.",
-      "facets": [
-        "derechos",
-        "comunidad",
-        "interdisciplina",
-        "instituciones"
-      ],
+      "facets": ["derechos", "comunidad", "interdisciplina", "instituciones"],
       "tag": "salud",
       "enabled": true
     },
@@ -1474,12 +1315,7 @@
       "label": "Infancias, juego y diversidad",
       "shortLabel": "Infancias",
       "description": "Juego, cuerpo, desarrollo y miradas sobre las diferencias.",
-      "facets": [
-        "juego",
-        "cuerpo",
-        "diversidad",
-        "diagnosticos"
-      ],
+      "facets": ["juego", "cuerpo", "diversidad", "diagnosticos"],
       "tag": "infancias",
       "enabled": true
     },
@@ -1488,12 +1324,7 @@
       "label": "Educación, pedagogía y gestión institucional",
       "shortLabel": "Educación",
       "description": "Enseñanza, aprendizaje, didáctica y trabajo en las instituciones.",
-      "facets": [
-        "didactica",
-        "gestion",
-        "aprendizaje",
-        "equipos"
-      ],
+      "facets": ["didactica", "gestion", "aprendizaje", "equipos"],
       "tag": "educacion",
       "enabled": true
     },
@@ -1502,12 +1333,7 @@
       "label": "Violencias, vínculos y convivencia",
       "shortLabel": "Vínculos",
       "description": "Relaciones, familias, convivencia y prevención de violencias.",
-      "facets": [
-        "violencias",
-        "convivencia",
-        "parejas",
-        "familias"
-      ],
+      "facets": ["violencias", "convivencia", "parejas", "familias"],
       "tag": "vinculos",
       "enabled": true
     },
@@ -1516,12 +1342,7 @@
       "label": "Prevención, autolesiones y adolescencias",
       "shortLabel": "Prevención",
       "description": "Lecturas sobre prevención del suicidio, acompañamiento y redes.",
-      "facets": [
-        "adolescencias",
-        "redes",
-        "intervencion",
-        "escucha"
-      ],
+      "facets": ["adolescencias", "redes", "intervencion", "escucha"],
       "tag": "prevencion",
       "enabled": true
     },
@@ -1530,12 +1351,7 @@
       "label": "Emociones, subjetividad y herramientas clínicas",
       "shortLabel": "Emociones",
       "description": "La expresión, la escucha y los modos de comprender la subjetividad.",
-      "facets": [
-        "expresion",
-        "subjetividad",
-        "clinica",
-        "escucha"
-      ],
+      "facets": ["expresion", "subjetividad", "clinica", "escucha"],
       "tag": "emociones",
       "enabled": true
     }
@@ -1934,10 +1750,5 @@
       "name": "Noveduc Gestión"
     }
   ],
-  "requiredAuthorIds": [
-    "a1",
-    "a21",
-    "a33",
-    "a40"
-  ]
+  "requiredAuthorIds": ["a1", "a21", "a33", "a40"]
 }

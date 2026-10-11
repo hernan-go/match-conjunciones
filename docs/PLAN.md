@@ -10,10 +10,13 @@
 8. Documentar evidencia, commits y sincronización; informar pendientes reales.
 
 ## Arquitectura
+
 src/data: contenido tipado/JSON. src/domain: tipos, validación, selección y ranking sin React. src/state: reducer de partida. src/components y App: UI sin catálogo hardcoded. scripts: extracción editorial acotada, imágenes, validación y empaquetado. assets-private: caché de fuentes y recursos ignorados. dist y artifacts ignorados.
 
 ## Garantía
+
 Pesos no negativos; cada opción de cada pregunta habilitada debe alcanzar tres obras distintas dentro del filtro. Ranking nunca elimina coincidencias positivas necesarias para el mínimo. Comprobar relevancia y cambios de resultados con perfiles editoriales; no confundir positividad con afinidad intensa. Preferencia Conjunciones máxima propuesta 0.05 puntos en escala 0–1 y solo dentro de banda comparable. No sumar bonos a scores nulos.
 
 ## Imágenes reproducibles
+
 Manifiesto versionado con URLs públicas, tipo, evidencia y nombre. Caché original privada, transformaciones fijadas por lockfile, copia a dist/covers. SVG privado aportado por usuario, ruta configurable para reconstrucción. Todas las imágenes decodificables y presentes; conteo por tipo y hashes de publicación. Sin descargas durante juego. Recursos privados no se publican en GitHub.
