@@ -46,3 +46,11 @@ Manifiesto versionado con URLs públicas, tipo, evidencia y nombre. Caché origi
 4. Generar manifest, íconos desde SVG privado y service worker durante empaquetado. Hash de todos los recursos, caché por ámbito, instalación completa antes de activar, limpieza de versiones anteriores y actualización explícita diferida durante quiz. Hook de instalación y aviso de actualización separado del estado del juego. No agregar dependencias ni infraestructura.
 5. Ejecutar validación, unitarias y suite Chromium existente más menú/catálogo/búsqueda/conservación/accesibilidad y PWA. Verificar offline y actualización con dos revisiones servidas localmente, criterios de instalación, íconos y rutas relativas; revisar capturas. Documentar límites de emulación y dispositivos no disponibles.
 6. Regenerar ZIP con todas las portadas, manifest, íconos y worker; contrastar byte a byte. Actualizar REQUIREMENTS/PLAN/STATUS/README, commits descriptivos y push al repositorio existente. Entregar preview de Fase 3. Sin subir a SiteGround.
+
+## Ajustes finales de interfaz — 12/10/2026
+
+1. Inspeccionar componentes/estilos y SVG suministrados; preservar build Fase 3 y copiar originales a caché privada de UI, sin alterarlos ni versionar recursos restringidos.
+2. Sustituir solo iconos/flechas en JSX mediante imágenes SVG y Chevron presentacional compartido; beige, tarjetas blancas, esquinas redondeadas, 30 px de separación y texto descriptivo centrado en CSS.
+3. Copiar dos SVG al dist/ui durante empaquetado antes del precache existente, sin modificar estrategia PWA. Documentar importación reproducible.
+4. Build/tipos/validación/unitarias y E2E de ergonomía más regresión completa; revisar capturas y probar gap durante diez preguntas por viewport. Documentar emulación y pendientes físicos.
+5. Actualizar STATUS y entrega, commit/push al repo existente, ZIP y preview actualizado. Sin publicación en SiteGround.

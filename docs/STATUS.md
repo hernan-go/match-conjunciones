@@ -1,5 +1,17 @@
 # Estado — Fase 3, 12/10/2026
 
+## Ajustes finales de interfaz — entrega actual
+
+Implementados los ajustes visuales y de ergonomía autorizados, sobre Fase 3 sin cambiar datos, motor, estado, menú, catálogo/búsqueda o estrategia PWA. Preview http://127.0.0.1:4175/?revision=ergonomia (puerto separado para evitar la caché de la versión previa durante aprobación). Publicación SiteGround no realizada.
+
+App.tsx sustituye solo iconos/flechas por los SVG originales y Chevron.tsx presentacional. CSS: panel #E8DDC3 con radio 10 px, tarjetas blancas, SVG de 29×36 px con object-fit contain, chevron negro #111111 en cuadro 36 px/radio 8, navegación roja #E63A2E de 48 px/radio 10 y chevrons blancos. Separación de navegación 30 px, texto descriptivo centrado; textos y familias tipográficas conservados, footer intacto. Sin botones anidados ni recortes. En 320×568 se permite scroll natural; 375/390 conservan header 61 px y modalidades terminan a 505,875 px.
+
+book1.svg y book2.svg copiados intactos a assets-private/ui y dist/ui por package-build.ts; SVG privados no versionados. Integración reproducible documentada en README. SHA256 fuente/caché/build idénticos: book1 46E8938D2B6CA6A0D76800028AA30577CD8FF459A26F473AAF1DEA9DA6D928F2; book2 C9B98272D14CDA6403E1776B851846160E6BA613B709FEC3C6DE1BE9CCC0FEB3. Sin paquetes nuevos ni redibujar archivos.
+
+TypeScript/build/validación aprobados; 17/17 unitarias y suite Chromium completa 29/29. Cuatro pruebas nuevas comprueban inicio 320/375/390/768, quiz 320×568/375×667/390×844/768×1024, gap mínimo 30 px durante diez preguntas por viewport, targets, colores, proporciones y bytes de SVG, centrado, overflow y Axe. Regresión de menú/catálogo/conservación/PWA aprobada. Capturas artifacts/ergonomics-home-320/375/390/768.png y ergonomics-quiz-320/375/390/768.png; revisadas visualmente inicio 320/390 y quiz 320/375. Pruebas de texto 200%, tacto/foco/contraste y navegación existentes aprobadas. Continúan pendientes las pruebas en dispositivos físicos y WebKit bloqueado, como se detalla abajo.
+
+Build/ZIP actual: 91 archivos, aproximadamente 1550 KiB, 80 portadas, N oficial, dos SVG de modalidades, íconos/manifest/worker. ZIP descomprimido y comparado byte por byte. Precache automático existente incluye 90 recursos, revisión 8a6420c32df73e9e952f. Backup privado anterior artifacts/match-conjunciones-fase3-f903ef3.zip; código f903ef3. Información siguiente conserva evidencia de entrega Fase 3 previa.
+
 ## Actual
 
 Fase 3 implementada y verificada localmente. Vista previa para aprobación visual: http://127.0.0.1:4173/?fase=3. SiteGround https://mnicabeatrizp6.sg-host.com no modificado. Repositorio existente https://github.com/hernan-go/match-conjunciones; no se renombra proyecto ni repositorio. Próximo paso: revisión del usuario; publicación únicamente tras aprobación posterior.
@@ -25,7 +37,7 @@ Fase 3 implementada y verificada localmente. Vista previa para aprobación visua
 - Capturas revisadas: artifacts/fase3-menu-390.png, fase3-category-390.png, fase3-all-390.png, chromium-home-390.png y resultados responsive. Ícono 192 revisado visualmente. SVG fuente/caché/build conserva SHA256 AC6A421CF0849B877D3E068DDEFFB3585AF9DEF080D0A80E22CFEEC72952C7BC.
 - Git diff confirma cero cambios a src/data, domain/match.ts, domain/select.ts y state/game.ts. No se repitió investigación editorial ni auditoría de alcance de Fase 2.
 
-## Entrega y recursos
+## Entrega Fase 3 previa y recursos
 
 ZIP artifacts/match-conjunciones-siteground.zip: 89 archivos, aproximadamente 1547 KiB, index.html en raíz, 80 portadas originales, SVG, tres PNG, manifest y worker. 88 recursos precacheados. Informe/hash por archivo: artifacts/build-report.json. Revisión PWA e6b0e436246f08633089. Builds e imágenes privadas continúan excluidos de Git.
 

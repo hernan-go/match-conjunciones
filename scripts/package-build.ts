@@ -22,6 +22,12 @@ for (const file of new Set([
   await sharp(await readFile(source)).metadata();
   await copyFile(source, `dist/covers/${file}`);
 }
+await mkdir("dist/ui", { recursive: true });
+for (const file of ["book1.svg", "book2.svg"]) {
+  const bytes = await readFile(`assets-private/ui/${file}`);
+  await sharp(bytes).metadata();
+  await copyFile(`assets-private/ui/${file}`, `dist/ui/${file}`);
+}
 await createPwa();
 const contents: Record<string, Uint8Array> = {};
 async function walk(path: string) {

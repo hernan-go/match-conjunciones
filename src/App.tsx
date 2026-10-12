@@ -4,6 +4,7 @@ import { selectQuestions } from "./domain/select";
 import { recommend } from "./domain/match";
 import { gameReducer, initialState } from "./state/game";
 import { BookCard } from "./components/BookCard";
+import { Chevron } from "./components/Chevron";
 import { CatalogMenu } from "./components/CatalogMenu";
 import { CatalogExplorer } from "./components/CatalogExplorer";
 import { usePwa } from "./state/pwa";
@@ -166,13 +167,20 @@ export default function App() {
                 aria-controls="topic-picker"
               >
                 <span className="mode-icon" aria-hidden="true">
-                  ☷
+                  <img
+                    src={`${import.meta.env.BASE_URL}ui/book1.svg`}
+                    alt=""
+                    width="29"
+                    height="36"
+                  />
                 </span>
                 <span>
                   <strong>Elegir una temática</strong>
                   <small>Seguí una curiosidad que ya tenés.</small>
                 </span>
-                <span aria-hidden="true">{chooseTopic ? "−" : "↗"}</span>
+                <span className="mode-action" aria-hidden="true">
+                  <Chevron />
+                </span>
               </button>
               {chooseTopic && (
                 <div id="topic-picker" className="topic-picker">
@@ -216,24 +224,20 @@ export default function App() {
               </div>
               <button className="mode-button surprise" onClick={() => start()}>
                 <span className="mode-icon" aria-hidden="true">
-                  <svg
-                    className="shuffle-icon"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.8"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    focusable="false"
-                  >
-                    <path d="M3 6h3c5 0 7 12 12 12h3M3 18h3c2.5 0 4.5-3 6-6s3.5-6 6-6h3M18 3l3 3-3 3M18 15l3 3-3 3" />
-                  </svg>
+                  <img
+                    src={`${import.meta.env.BASE_URL}ui/book2.svg`}
+                    alt=""
+                    width="29"
+                    height="36"
+                  />
                 </span>
                 <span>
                   <strong>Sorprendeme</strong>
                   <small>Un recorrido por distintas miradas.</small>
                 </span>
-                <span aria-hidden="true">↗</span>
+                <span className="mode-action" aria-hidden="true">
+                  <Chevron />
+                </span>
               </button>
               <p className="privacy-note">
                 Sin registro. Sin respuestas incorrectas.
@@ -322,7 +326,7 @@ export default function App() {
                 onClick={() => dispatch({ type: "previous" })}
               >
                 <span className="circle" aria-hidden="true">
-                  ←
+                  <Chevron direction="left" />
                 </span>
                 <span>Anterior</span>
               </button>
@@ -335,7 +339,7 @@ export default function App() {
                   {game.index === 9 ? "Ver mis resultados" : "Continuar"}
                 </span>
                 <span className="circle" aria-hidden="true">
-                  →
+                  <Chevron />
                 </span>
               </button>
             </nav>

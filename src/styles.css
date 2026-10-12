@@ -1246,3 +1246,51 @@ footer {
   outline: 3px solid var(--brand);
   outline-offset: 2px;
 }
+
+/* Ajustes finales: inicio y ergonomía móvil, sin cambios de comportamiento. */
+.entry-panel {
+  background: #e8ddc3;
+  border-radius: 10px;
+}
+.mode-button,
+.mode-button.surprise {
+  background: #ffffff;
+}
+.mode-icon,
+.surprise .mode-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 29px;
+  flex: none;
+}
+.mode-icon img {
+  display: block;
+  width: 29px;
+  height: 36px;
+  object-fit: contain;
+}
+.mode-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  flex: none;
+  border-radius: 8px;
+  background: #111111;
+  color: #ffffff;
+}
+.circle,
+.next .circle {
+  background: var(--brand);
+  color: #ffffff;
+  border-color: var(--brand);
+  border-radius: 10px;
+}
+.quiz-navigation {
+  margin-top: 30px;
+}
+.editorial-note {
+  text-align: center;
+}

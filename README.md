@@ -23,6 +23,7 @@ El catálogo de Fase 2 tiene 80 obras con fichas verificadas, seis temáticas y 
 Los recursos editoriales y el SVG institucional no se redistribuyen en este repositorio. El ZIP de publicación sí incluye todos los recursos, para el uso autorizado en el stand.
 
 1. Colocar el SVG suministrado por el equipo en `assets-private/n_portada.svg`. También puede indicarse su ruta mediante `MATCH_INSTITUTIONAL_SVG`.
+   Para los íconos de modalidades, colocar también los originales suministrados `book1.svg` y `book2.svg` en `assets-private/ui/`, sin modificar sus trazados ni proporciones. El empaquetador los copia íntegros a `dist/ui/` antes de generar el precache; no forman parte del repositorio público. El build informa error si faltan.
 2. Ejecutar `npm run covers` con conexión: recupera las fuentes oficiales registradas en `src/data/catalog.json`, guarda originales privados y genera WebP de hasta 400 px, calidad 82, sin ampliar. Las siguientes ejecuciones usan caché local.
 3. Ejecutar `npm run build`. Valida tipos y contenido, prepara imágenes, compila, copia recursos, comprueba la integridad del ZIP y escribe el informe.
 
