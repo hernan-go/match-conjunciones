@@ -11,6 +11,7 @@ import { createHash } from "node:crypto";
 import { zipSync, unzipSync } from "fflate";
 import sharp from "sharp";
 import { catalog } from "../src/data/index";
+import { createPwa } from "./pwa-build";
 
 await mkdir("dist/covers", { recursive: true });
 for (const file of new Set([
@@ -21,6 +22,7 @@ for (const file of new Set([
   await sharp(await readFile(source)).metadata();
   await copyFile(source, `dist/covers/${file}`);
 }
+await createPwa();
 const contents: Record<string, Uint8Array> = {};
 async function walk(path: string) {
   for (const entry of await readdir(path)) {

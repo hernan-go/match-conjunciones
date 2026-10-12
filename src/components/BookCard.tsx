@@ -1,17 +1,17 @@
 import { useState } from "react";
-import type { Catalog, Match } from "../domain/types";
+import type { Book, Catalog, Match } from "../domain/types";
 import { justification } from "../domain/match";
 const url = (file: string) => `${import.meta.env.BASE_URL}covers/${file}`;
 export function BookCard({
   match,
+  book: catalogBook,
   catalog,
   index,
-}: {
-  match: Match;
+}: ({ match: Match; book?: never } | { book: Book; match?: never }) & {
   catalog: Catalog;
   index: number;
 }) {
-  const { book } = match;
+  const book = match?.book || catalogBook!;
   const [fallback, setFallback] = useState(false);
   const institutional = fallback || book.cover.kind === "institucional";
   const coordinator = book.contributors.find((c) =>
@@ -56,17 +56,7 @@ export function BookCard({
         <h2 id={`title-${book.id}`}>{book.title}</h2>
         <p className="author">{authors}</p>
         <p className="summary">{book.summary}</p>
-        <p className="reason">
-          {justification(match, catalog)}{" "}
-          <a
-            href={book.productUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`LINK: ficha de ${book.title} en Noveduc, abre otra pestaña`}
-          >
-            LINK <span aria-hidden="true">↗</span>
-          </a>
-        </p>
+        {match && <p className="reason">{justification(match, catalog)}</p>}
       </div>
     </article>
   );

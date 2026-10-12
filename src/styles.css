@@ -1087,3 +1087,162 @@ footer {
     overflow-wrap: anywhere;
   }
 }
+
+/* Fase 3: navegación editorial clara, sin alterar la densidad del juego. */
+.wordmark-sub {
+  display: block;
+  font-size: 0.625rem;
+  letter-spacing: 1px;
+  margin-top: 3px;
+}
+.icon-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 48px;
+  min-height: 48px;
+  padding: 0;
+  flex-shrink: 0;
+  border: 0;
+  background: white;
+  color: var(--text);
+  font-size: 2rem;
+  cursor: pointer;
+}
+.catalog-menu {
+  width: calc(100% - 32px);
+  max-width: 900px;
+  max-height: calc(100dvh - 32px);
+  padding: 0 16px 12px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: white;
+  color: var(--text);
+}
+.catalog-menu::backdrop {
+  background: rgb(48 48 48 / 20%);
+}
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0 12px;
+  border-bottom: 1px solid var(--border);
+}
+.menu-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 62px;
+  padding: 12px 0;
+  text-align: left;
+  border: 0;
+  background: white;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+.menu-option:hover {
+  color: var(--text);
+  background: var(--hover);
+}
+.menu-option > span:last-child {
+  font-size: 1.5rem;
+  color: var(--muted);
+}
+.menu-all {
+  border-top: 1px solid var(--border);
+  margin-top: 12px;
+  padding-top: 16px;
+  font-weight: bold;
+}
+.catalog-explorer {
+  max-width: 860px;
+  margin: 16px auto 32px;
+}
+.catalog-back {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  border: 0;
+  color: var(--text);
+  font: inherit;
+  padding: 0 4px;
+  cursor: pointer;
+}
+.catalog-back span {
+  font-size: 1.5rem;
+}
+.catalog-explorer h1 {
+  font-size: 2rem;
+  margin: 12px 0;
+  overflow-wrap: anywhere;
+}
+.catalog-search {
+  margin: 16px 0 12px;
+}
+.catalog-search label {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 6px;
+}
+.search-controls {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+.search-controls input {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  border: 1px solid var(--control-border);
+  border-radius: 4px;
+  padding: 10px;
+  font: inherit;
+  color: var(--text);
+  background: white;
+}
+.search-controls button,
+.pwa-actions button {
+  min-height: 48px;
+  padding: 8px 12px;
+  border: 1px solid var(--control-border);
+  background: white;
+  color: var(--text);
+  border-radius: 4px;
+  font: inherit;
+  cursor: pointer;
+}
+.catalog-count {
+  color: var(--muted);
+  font-size: 0.875rem;
+  margin: 12px 0;
+}
+.empty-catalog {
+  line-height: 1.5;
+}
+.pwa-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+.pwa-actions:empty {
+  display: none;
+}
+@media (max-width: 599px) {
+  .catalog-menu {
+    margin: 8px auto;
+    width: calc(100% - 16px);
+    max-height: calc(100dvh - 16px);
+  }
+}
+.search-controls input:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}

@@ -4,11 +4,19 @@ import { selectQuestions } from "./domain/select";
 import { recommend } from "./domain/match";
 import { gameReducer, initialState } from "./state/game";
 import { BookCard } from "./components/BookCard";
+import { CatalogMenu } from "./components/CatalogMenu";
+import { CatalogExplorer } from "./components/CatalogExplorer";
+import { usePwa } from "./state/pwa";
 
 export default function App() {
   const [game, dispatch] = useReducer(gameReducer, initialState);
   const [chooseTopic, setChooseTopic] = useState(false);
   const [selectedTopic, setSelectedTopic] = useState("");
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [explorer, setExplorer] = useState<string | null>(null);
+  const menuButton = useRef<HTMLButtonElement>(null);
+  const returnScroll = useRef(0);
+  const pwa = usePwa();
   const titleRef = useRef<HTMLHeadingElement>(null);
   const topic = catalog.topics.find((t) => t.id === game.topicId);
   const question = game.questions[game.index];
@@ -41,6 +49,8 @@ export default function App() {
     dispatch({ type: "reset" });
     setChooseTopic(false);
     setSelectedTopic("");
+    setExplorer(null);
+    setMenuOpen(false);
     window.scrollTo({ top: 0 });
   };
   return (
@@ -56,7 +66,7 @@ export default function App() {
             e.preventDefault();
             reset();
           }}
-          aria-label="Match Conjunciones, volver al inicio"
+          aria-label="Match Noveduc, reiniciar y volver al inicio"
         >
           <img
             className="mark"
@@ -67,20 +77,69 @@ export default function App() {
           />
           <span>
             NOVEDUC
-            <span className="wordmark-sub">ENCUENTROS CON LA LECTURA</span>
+            <span className="wordmark-sub">ROSARIO</span>
           </span>
         </a>
-        <span className="header-note">Una pregunta abre un libro.</span>
+        <button
+          ref={menuButton}
+          className="icon-button"
+          aria-label="Abrir menú del catálogo"
+          aria-haspopup="dialog"
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen(true)}
+        >
+          <svg
+            aria-hidden="true"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+          >
+            <path d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
       </header>
+      {menuOpen && (
+        <CatalogMenu
+          catalog={catalog}
+          onClose={() => {
+            setMenuOpen(false);
+            requestAnimationFrame(() => menuButton.current?.focus());
+          }}
+          onSelect={(id) => {
+            if (!explorer) returnScroll.current = window.scrollY;
+            setMenuOpen(false);
+            setExplorer(id);
+          }}
+        />
+      )}
       <main id="main">
-        {game.screen === "home" && (
+        {explorer && (
+          <CatalogExplorer
+            key={explorer}
+            catalog={catalog}
+            topicId={explorer === "all" ? undefined : explorer}
+            onBack={() => {
+              setExplorer(null);
+              requestAnimationFrame(() => {
+                if (game.screen === "home")
+                  menuButton.current?.focus({ preventScroll: true });
+                else titleRef.current?.focus({ preventScroll: true });
+                window.scrollTo({ top: returnScroll.current });
+              });
+            }}
+          />
+        )}
+        {!explorer && game.screen === "home" && (
           <section className={`home ${chooseTopic ? "choosing" : ""}`}>
             <div className="hero">
               <div className="eyebrow">
                 <span className="brand-dot" aria-hidden="true">
                   •
                 </span>{" "}
-                MATCH CONJUNCIONES
+                MATCH NOVEDUC
               </div>
               <h1>
                 Tu próxima lectura empieza con <em>vos.</em>
@@ -189,7 +248,7 @@ export default function App() {
             </p>
           </section>
         )}
-        {game.screen === "quiz" && question && (
+        {!explorer && game.screen === "quiz" && question && (
           <section className="quiz" aria-label="Cuestionario de intereses">
             <div className="quiz-meta">
               <span className="eyebrow">
@@ -282,9 +341,9 @@ export default function App() {
             </nav>
           </section>
         )}
-        {game.screen === "results" && (
+        {!explorer && game.screen === "results" && (
           <section className="results">
-            <div className="eyebrow">MATCH CONJUNCIONES · TU RECORRIDO</div>
+            <div className="eyebrow">MATCH NOVEDUC · TU RECORRIDO</div>
             <h1 tabIndex={-1} ref={titleRef}>
               <span className="match-title">Tu match</span>{" "}
               <em className="match-ribbon">literario.</em>
@@ -315,9 +374,19 @@ export default function App() {
         )}
       </main>
       {game.screen !== "quiz" && (
+        <aside className="pwa-actions" aria-label="Aplicación">
+          {pwa.canInstall && (
+            <button onClick={pwa.install}>Instalar aplicación</button>
+          )}
+          {pwa.waiting && (
+            <button onClick={pwa.update}>Actualizar y volver al inicio</button>
+          )}
+        </aside>
+      )}
+      {(explorer || game.screen !== "quiz") && (
         <footer>
           <span>
-            MATCH CONJUNCIONES <span aria-hidden="true">·</span> NOVEDUC
+            MATCH NOVEDUC <span aria-hidden="true">·</span> NOVEDUC ROSARIO
           </span>
         </footer>
       )}
