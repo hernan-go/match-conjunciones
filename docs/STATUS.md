@@ -1,5 +1,7 @@
 # Estado — Fase 2, 11/10/2026
 
+Corrección puntual del 12/10/2026: inicio dice «Sin registro. Sin respuestas incorrectas. Solo tus intereses y nuevas lecturas.». Solo cambió esa palabra; estilos y funcionalidades intactos. Build de producción, TypeScript, validación editorial y ZIP verificado aprobados. Sin publicación en SiteGround.
+
 ## Actual
 
 Fase 2 implementada y verificada localmente. Revisión visual del usuario pendiente antes de actualizar SiteGround. Repositorio existente: https://github.com/hernan-go/match-conjunciones. No hay cambios externos de hosting. Resumen y lista de títulos nuevos: docs/PHASE2_REPORT.md.

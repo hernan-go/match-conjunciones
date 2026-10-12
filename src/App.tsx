@@ -177,7 +177,7 @@ export default function App() {
                 <span aria-hidden="true">↗</span>
               </button>
               <p className="privacy-note">
-                Sin registro. Sin respuestas correctas.
+                Sin registro. Sin respuestas incorrectas.
                 <br />
                 Solo tus intereses y nuevas lecturas.
               </p>
