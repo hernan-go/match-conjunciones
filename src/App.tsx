@@ -157,8 +157,7 @@ export default function App() {
             </div>
             <div className="entry-panel">
               <div className="panel-heading">
-                <span className="section-index">01 /</span>
-                <h2>¿Por dónde empezamos?</h2>
+                <h2>¿Por dónde iniciamos?</h2>
               </div>
               <button
                 className={`mode-button ${chooseTopic ? "active" : ""}`}

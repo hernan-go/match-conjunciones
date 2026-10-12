@@ -1,6 +1,16 @@
 # Estado — Fase 3, 12/10/2026
 
-## Ajustes finales de interfaz — entrega actual
+## Corrección visual puntual — entrega actual
+
+Revisión anterior no aprobada visualmente; corregidos exclusivamente tres puntos. App.tsx elimina el prefijo 01 / y presenta «¿Por dónde iniciamos?». CSS usa Georgia/Times New Roman/serif (idéntica familia al hero), peso 700, cursiva, tamaño responsive y centrado. Grilla conserva su estructura, con tarjetas blancas, borde #858580, sombra neutra tenue y separación 10 px sobre panel beige. Navegación pasa de 30 a 40 px, sin reducir controles ni fijar posiciones; scroll natural donde hace falta.
+
+Verificado con getBoundingClientRect: separación >=40 px durante diez preguntas por viewport 320×568/375×667/390×844/768×1024. Tests comprueban texto exacto, ausencia del prefijo, familia, borde/blanco y separación real entre filas de temática >=10 px. Revisadas capturas ergonomics-home-320/390.png, correction-topics-390.png y ergonomics-quiz-375.png; título legible, tarjetas independientes y espacio visible. No disponer de teléfonos físicos sigue siendo una limitación; evidencia corresponde a navegador con viewport móvil.
+
+TypeScript, validación/build/ZIP y 17/17 unitarias aprobados; suite Chromium completa 29/29, incluyendo Axe, 200%, foco/tacto y regresión de juego/menú/catálogo/PWA. Header sigue 61 px; modalidades terminan a 515,875 px en 375×667 y 516,953 px en 390×844, sin comprometer su visibilidad. Cero cambios en datos, motor, reducer, menú/explorador, SVG, Chevron o estrategia PWA. ZIP regenerado con 91 archivos, aproximadamente 1550 KiB, 80 portadas y dos SVG; revisión de recursos 747abb1591b8e4447ca3.
+
+Archivos modificados: src/App.tsx, src/styles.css, tests/e2e/ergonomics.spec.ts, docs/REQUIREMENTS.md y docs/STATUS.md. Preview http://127.0.0.1:4176/?revision=correccion en origen local separado para evitar caché previa. SiteGround intacto. Aprobación visual del usuario pendiente; no considerar aprobada la corrección por haber pasado pruebas.
+
+## Ajustes finales de interfaz — entrega anterior
 
 Implementados los ajustes visuales y de ergonomía autorizados, sobre Fase 3 sin cambiar datos, motor, estado, menú, catálogo/búsqueda o estrategia PWA. Preview http://127.0.0.1:4175/?revision=ergonomia (puerto separado para evitar la caché de la versión previa durante aprobación). Publicación SiteGround no realizada.
 

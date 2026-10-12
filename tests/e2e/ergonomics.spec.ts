@@ -14,6 +14,19 @@ for (const [width, height] of [
     await page.setViewportSize({ width, height });
     await page.goto("/evento/");
     await page.mouse.move(0, 0);
+    await expect(page.locator(".panel-heading h2")).toHaveText(
+      "¿Por dónde iniciamos?",
+    );
+    await expect(page.locator(".entry-panel .section-index")).toHaveCount(0);
+    expect(
+      await page
+        .locator(".panel-heading h2")
+        .evaluate((el) => getComputedStyle(el).fontFamily),
+    ).toBe(
+      await page
+        .locator(".hero h1")
+        .evaluate((el) => getComputedStyle(el).fontFamily),
+    );
     expect(
       await page
         .locator(".entry-panel")
@@ -62,6 +75,34 @@ for (const [width, height] of [
       path: `artifacts/ergonomics-home-${width}.png`,
       fullPage: true,
     });
+    await page.getByRole("button", { name: "Elegir una temática" }).click();
+    await page.mouse.move(0, 0);
+    for (const tile of await page.locator(".topic-tile").all()) {
+      expect(
+        await tile.evaluate((el) => getComputedStyle(el).backgroundColor),
+      ).toBe("rgb(255, 255, 255)");
+      expect(
+        await tile.evaluate((el) => getComputedStyle(el).borderColor),
+      ).toBe("rgb(133, 133, 128)");
+    }
+    const tiles = await page
+      .locator(".topic-tile")
+      .evaluateAll((elements) =>
+        elements.map((el) => ({
+          top: el.getBoundingClientRect().top,
+          bottom: el.getBoundingClientRect().bottom,
+        })),
+      );
+    const firstRow = tiles.filter((tile) => tile.top === tiles[0].top);
+    const nextRow = tiles.find((tile) => tile.top > tiles[0].top)!;
+    expect(
+      nextRow.top - Math.max(...firstRow.map((tile) => tile.bottom)),
+    ).toBeGreaterThanOrEqual(10);
+    await page.screenshot({
+      path: `artifacts/correction-topics-${width}.png`,
+      fullPage: true,
+    });
+    await page.getByRole("button", { name: "Elegir una temática" }).click();
     await page.getByRole("button", { name: "Sorprendeme" }).click();
     const audit = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
@@ -73,7 +114,7 @@ for (const [width, height] of [
         .locator(".quiz-navigation")
         .boundingBox())!;
       expect(navigation.y - answer.y - answer.height).toBeGreaterThanOrEqual(
-        30,
+        40,
       );
       for (const circle of await page.locator(".circle").all()) {
         const box = (await circle.boundingBox())!;

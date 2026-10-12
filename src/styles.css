@@ -1294,3 +1294,32 @@ footer {
 .editorial-note {
   text-align: center;
 }
+
+/* Corrección puntual: jerarquía inicial y separación perceptible. */
+.panel-heading {
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.panel-heading h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.375rem, 6vw, 1.875rem);
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+}
+.topic-grid {
+  gap: 10px;
+}
+.topic-tile {
+  background: #ffffff;
+  border-color: #858580;
+  box-shadow: 0 1px 3px rgb(48 48 48 / 8%);
+}
+.topic-tile.selected {
+  background: var(--selected);
+  border-color: var(--brand);
+}
+.quiz-navigation {
+  margin-top: 40px;
+}
