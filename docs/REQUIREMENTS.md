@@ -1,6 +1,6 @@
 # Requisitos definitivos
 
-Fuente: autorización definitiva del usuario, 11/10/2026. Prevalece sobre plan, handoff y capturas. Raíz C:\dev\personal\noveduc.
+Fuente: autorizaciones definitivas del usuario, 11 y 12/10/2026. Fase 3 prevalece en identidad, enlaces, catálogo e instalación. Raíz C:\dev\personal\noveduc.
 
 ## Producto
 
@@ -24,7 +24,7 @@ Jerarquía original > otra edición auténtica > n_portada.svg suministrado. Reg
 
 ## Resultados
 
-Tres a cinco obras diferentes, tarjetas horizontales: imagen izquierda compacta, título completo, autor opcional verificado, temática, resumen original y justificación real, enlace LINK discreto pero táctil. Sin precios, descuentos, promociones, stock, carrito, compra ni porcentajes psicológicos. No recopilar valores comerciales.
+Tres a cinco obras diferentes, tarjetas horizontales: imagen izquierda compacta, título completo, autoría verificada, temática, resumen original y justificación real. Sin enlaces externos visibles ni acciones en portada/título; conservar productUrl y fuentes internamente. Sin precios, descuentos, promociones, stock, carrito, compra ni porcentajes psicológicos. No recopilar valores comerciales.
 
 ## Responsive y aceptación
 
@@ -34,7 +34,7 @@ Mobile-first desde 320 px; probar 320/375/390/768/1024/1440, ambas orientaciones
 
 Documentación AGENTS, REQUIREMENTS, PLAN, STATUS y README. Git público match-conjunciones con descripción autorizada; exclusiones antes de commit, commits por etapas y push final. No secretos ni recursos restringidos. Build dist y artifacts/match-conjunciones-siteground.zip con index.html en raíz y todas las imágenes. Probar raíz/subcarpeta. Publicación manual SiteGround pendiente de URL, HTTPS y comprobación externa. No esperar URL para desarrollar.
 
-## Identidad visual definitiva — 11/10/2026
+## Identidad visual inicial — 11/10/2026 (historial; Fase 3 prevalece)
 
 Intervención exclusivamente visual: mantener catálogo, preguntas, pesos, algoritmo, navegación, reinicio, enlaces y recursos de portada. Fondo blanco #FFFFFF y apariencia siempre clara con color-scheme: light. Texto principal #303030, secundarios grises con contraste, superficies neutras y tarjetas blancas. Rojo institucional #E63A2E extraído de n_portada.svg y centralizado en CSS. N oficial en encabezado como imagen, sin alterar archivo, geometría ni colores; mismo SVG para fallback institucional.
 
@@ -49,3 +49,14 @@ Ampliar a mínimo 60 obras verificadas, procurar 80, priorizando Conjunciones si
 Compactar mobile sin ocultar contenido ni fijar alturas: header orientativo 56–72 px, título inicial Georgia bold y vos. rojo/cursiva, modalidades visibles en teléfono habitual, selector compacto, progreso próximo al header, respuestas y navegación cercanas, footer mínimo centrado no fijo. Sustituir estrellas por punto rojo y shuffle SVG; conservar icono de lista. Sombra neutra suave en contenedor de portadas, tarjetas horizontales completas. Probar 320×568, 375×667, 390×844, 768×1024, 1024×768 y ancho 1440, texto 200%, tacto 48 px y áreas seguras. Scroll natural si necesario.
 
 Usuario informa publicación operativa en https://mnicabeatrizp6.sg-host.com. Preparar actualización local y ZIP, conservar versión anterior recuperable; no reemplazar sitio sin aprobación visual posterior.
+
+## Fase 3 definitiva — 12/10/2026
+
+- Nombre público Match Noveduc; header compacto NOVEDUC / ROSARIO con N oficial intacta, blanco, #E63A2E y tipografías actuales. PWA Noveduc Rosario, nombre corto Noveduc, íconos N oficial sobre blanco. No renombrar repositorio ni raíz ni colección Conjunciones.
+- Conservar «Tu próxima lectura empieza con vos.», «Tu match literario.» y «Sin registro. Sin respuestas incorrectas. Solo tus intereses y nuevas lecturas.».
+- Menú hamburguesa modal accesible: seis áreas habilitadas obtenidas del catálogo en su orden actual; Lista completa al final, separada visualmente. Referencia solo de composición; no fondo negro ni símbolo ilustrativo. Cerrar/Escape devuelve foco al control.
+- Categorías: nombre, cantidad dinámica, obras únicas A–Z, tarjetas horizontales informativas y volver al match. Sin buscador. Lista completa: todo el catálogo (80 actuales, sin límite fijo), búsqueda inmediata solo aquí por título, todos los autores e ISBN; parcial, sin distinguir mayúsculas/tildes, admite ISBN sin guiones. Limpiar y mensaje sin resultados. Sin backend ni catálogo duplicado.
+- Navegación de catálogo separada del reducer: preservar modalidad, temática, preguntas, orden, índice, respuestas y resultados. Volver restaura foco y desplazamiento. Solo acciones explícitas reinician; recargar sigue iniciando partida nueva.
+- PWA estática: manifest relativo para raíz/subcarpeta, display standalone, íconos generados reproduciblemente desde SVG privado, caché versionada por contenido y ámbito, recursos completos offline tras primera carga exitosa. Actualización espera; no recarga automática ni control de actualizar durante partida. Usuario activa «Actualizar y volver al inicio» al terminar o desde inicio. Instalar mediante oferta del navegador compatible o función del sistema.
+- Conservar sin cambios las 80 obras, 84 preguntas, pesos, algoritmo de match y reducer. No modificar SiteGround; entregar preview y ZIP completo.
+- Aceptación adicional: orden y seis opciones + Lista completa, categorías sin búsqueda, listado único A–Z, filtros título/autor/ISBN/tildes/parcial, limpiar/vacío, ausencia de links en tarjetas, conservación y regreso, targets 48 px, texto 200% y accesibilidad. PWA: manifiesto/íconos, criterios de instalación Chromium, offline raíz/subcarpeta y nueva versión sin perder partida hasta actualización explícita. Instalación/standalone en teléfonos reales pendiente si no disponibles.

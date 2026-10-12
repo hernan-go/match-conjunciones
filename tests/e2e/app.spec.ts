@@ -99,12 +99,8 @@ for (const width of widths)
     await images(page);
     await noOverflow(page);
     await expect(page.locator(".book-card")).toHaveCount(5);
-    for (const link of await page.locator(".book-card a").all()) {
-      expect(await link.getAttribute("href")).toMatch(
-        /^https:\/\/www.noveduc.com\//,
-      );
-      expect((await link.boundingBox())!.height).toBeGreaterThanOrEqual(48);
-    }
+    await expect(page.locator(".book-card a")).toHaveCount(0);
+    await expect(page.locator(".book-list")).not.toContainText("LINK");
     if (width === 390 || width === 1440)
       await page.screenshot({
         path: `artifacts/${info.project.name}-results-${width}.png`,
@@ -330,7 +326,7 @@ test("Tap táctil emulado y carga raíz/subcarpeta", async ({ browser }) => {
     isMobile: true,
   });
   const page = await context.newPage();
-  await page.goto("http://127.0.0.1:4173/evento/");
+  await page.goto("http://127.0.0.1:4174/evento/");
   await page.getByRole("button", { name: "Sorprendeme" }).tap();
   await page.locator(".answer-tile").first().tap();
   await page.locator(".answer-tile").nth(1).tap();

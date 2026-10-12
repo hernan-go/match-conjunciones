@@ -1,4 +1,4 @@
-# Match Conjunciones
+# Match Noveduc
 
 Aplicación web interactiva para descubrir libros de Editorial Noveduc mediante un cuestionario de afinidades e intereses.
 
@@ -55,16 +55,16 @@ Incluye auditoría Axe de accesibilidad y contraste WCAG A/AA en las tres pantal
 1. Crear/seleccionar el sitio temporal en SiteGround y abrir Site Tools.
 2. En Site → File Manager, identificar el `public_html` del sitio. Para publicar en una carpeta, crearla dentro de ese directorio.
 3. Si ya existe una versión, conservar una copia antes de reemplazar sus archivos.
-4. Subir el ZIP y extraerlo dentro de la carpeta elegida. Deben quedar `index.html`, `assets/` y `covers/` directamente allí.
+4. Subir el ZIP y extraerlo dentro de la carpeta elegida. Deben quedar `index.html`, `assets/`, `covers/`, `icons/`, `manifest.webmanifest` y `sw.js` directamente allí. No subir solamente index.html.
 5. Comprobar el certificado y HTTPS en la URL asignada; su configuración depende del sitio temporal creado.
 6. Abrir la URL (con `/` final si es subcarpeta), recargar y completar ambos modos. No debe haber recursos 404 ni contenido mixto.
-7. Probar Anterior, cambio de selección, resultados, LINK y Hacer otro match desde un teléfono. Probar seis temáticas y varias partidas consecutivas.
+7. Probar Anterior, cambio de selección, resultados informativos sin links y Hacer otro match desde un teléfono. Probar seis temáticas, menú, categorías, Lista completa y búsqueda; volver al cuestionario conserva respuestas.
 
 El build usa `base: './'` y navegación en memoria, por lo que no necesita reglas de router ni Node en producción. Reemplazar por un nuevo build para actualizar. Sitio actual: https://mnicabeatrizp6.sg-host.com. Su raíz y recursos fueron comprobados por lectura HTTPS; esta fase no reemplaza archivos publicados. Requiere aprobación visual posterior.
 
 ## Pruebas reales pendientes
 
-En Safari/iPhone y Chrome/Android: completar ambos modos; tocar opciones sucesivas; volver y modificar respuestas; dar toques rápidos en navegación; girar vertical/horizontal; ampliar texto a 200%; revisar títulos largos y portadas; abrir LINK y regresar; reiniciar y completar otra partida. Confirmar ausencia de recortes, superposición y desplazamiento horizontal. Repetir en tablet.
+En Safari/iPhone y Chrome/Android: completar ambos modos; tocar opciones sucesivas; volver y modificar respuestas; dar toques rápidos en navegación; girar vertical/horizontal; ampliar texto a 200%; revisar títulos largos y portadas; explorar catálogo y regresar; reiniciar y completar otra partida. Confirmar ausencia de recortes, superposición y desplazamiento horizontal. Instalar y abrir desde ícono; confirmar Noveduc Rosario, N oficial, ventana standalone y carga offline después de precache completo. Repetir en tablet.
 
 No se recopilan respuestas en un servidor, no hay analítica ni persistencia de datos personales. Recargar el navegador inicia una nueva partida; girar el dispositivo conserva el estado.
 
@@ -73,3 +73,19 @@ No se recopilan respuestas en un servidor, no hay analítica ni persistencia de 
 Consultar docs/PHASE2_REPORT.md para las 52 incorporaciones, fuentes, distribución y evidencia. `npx tsx scripts/audit-reachability.ts` genera perfiles reproducibles y detecta obras sin alcance en la muestra de pruebas. `npm run verify:sources` comprueba título, autorías listadas, colección e ISBN contra cada ficha oficial; la interpretación de roles necesita revisión editorial. No ejecutar create-editorial-data.mjs para actualizar Fase 2: reconstruye la curaduría piloto y reemplaza el catálogo. La ampliación curada está en src/data/phase2-curation.json; research-phase2.mjs e import-phase2.mjs son herramientas de investigación/importación, no pasos de build. Los registros nuevos requieren revisión visual antes de habilitarse.
 
 Copia v1: artifacts/match-conjunciones-v1-66f2304.zip (privada). Puede subirse de nuevo para revertir al build local anterior; conservar además copia del public_html actual antes de cualquier actualización. Build/ZIP, investigación y portadas continúan fuera de Git. El fixture de medidas móviles preserva procedencia y hash del ZIP v1; no exige ese archivo para ejecutar tests en otro equipo.
+
+## Fase 3: catálogo y PWA
+
+Identidad pública Match Noveduc / NOVEDUC ROSARIO. Repo y carpeta técnica conservan sus nombres. `src/domain/explore.ts` usa el catálogo único; las categorías no tienen búsqueda y Lista completa busca por título, todos los autores e ISBN. No muestra fichas externas; las fuentes permanecen en los datos. `CatalogMenu` y `CatalogExplorer` no modifican el reducer ni el motor. Abrir/cerrar catálogo conserva la partida en memoria; recargar o reiniciar explícitamente empieza otra.
+
+`npm run build` genera automáticamente íconos PNG 192/512 y Apple 180 desde la N oficial privada sobre blanco, manifest relativo y worker con hash de recursos. No versionar imágenes ni PNG generados. El ZIP contiene todos los recursos; tras una primera carga conectada completa, juego y catálogo funcionan offline. Caché separada por raíz/subcarpeta; sin APIs externas durante uso.
+
+En Chrome/Edge compatibles, usar «Instalar aplicación» cuando el navegador ofrezca la instalación o el control de instalar de su menú. En Safari/iOS, Compartir → Agregar a inicio (o Añadir a pantalla de inicio). Nombre instalado Noveduc Rosario, corto Noveduc. Instalación necesita HTTPS en publicación; localhost sirve para comprobación técnica. La disponibilidad del aviso y los nombres de controles dependen del navegador. [Criterios de instalación](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable).
+
+Cada build cambia la revisión si cambia algún recurso. Una nueva versión se descarga completa y espera; «Actualizar y volver al inicio» se ofrece fuera de la partida y recarga solo tras esa acción. No actualizar durante un cuestionario; si se cierra toda la aplicación, el navegador puede activar la versión en espera en la próxima apertura. También se vuelve a comprobar al recuperar conexión. [Ciclo de actualización](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers).
+
+Para una futura publicación aprobada: respaldar public_html; subir todos los archivos y `sw.js` al final, una vez disponibles los recursos referenciados; conservar assets con hash anteriores durante la transición de pestañas abiertas. Evitar caché prolongada/immutable para index.html, sw.js y manifest.webmanifest; comprobar que las herramientas de caché de SiteGround permiten revalidarlos. No borrar almacenamiento de visitantes ni desregistrar workers para forzar actualizaciones. Validar HTTPS, manifest, instalación y actualización en la URL real tras publicación. No se ha modificado el hosting en esta fase.
+
+Pruebas nuevas: catálogo A–Z, filtros y escalabilidad; menú dinámico, seis listas sin búsqueda, tacto/foco/200%/Axe, conservación; PWA Chromium con criterios de instalación, íconos blancos, offline (80 portadas y partida) raíz/subcarpeta, y reemplazo real de worker en servidor local aislado. En las pruebas UI convencionales se bloquean workers para aislar fallbacks de red; las pruebas PWA los habilitan explícitamente. No equivalen a instalación/standalone comprobada en teléfonos físicos.
+
+Backup privado de Fase 2 con texto corregido: `artifacts/match-conjunciones-fase2-e78a29a.zip` y commit e78a29a. Vista previa: `npm run preview -- --port 4173`, http://127.0.0.1:4173/?fase=3. El servidor dev no ofrece PWA; verificar con build/preview.

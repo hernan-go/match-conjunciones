@@ -37,3 +37,12 @@ Manifiesto versionado con URLs públicas, tipo, evidencia y nombre. Caché origi
 4. Compactar header, inicio, selector y quiz; punto/shuffle, footer mínimo y definición de portadas.
 5. Validaciones editoriales, unitarias y Playwright con tamaños y accesibilidad; medir espacio y revisar capturas.
 6. Build/ZIP íntegro con nuevas portadas y rutas relativas, documentación, commits separados y push. Preview local para aprobación; mantener SiteGround actual.
+
+## Fase 3 autorizada — 12/10/2026
+
+1. Inspeccionar estado real y autorización definitiva; preservar ZIP de Fase 2. Corrección «Sin respuestas incorrectas» ya terminada: conservarla.
+2. Actualizar identidad pública y header ROSARIO; retirar enlaces de tarjetas compartidas, conservar fuentes internas. No modificar datos editoriales, preguntas, ranking ni reducer.
+3. Añadir módulo puro exploreBooks (filtro, unicidad, orden español y búsqueda normalizada), menú dinámico y componente de exploración. Estado de navegación independiente de partida; foco y scroll al regresar. Sin buscador en categorías/menú.
+4. Generar manifest, íconos desde SVG privado y service worker durante empaquetado. Hash de todos los recursos, caché por ámbito, instalación completa antes de activar, limpieza de versiones anteriores y actualización explícita diferida durante quiz. Hook de instalación y aviso de actualización separado del estado del juego. No agregar dependencias ni infraestructura.
+5. Ejecutar validación, unitarias y suite Chromium existente más menú/catálogo/búsqueda/conservación/accesibilidad y PWA. Verificar offline y actualización con dos revisiones servidas localmente, criterios de instalación, íconos y rutas relativas; revisar capturas. Documentar límites de emulación y dispositivos no disponibles.
+6. Regenerar ZIP con todas las portadas, manifest, íconos y worker; contrastar byte a byte. Actualizar REQUIREMENTS/PLAN/STATUS/README, commits descriptivos y push al repositorio existente. Entregar preview de Fase 3. Sin subir a SiteGround.

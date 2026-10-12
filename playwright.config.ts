@@ -5,14 +5,18 @@ export default defineConfig({
   fullyParallel: true,
   workers: 3,
   reporter: [["list"], ["html", { open: "never" }]],
-  use: { baseURL: "http://127.0.0.1:4173", trace: "retain-on-failure" },
+  use: {
+    baseURL: "http://127.0.0.1:4174",
+    trace: "retain-on-failure",
+    serviceWorkers: "block",
+  },
   projects: [
     { name: "chromium", use: { browserName: "chromium" } },
     { name: "webkit", use: { browserName: "webkit" } },
   ],
   webServer: {
     command: "node scripts/serve-build.mjs",
-    url: "http://127.0.0.1:4173",
-    reuseExistingServer: !process.env.CI,
+    url: "http://127.0.0.1:4174",
+    reuseExistingServer: false,
   },
 });

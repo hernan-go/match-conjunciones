@@ -1,37 +1,45 @@
-# Estado — Fase 2, 11/10/2026
-
-Corrección puntual del 12/10/2026: inicio dice «Sin registro. Sin respuestas incorrectas. Solo tus intereses y nuevas lecturas.». Solo cambió esa palabra; estilos y funcionalidades intactos. Build de producción, TypeScript, validación editorial y ZIP verificado aprobados. Sin publicación en SiteGround.
+# Estado — Fase 3, 12/10/2026
 
 ## Actual
 
-Fase 2 implementada y verificada localmente. Revisión visual del usuario pendiente antes de actualizar SiteGround. Repositorio existente: https://github.com/hernan-go/match-conjunciones. No hay cambios externos de hosting. Resumen y lista de títulos nuevos: docs/PHASE2_REPORT.md.
+Fase 3 implementada y verificada localmente. Vista previa para aprobación visual: http://127.0.0.1:4173/?fase=3. SiteGround https://mnicabeatrizp6.sg-host.com no modificado. Repositorio existente https://github.com/hernan-go/match-conjunciones; no se renombra proyecto ni repositorio. Próximo paso: revisión del usuario; publicación únicamente tras aprobación posterior.
 
-## Editorial verificado
+## Implementado
 
-80 obras, 52 nuevas y 28 registros originales intactos. 70 Conjunciones, 2 Perfiles, 4 Noveduc Gestión, 1 Ensayos y Experiencias y 3 sin colección informada. Fichas oficiales contrastadas: títulos, autorías listadas, colección e ISBN (80/80); roles explícitos revisados en índice/portada. Etiquetas y resúmenes son curaduría original basada en fuentes, no coincidencias inventadas. Imágenes: 80 originales revisadas visualmente, 0 otra edición, 0 institucional. SVG oficial íntegro en header y fallback; archivos privados excluidos de Git.
+- Match Noveduc en nombre público, HTML, metadatos y accesibilidad. Header NOVEDUC / ROSARIO, N oficial intacta, fondo blanco, #E63A2E y Arial/Georgia. Header móvil sigue midiendo 61 px y modalidades terminan a 505,875 px en 375/390: conserva densidad Fase 2.
+- Texto ya corregido conservado: «Sin registro. Sin respuestas incorrectas. Solo tus intereses y nuevas lecturas.».
+- Tarjetas compartidas informativas sin LINK, anchors ni acciones en título/portada. ProductUrl, fuentes, catálogo y autorías conservados internamente.
+- Menú modal con seis categorías dinámicas en orden actual y Lista completa separada; cierre visible/Escape, foco devuelto después de cerrar, controles mínimos 48 px. Referencia aplicada solo a composición.
+- Categorías: todos los libros pertinentes únicos, título, cantidad y A–Z español (ignora signos de interrogación para ordenar), sin buscador. Lista completa: 80 títulos actuales, contador dinámico, búsqueda inmediata por título/todos los autores/ISBN, tildes y mayúsculas normalizadas, parcial, ISBN sin guiones, limpiar y mensaje vacío. Sin catálogo duplicado ni límite de 80.
+- Estado del explorador independiente del reducer: entrar, cambiar lista, cerrar y volver conserva modalidad, temática, orden, pregunta, selecciones y resultados. Retorno con foco/desplazamiento. No modificar match, selección de preguntas ni reducer.
+- PWA estática: Noveduc Rosario / Noveduc, display standalone, manifest relativo, PNG oficiales 192/512 y Apple 180 sobre blanco, generados desde SVG privado. Instalación ofrecida en navegadores compatibles, instrucciones Safari en README. Worker precachea aplicación y todas las portadas después de primera carga conectada completa; caché por revisión de contenido y ámbito. Actualización en espera y botón explícito fuera del quiz; no recarga automática de partidas. No agregar dependencias.
 
-Cobertura (con solapamientos): Salud mental 25, Infancias 41, Educación 22, Vínculos 19, Prevención 16, Emociones 29. Alicia Stolkiner, Esteban Levin, Ruth Harf y Silvia Bleichmar conservan representación y perfiles recomendables. 84 preguntas: 60 originales sin cambios y 24 nuevas, cuatro opciones por pregunta y diez por partida. Sin cambios al motor, reducer ni selección de preguntas.
+## Verificación ejecutada
 
-Auditoría: 158.000 partidas temáticas con opciones reales, 80/80 obras alcanzables. Testigos versionados en tests/fixtures/recommendation-witnesses.json. Frecuencias y perfiles privados en artifacts/reachability.json; no estiman comportamiento real de participantes. Cobertura por opción y filtro estricto validados.
+- npm run build aprobado: TypeScript, validación estructural/editorial, preparación de 80 originales, compilación, generación PWA y ZIP descomprimido/comparado byte por byte.
+- npm test: 17/17 unitarias, incluidas búsqueda, unicidad, categorías y crecimiento a 81 sin límite fijo; siguen pasando integridad/cobertura/ranking/reducer/testigos originales.
+- npm run test:e2e: suite Chromium final completa 25/25. Seis tamaños 320/375/390/768/1024/1440, orientación, 200%, tacto emulado, foco, selección, retroceso, ráfagas, reinicio, ausencia de enlaces e imágenes/fallback. Axe A/AA sin violaciones detectadas en vistas originales, menú y explorador.
+- Menú/categorías completos probados a 320/390/768/1440; 80 títulos A–Z sin duplicados; consultas por título/autor/ISBN, case/tildes, limpiar y vacío; vuelta al mismo cuestionario y respuestas previas verificada.
+- PWA en raíz y /evento/: manifiesto/íconos/nombre/scope, criterios de instalación Chromium sin errores (CDP), reload offline, 80 portadas cargadas, búsqueda y diez preguntas offline. Nueva revisión de worker servida en servidor local aislado: espera durante partida, conserva respuesta y actualiza al terminar solo tras acción explícita; limpia caché anterior.
+- Corregidos durante validación: servidor E2E reutilizaba preview y no reproducía subcarpeta; ahora puerto exclusivo 4174 sin reutilización, preview permanece en 4173. Foco al cerrar modal se restaura una vez retirado; orden ignora puntuación inicial de títulos. Suite final refleja todas las correcciones.
+- Capturas revisadas: artifacts/fase3-menu-390.png, fase3-category-390.png, fase3-all-390.png, chromium-home-390.png y resultados responsive. Ícono 192 revisado visualmente. SVG fuente/caché/build conserva SHA256 AC6A421CF0849B877D3E068DDEFFB3585AF9DEF080D0A80E22CFEEC72952C7BC.
+- Git diff confirma cero cambios a src/data, domain/match.ts, domain/select.ts y state/game.ts. No se repitió investigación editorial ni auditoría de alcance de Fase 2.
 
-## Interfaz y evidencia
+## Entrega y recursos
 
-Header móvil 61 px frente a 101; modalidades terminan a 506 px frente a 759, medidas a 390 px desde ZIP v1 preservado. Ambas visibles en 375×667 con reserva de 48 px para barras móviles. Georgia bold, Arial/Georgia conservadas, #E63A2E y N oficial intactos, fondo blanco, señalador CSS accesible. Punto y shuffle sustituyen estrellas. Selector de una columna a 320 y dos desde 375 con nombres breves y nombres completos accesibles. Quiz compacto sin footer, contador redundante solo para lector de pantalla, navegación natural sin overlay sticky. Portadas con sombra suave en contenedor. Sin alturas fijas ni scroll oculto.
+ZIP artifacts/match-conjunciones-siteground.zip: 89 archivos, aproximadamente 1547 KiB, index.html en raíz, 80 portadas originales, SVG, tres PNG, manifest y worker. 88 recursos precacheados. Informe/hash por archivo: artifacts/build-report.json. Revisión PWA e6b0e436246f08633089. Builds e imágenes privadas continúan excluidos de Git.
 
-TypeScript y validación aprobados, 14/14 tests unitarios, suite Chromium completa 16/16; después del ajuste final del selector, 4/4 afectados aprobados. Fixture de métricas/390/Axe aprobado 3/3. Seis tamaños concretos, orientación, texto 200%, tacto emulado, raíz/subcarpeta, imágenes/fallback, foco, selección, retroceso, ráfagas y reinicio. Axe WCAG A/AA sin violaciones detectadas en inicio, selector, selección y resultados. Capturas revisadas, incluidas home/quiz/results 390 y selector-390.png; medidas en artifacts/mobile-density.json. Emulación y auditorías no sustituyen pruebas reales.
+Backup privado Fase 2 con texto corregido: artifacts/match-conjunciones-fase2-e78a29a.zip; código e78a29a. Backup v1: artifacts/match-conjunciones-v1-66f2304.zip; código 66f2304. Conservar además public_html real antes de cualquier futura publicación. Instrucciones de build, instalación, actualización y publicación en README.
 
-Build/ZIP: 84 archivos, aproximadamente 1528 KiB, index.html en raíz, 80 portadas y SVG; descompresión y comparación byte por byte con dist, hashes en artifacts/build-report.json. Comandos de build sin cambios. Copia recuperable: artifacts/match-conjunciones-v1-66f2304.zip y código Git 66f2304.
+## Editorial preservado y antecedentes
 
-Sitio actual https://mnicabeatrizp6.sg-host.com/ comprobado por lectura HTTPS y recursos de raíz válidos; artifacts/published-check.json. Ninguna subida ni reemplazo. El backup local corresponde a v1 local; conservar además public_html real antes de actualizar por si contiene diferencias externas.
+80 obras (52 añadidas en Fase 2 y 28 originales), 84 preguntas (60 originales + 24 de Fase 2), diez por partida y 3–5 resultados. 70 Conjunciones, 2 Perfiles, 4 Noveduc Gestión, 1 Ensayos y Experiencias, 3 sin colección informada. Cuatro autores obligatorios representados. Cobertura con solapamientos: Salud mental 25, Infancias 41, Educación 22, Vínculos 19, Prevención 16, Emociones 29.
 
-## Pendientes y limitaciones
+Verificación editorial de Fase 2: fichas oficiales, títulos, autorías, colección e ISBN 80/80 contrastados el 11/10; 80 portadas originales revisadas visualmente. Auditoría 158.000 partidas, testigos 80/80 en tests/fixtures/recommendation-witnesses.json. Evidencia/limitaciones en docs/PHASE2_REPORT.md; no confundir curaduría original ni perfiles simulados con conducta real de visitantes.
 
-- Aprobación visual local por el usuario antes de publicación.
-- WebKit instalado pero Windows Control de aplicaciones bloquea sus bibliotecas; no eludir protección. Ejecutar pruebas en equipo compatible.
-- No hay iOS/Android/tablets reales disponibles en esta sesión. Usuario informa funcionamiento móvil del sitio anterior; queda prueba de nueva versión, barras reales y áreas seguras en dispositivos.
-- Capturas reales mencionadas por usuario no adjuntas en este turno; se revisaron capturas automatizadas.
-- No ampliar catálogo o activar PWA fuera del alcance actual sin nuevo pedido.
+## Pendientes reales
 
-## Continuación
-
-Abrir http://127.0.0.1:4173/?fase=2 y revisar ambos modos. Tras aprobación, respaldar public_html y seguir README para subir nuevo ZIP. Antes de cualquier cambio editorial, consultar REQUIREMENTS y reporte pertinente; mantener testigos de alcance y documentación. No repetir investigación ya cacheada.
+- Aprobación visual de Fase 3 antes de modificar SiteGround. No hay despliegue externo en esta intervención.
+- Instalación efectiva y ventana standalone en iPhone/Android/tablets físicos no comprobadas: no disponibles. Se comprobaron requisitos de instalación y comportamiento offline en Chromium, y standalone está configurado en manifest. Seguir lista de pruebas reales de README.
+- WebKit instalado pero Windows Control de aplicaciones bloquea bibliotecas; no se elude. Probar Safari en equipo compatible.
+- Verificación PWA en HTTPS publicado, cabeceras/caché de SiteGround y actualización de una instalación real después de futura publicación aprobada.

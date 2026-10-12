@@ -10,6 +10,7 @@ const types = {
   ".webp": "image/webp",
   ".png": "image/png",
   ".json": "application/json",
+  ".webmanifest": "application/manifest+json",
 };
 createServer(async (req, res) => {
   try {
@@ -41,6 +42,6 @@ createServer(async (req, res) => {
     res.writeHead(404);
     res.end("Not found");
   }
-}).listen(4173, "127.0.0.1", () =>
-  console.log("Build estático en http://127.0.0.1:4173 y /evento/"),
+}).listen(4174, "127.0.0.1", () =>
+  console.log("Build estático de pruebas en http://127.0.0.1:4174 y /evento/"),
 );
