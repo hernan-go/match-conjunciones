@@ -74,22 +74,20 @@ export default function App() {
       </header>
       <main id="main">
         {game.screen === "home" && (
-          <section className="home">
+          <section className={`home ${chooseTopic ? "choosing" : ""}`}>
             <div className="hero">
               <div className="eyebrow">
-                <span className="tiny-star" aria-hidden="true">
-                  ✳
+                <span className="brand-dot" aria-hidden="true">
+                  •
                 </span>{" "}
                 MATCH CONJUNCIONES
               </div>
               <h1>
-                Tu próxima lectura
-                <br />
-                empieza con <em>vos.</em>
+                Tu próxima lectura empieza con <em>vos.</em>
               </h1>
               <p className="hero-description">
-                Descubrí los libros de Noveduc que conectan con tus intereses.
-                Un pequeño recorrido para abrir nuevas preguntas.
+                Descubrí libros de Noveduc que conectan con tus intereses y
+                abren nuevas preguntas.
               </p>
               <div className="game-facts">
                 <span>10 preguntas</span>
@@ -132,12 +130,13 @@ export default function App() {
                             <input
                               type="radio"
                               name="topic"
+                              aria-label={t.label}
                               value={t.id}
                               checked={selectedTopic === t.id}
                               onChange={() => setSelectedTopic(t.id)}
                             />
                             <span>
-                              <strong>{t.label}</strong>
+                              <strong>{t.shortLabel}</strong>
                               <small>{t.description}</small>
                             </span>
                           </label>
@@ -158,7 +157,18 @@ export default function App() {
               </div>
               <button className="mode-button surprise" onClick={() => start()}>
                 <span className="mode-icon" aria-hidden="true">
-                  ✳
+                  <svg
+                    className="shuffle-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    focusable="false"
+                  >
+                    <path d="M3 6h3c5 0 7 12 12 12h3M3 18h3c2.5 0 4.5-3 6-6s3.5-6 6-6h3M18 3l3 3-3 3M18 15l3 3-3 3" />
+                  </svg>
                 </span>
                 <span>
                   <strong>Sorprendeme</strong>
@@ -205,7 +215,7 @@ export default function App() {
                 />
               ))}
             </div>
-            <p className="question-label">Pregunta {game.index + 1} de 10</p>
+            <p className="sr-only">Pregunta {game.index + 1} de 10</p>
             <h1 tabIndex={-1} ref={titleRef}>
               {question.text}
             </h1>
@@ -295,9 +305,6 @@ export default function App() {
               ))}
             </div>
             <div className="restart-panel">
-              <span className="tiny-star" aria-hidden="true">
-                ✳
-              </span>
               <h2>Siempre hay otra pregunta.</h2>
               <p>Volvé a empezar y descubrí un nuevo recorrido.</p>
               <button className="primary" onClick={reset}>
@@ -307,12 +314,13 @@ export default function App() {
           </section>
         )}
       </main>
-      <footer>
-        <span>
-          Match Conjunciones <span aria-hidden="true">·</span> Noveduc
-        </span>
-        <span>Un encuentro con tus intereses, sin diagnósticos.</span>
-      </footer>
+      {game.screen !== "quiz" && (
+        <footer>
+          <span>
+            MATCH CONJUNCIONES <span aria-hidden="true">·</span> NOVEDUC
+          </span>
+        </footer>
+      )}
     </div>
   );
 }

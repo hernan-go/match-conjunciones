@@ -122,9 +122,9 @@ button:disabled {
   gap: 10px;
   align-items: center;
 }
-.tiny-star {
-  font-size: 1.625rem;
-  color: var(--accent);
+.brand-dot {
+  font-size: 1.25rem;
+  color: var(--brand);
 }
 .hero h1 {
   font-family: Georgia, "Times New Roman", serif;
@@ -796,7 +796,7 @@ footer {
   flex-shrink: 0;
 }
 
-.tiny-star,
+.brand-dot,
 .mode-icon,
 .surprise .mode-icon {
   color: var(--brand);
@@ -864,5 +864,226 @@ footer {
   .results h1 {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+/* Fase 2: densidad móvil, sin alturas fijas ni contenido oculto. */
+.shuffle-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.hero h1,
+.hero h1 em {
+  font-weight: 700;
+}
+.book-image {
+  align-self: start;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+  border-radius: 2px;
+}
+.book-card {
+  padding: 20px 0;
+}
+footer {
+  text-align: center;
+  justify-content: center;
+  padding: 12px 0;
+  margin-top: 20px;
+}
+.quiz {
+  padding-bottom: max(16px, env(safe-area-inset-bottom));
+}
+@media (max-width: 599px) {
+  .app-shell {
+    padding: 0 max(16px, env(safe-area-inset-left)) 0
+      max(16px, env(safe-area-inset-right));
+  }
+  .masthead {
+    padding: 6px 0;
+    gap: 12px;
+  }
+  .mark {
+    width: 32px;
+    height: 35px;
+  }
+  .wordmark-sub {
+    display: none;
+  }
+  .home {
+    padding-top: 16px;
+  }
+  .hero h1 {
+    font-size: 2rem;
+    letter-spacing: -0.8px;
+    line-height: 1.1;
+    margin-top: 10px;
+  }
+  .hero-description {
+    margin-top: 12px;
+    font-size: 0.9375rem;
+    line-height: 1.45;
+  }
+  .game-facts {
+    margin-top: 12px;
+    font-size: 0.75rem;
+  }
+  .entry-panel {
+    margin-top: 18px;
+    padding: 14px;
+  }
+  .panel-heading {
+    margin-bottom: 12px;
+  }
+  .mode-button {
+    min-height: 68px;
+    padding: 12px 10px;
+    gap: 10px;
+  }
+  .mode-button strong {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .mode-button small {
+    margin-top: 2px;
+    line-height: 1.4;
+  }
+  .mode-divider {
+    padding: 10px 0;
+  }
+  .privacy-note {
+    margin-top: 12px;
+    line-height: 1.45;
+    font-size: 0.75rem;
+  }
+  .editorial-note {
+    margin-top: 14px;
+    font-size: 0.6875rem;
+    line-height: 1.4;
+  }
+  .topic-picker {
+    padding-top: 12px;
+  }
+  .topic-picker legend {
+    margin-bottom: 8px;
+  }
+  .topic-grid {
+    gap: 6px;
+  }
+  .topic-tile {
+    padding: 10px;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .topic-tile input {
+    align-self: flex-start;
+  }
+  .topic-tile strong {
+    font-weight: 600;
+  }
+  .topic-tile small {
+    margin-top: 2px;
+    line-height: 1.4;
+  }
+  .home.choosing .hero h1 {
+    font-size: 1.5rem;
+  }
+  .home.choosing .entry-panel {
+    margin-top: 12px;
+  }
+  .start-topic {
+    margin-top: 10px;
+    padding: 12px;
+  }
+  .quiz {
+    margin-top: 14px;
+  }
+  .quiz-meta {
+    gap: 8px;
+  }
+  .progress-track {
+    margin-top: 8px;
+  }
+  .quiz h1 {
+    margin-top: 18px;
+    font-size: 1.625rem;
+    line-height: 1.18;
+  }
+  .selection-help {
+    margin-top: 8px;
+    line-height: 1.4;
+  }
+  .answers {
+    margin-top: 14px;
+    gap: 8px;
+  }
+  .answer-tile {
+    min-height: 56px;
+    padding: 12px 10px;
+    gap: 10px;
+  }
+  .answer-text {
+    font-size: 0.9375rem;
+    line-height: 1.4;
+  }
+  .quiz-navigation {
+    margin-top: 16px;
+  }
+  .nav-button {
+    font-size: 0.8125rem;
+  }
+  .results {
+    margin-top: 20px;
+  }
+  .results h1 {
+    margin-top: 12px;
+  }
+  .results-intro {
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+  .topic-badge {
+    margin-top: 12px;
+  }
+  .book-list {
+    margin-top: 20px;
+  }
+  .book-card {
+    gap: 12px;
+    padding: 18px 0;
+  }
+  .summary {
+    margin-top: 8px;
+    line-height: 1.6;
+  }
+  .reason {
+    margin-top: 6px;
+    line-height: 1.6;
+  }
+  .restart-panel {
+    padding: 20px 0;
+  }
+  .restart-panel h2 {
+    margin-top: 0;
+  }
+  .restart-panel .primary {
+    margin-top: 14px;
+  }
+  footer {
+    font-size: 0.6875rem;
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+  }
+}
+@media (min-width: 375px) and (max-width: 599px) {
+  .topic-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .topic-tile {
+    min-width: 0;
+  }
+  .topic-tile > span {
+    min-width: 0;
+    overflow-wrap: anywhere;
   }
 }
