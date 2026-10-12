@@ -1,0 +1,329 @@
+[
+  [
+    "acompanamiento-terapeutico",
+    ["salud"],
+    { "comunidad": 3, "interdisciplina": 3, "instituciones": 2, "redes": 2 },
+    "Dispositivos de acompañamiento terapéutico en ámbitos clínicos, institucionales y comunitarios."
+  ],
+  [
+    "autismos-espectro-o-diversidad",
+    ["infancias"],
+    { "diversidad": 3, "diagnosticos": 3, "subjetividad": 2 },
+    "Una lectura crítica de las clasificaciones del autismo y de la diversidad de experiencias infantiles."
+  ],
+  [
+    "avatares-del-yo-en-tiempos-de-fragmentacion-social-y-consumismo",
+    ["emociones", "vinculos"],
+    { "subjetividad": 3, "escucha": 2, "convivencia": 2, "comunidad": 2 },
+    "Reflexiones sobre subjetividad, consumismo y lazos sociales en la vida contemporánea."
+  ],
+  [
+    "clinica-de-las-adicciones-mitos-y-prejuicios-acerca-del-consumo-de-sustancias",
+    ["salud", "prevencion"],
+    { "consumos": 3, "derechos": 3, "interdisciplina": 2, "intervencion": 2 },
+    "El consumo problemático desde una perspectiva de derechos, subjetividad y atención interdisciplinaria."
+  ],
+  [
+    "clinica-psicopedagogica-y-alteridad1",
+    ["educacion", "infancias"],
+    { "aprendizaje": 3, "clinica": 3, "escucha": 2 },
+    "Experiencias de tratamiento psicopedagógico que exploran el encuentro con otros y las dificultades de aprendizaje."
+  ],
+  [
+    "complicidades-sensibles-en-la-clinica-con-las-infancias",
+    ["infancias", "emociones"],
+    { "juego": 3, "cuerpo": 3, "expresion": 3, "clinica": 2 },
+    "Escenas de juego, cuerpo y sensibilidad para pensar el encuentro clínico con las infancias."
+  ],
+  [
+    "constitucion-del-sujeto-y-desarrollo-psicomotor",
+    ["infancias"],
+    { "cuerpo": 3, "juego": 2, "desarrollo": 3, "subjetividad": 2 },
+    "Explora los vínculos entre desarrollo psicomotor, juego, gestos y constitución subjetiva."
+  ],
+  [
+    "consumo-problematico-de-drogas",
+    ["salud", "prevencion"],
+    { "consumos": 3, "comunidad": 3, "derechos": 2, "intervencion": 2 },
+    "Historia del consumo de sustancias y propuestas de atención ambulatoria e inclusión sociosanitaria."
+  ],
+  [
+    "cuidado-de-cuidadores-sindrome-de-burnout",
+    ["salud", "emociones"],
+    { "cuidados": 3, "instituciones": 2, "interdisciplina": 2, "escucha": 2 },
+    "El desgaste en las profesiones de cuidado y los dispositivos de reflexión, intercambio y autocuidado."
+  ],
+  [
+    "diagnosticos-y-clasificaciones-en-la-infancia",
+    ["infancias", "salud"],
+    { "diagnosticos": 3, "derechos": 2, "diversidad": 2, "clinica": 2 },
+    "Preguntas sobre los diagnósticos infantiles y las consecuencias de clasificar sin considerar la historia del sujeto."
+  ],
+  [
+    "dimension-desconocida-de-la-infancia-la",
+    ["infancias"],
+    { "juego": 3, "cuerpo": 3, "diagnosticos": 2, "expresion": 2 },
+    "El juego y la sensibilidad corporal como vías para explorar la experiencia infantil."
+  ],
+  [
+    "discapacidad-clinica-y-educacion",
+    ["infancias", "educacion"],
+    { "diversidad": 3, "cuerpo": 3, "aprendizaje": 2, "diagnosticos": 2 },
+    "Una reflexión sobre discapacidad, cuerpo y prácticas clínicas y educativas en la infancia."
+  ],
+  [
+    "dispositivo-del-hospital-de-dia-en-adicciones-el",
+    ["salud", "prevencion"],
+    { "consumos": 3, "instituciones": 3, "derechos": 2, "redes": 2 },
+    "La experiencia de un hospital de día que aloja y acompaña a personas con consumos problemáticos."
+  ],
+  [
+    "escuchar-las-infancias",
+    ["infancias", "vinculos", "emociones"],
+    { "escucha": 3, "derechos": 2, "familias": 2, "convivencia": 2 },
+    "Perspectivas clínicas y de derechos sobre la escucha de niños y niñas en distintos espacios."
+  ],
+  [
+    "estructuracion-psiquica-y-subjetivacion-del-nino-de-escolaridad-primaria",
+    ["infancias", "emociones"],
+    { "desarrollo": 3, "subjetividad": 3, "clinica": 2 },
+    "Un estudio de la latencia y su importancia en la estructuración psíquica durante la escolaridad primaria."
+  ],
+  [
+    "fragilidad-en-el-envejecimiento",
+    ["prevencion", "salud"],
+    {
+      "envejecimiento": 3,
+      "intervencion": 3,
+      "interdisciplina": 2,
+      "cuidados": 2
+    },
+    "Aportes interdisciplinarios para detectar y prevenir la fragilidad y pensar un envejecimiento digno."
+  ],
+  [
+    "fronteras-inciertas-de-la-agresividad-las",
+    ["vinculos", "emociones"],
+    { "violencias": 3, "convivencia": 2, "clinica": 3, "subjetividad": 2 },
+    "Explora las ambigüedades de la agresividad en la cultura y en la clínica psicoanalítica."
+  ],
+  [
+    "hacia-una-infancia-virtual",
+    ["infancias", "educacion"],
+    { "digital": 3, "juego": 3, "cuerpo": 2, "aprendizaje": 2 },
+    "Preguntas sobre pantallas, juguetes y los cambios de la experiencia infantil en la cultura digital."
+  ],
+  [
+    "huellas-y-marcas-de-la-infancia",
+    ["infancias", "emociones"],
+    { "subjetividad": 3, "escucha": 2, "clinica": 2, "desarrollo": 2 },
+    "Relatos clínicos e historias de vida para pensar las primeras marcas de la subjetividad."
+  ],
+  [
+    "infancias-y-adolescencias-patologizadas",
+    ["infancias", "salud"],
+    { "diagnosticos": 3, "derechos": 3, "diversidad": 2, "adolescencias": 2 },
+    "Una mirada crítica sobre la patologización que busca recuperar proyectos y subjetividades infantiles y juveniles."
+  ],
+  [
+    "intervenciones-con-adolescencias-vulneradas",
+    ["prevencion", "salud"],
+    { "adolescencias": 3, "redes": 3, "instituciones": 2, "derechos": 2 },
+    "Prácticas institucionales y territoriales para acompañar a adolescentes y jóvenes con derechos vulnerados."
+  ],
+  [
+    "intervenciones-en-la-clinica-psicoanalitica-con-ninos",
+    ["infancias", "emociones"],
+    { "clinica": 3, "juego": 2, "familias": 3, "escucha": 2 },
+    "El encuentro clínico con niños y el lugar de los padres en el trabajo psicoanalítico."
+  ],
+  [
+    "intervenciones-en-primera-infancia",
+    ["infancias", "educacion", "salud"],
+    { "desarrollo": 3, "instituciones": 2, "interdisciplina": 2, "equipos": 2 },
+    "Experiencias con bebés y niños pequeños en espacios educativos, hospitalarios y de formación."
+  ],
+  [
+    "juego-historia-de-chicos-el",
+    ["infancias", "emociones"],
+    { "juego": 3, "expresion": 2, "escucha": 3, "clinica": 2 },
+    "Experiencias del trabajo con niños a través del juego y de la escucha de sus familias."
+  ],
+  [
+    "lectura-y-subjetividad-en-el-diagnostico-psicopedagogico",
+    ["educacion", "emociones"],
+    { "lectura": 3, "aprendizaje": 3, "subjetividad": 3, "diagnosticos": 2 },
+    "La lectura como producción de sentidos y experiencia subjetiva en el diagnóstico psicopedagógico."
+  ],
+  [
+    "maternidades-en-tiempos-de-deseobediencias",
+    ["vinculos", "emociones"],
+    { "genero": 3, "familias": 3, "subjetividad": 2, "clinica": 2 },
+    "Un diálogo entre psicoanálisis y feminismos sobre el deseo y las formas contemporáneas de maternidad."
+  ],
+  [
+    "ninos-desatentos-e-hiperactivos-add-adhd",
+    ["infancias", "educacion"],
+    { "diagnosticos": 3, "aprendizaje": 3, "interdisciplina": 2 },
+    "Una mirada psicoanalítica e interdisciplinaria sobre desatención, hiperactividad e intervenciones escolares."
+  ],
+  [
+    "patologias-actuales-en-la-infancia",
+    ["infancias", "salud"],
+    { "clinica": 3, "diagnosticos": 2, "familias": 2, "instituciones": 2 },
+    "Reflexiones clínicas sobre sufrimiento infantil, parentalidad e instituciones de salud y educación."
+  ],
+  [
+    "perversiones-sexuales-en-entornos-digitales",
+    ["prevencion", "vinculos"],
+    { "digital": 3, "violencias": 3, "intervencion": 2, "derechos": 2 },
+    "Violencia sexual en entornos digitales y herramientas conceptuales para abordarla desde los derechos."
+  ],
+  [
+    "practicas-en-salud-mental-infantojuvenil",
+    ["salud", "infancias"],
+    {
+      "instituciones": 3,
+      "interdisciplina": 2,
+      "clinica": 3,
+      "diagnosticos": 2
+    },
+    "Debates sobre dispositivos, diagnósticos e invención en la atención del sufrimiento infantojuvenil."
+  ],
+  [
+    "procesos-de-adopciones-de-ninos-ninas-y-adolescentes-los",
+    ["vinculos", "infancias"],
+    { "adopciones": 3, "familias": 3, "escucha": 2, "derechos": 2 },
+    "Herramientas para pensar la vinculación y el acompañamiento de procesos de adopción."
+  ],
+  [
+    "promesas-incumplidas-de-la-inclusion-las",
+    ["educacion", "vinculos"],
+    { "diversidad": 3, "convivencia": 3, "aprendizaje": 2, "didactica": 2 },
+    "Preguntas sobre inclusión, exclusión y construcción de lazos en las prácticas educativas."
+  ],
+  [
+    "psicoanalisis-en-situaciones-sociales-criticas-el",
+    ["salud", "prevencion"],
+    { "comunidad": 3, "violencias": 2, "redes": 3, "escucha": 2 },
+    "El trabajo psicoanalítico, educativo y social en territorios atravesados por exclusión y violencia."
+  ],
+  [
+    "psicoprofilaxis-clinica-y-quirurgica-en-infancias-y-adolescencias",
+    ["prevencion", "infancias"],
+    { "cuidados": 3, "intervencion": 3, "familias": 2, "adolescencias": 2 },
+    "Estrategias de acompañamiento para niños, adolescentes y familias ante experiencias clínicas y quirúrgicas."
+  ],
+  [
+    "que-hace-un-psicoanalista-en-un-hospital",
+    ["salud", "infancias", "prevencion"],
+    { "instituciones": 3, "clinica": 3, "violencias": 2, "escucha": 2 },
+    "Experiencias de escucha y atención de padecimientos infantiles y juveniles en un hospital público."
+  ],
+  [
+    "retraso-mental-en-ninos-y-adolescentes",
+    ["infancias", "educacion"],
+    {
+      "diversidad": 3,
+      "diagnosticos": 2,
+      "aprendizaje": 3,
+      "interdisciplina": 2
+    },
+    "Experiencias clínicas y educativas sobre discapacidad intelectual desde distintos campos de saber."
+  ],
+  [
+    "subjetividad-y-aprendizaje-problematicas-educativas-y-psicoanalisis",
+    ["educacion", "emociones"],
+    { "aprendizaje": 3, "subjetividad": 3, "lectura": 2 },
+    "Un seminario de Silvia Bleichmar sobre simbolización, aprendizaje y producción de subjetividad."
+  ],
+  [
+    "sufrimiento-psiquico-en-los-ninos-el",
+    ["infancias", "emociones"],
+    { "clinica": 3, "escucha": 3, "diagnosticos": 2, "aprendizaje": 2 },
+    "La escucha del sufrimiento infantil y la relación entre historia subjetiva y síntomas."
+  ],
+  [
+    "terapia-del-lenguaje-en-las-infancias1",
+    ["infancias", "educacion"],
+    { "lenguaje": 3, "interdisciplina": 3, "expresion": 2, "aprendizaje": 2 },
+    "Una clínica del lenguaje que articula subjetividad, familia, escuela y trabajo interdisciplinario."
+  ],
+  [
+    "tratamiento-ambulatorio-intensivo",
+    ["salud", "prevencion"],
+    { "consumos": 3, "intervencion": 3, "redes": 2, "clinica": 2 },
+    "Experiencias y fundamentos del tratamiento ambulatorio intensivo de consumos problemáticos."
+  ],
+  [
+    "tratamiento-de-los-problemas-en-el-aprendizaje",
+    ["educacion", "infancias"],
+    { "aprendizaje": 3, "clinica": 3, "expresion": 2 },
+    "Ensayos clínicos sobre tratamiento grupal psicopedagógico y procesos de aprendizaje y subjetivación."
+  ],
+  [
+    "una-nueva-epidemia-de-nombres-impropios",
+    ["infancias", "salud"],
+    { "diagnosticos": 3, "diversidad": 2, "derechos": 2 },
+    "Una crítica a las etiquetas diagnósticas y la medicalización de las experiencias infantiles."
+  ],
+  [
+    "varones-de-carne-y-hueso",
+    ["vinculos", "emociones"],
+    { "genero": 3, "convivencia": 3, "subjetividad": 2, "escucha": 2 },
+    "Una exploración de masculinidades contemporáneas, amistad y sensibilidad desde la clínica y la cultura."
+  ],
+  [
+    "versiones-actuales-del-sufrimiento-infantil",
+    ["infancias", "educacion"],
+    { "diagnosticos": 3, "aprendizaje": 2, "subjetividad": 3 },
+    "Preguntas sobre atención, hiperactividad y sufrimiento infantil en su contexto social y escolar."
+  ],
+  [
+    "adopciones-analisis-acciones-y-propuestas-concretas-de-abordajes",
+    ["vinculos", "infancias"],
+    { "adopciones": 3, "derechos": 3, "familias": 2, "intervencion": 2 },
+    "Una propuesta psicojurídica para abordar adopciones desde los derechos de niños y niñas."
+  ],
+  [
+    "fin-del-manicomio-el",
+    ["salud"],
+    { "derechos": 3, "comunidad": 3, "instituciones": 3, "interdisciplina": 3 },
+    "Aportes teóricos y prácticos para un sistema de salud mental basado en derechos y comunidad."
+  ],
+  [
+    "integracion-escolar-como-problematica-profesional-la",
+    ["educacion"],
+    { "diversidad": 3, "equipos": 3, "gestion": 2, "didactica": 2 },
+    "La integración escolar como responsabilidad compartida del sistema educativo y sus profesionales."
+  ],
+  [
+    "condenados-a-explorar",
+    ["prevencion", "emociones"],
+    { "adolescencias": 3, "subjetividad": 3, "clinica": 2, "escucha": 2 },
+    "Una lectura de la adolescencia que pone en el centro la exploración y los procesos subjetivos."
+  ],
+  [
+    "placer-de-criar-la-riqueza-de-pensar-el",
+    ["vinculos", "infancias"],
+    { "familias": 3, "desarrollo": 3, "comunidad": 2, "escucha": 2 },
+    "Las primeras relaciones y el acompañamiento de la crianza en contextos de vulnerabilidad social."
+  ],
+  [
+    "aproximaciones-psicoanaliticas-al-juego-y-al-aprendizaje",
+    ["infancias", "educacion"],
+    { "juego": 3, "aprendizaje": 3, "clinica": 2 },
+    "Aproximaciones a los lenguajes del juego y a sus vínculos con el aprendizaje infantil."
+  ],
+  [
+    "sujeto-y-la-subjetividad-en-la-psicologia-social-el",
+    ["emociones", "vinculos"],
+    { "subjetividad": 3, "comunidad": 3, "convivencia": 2 },
+    "Una psicología social que explora la relación inseparable entre lo individual y lo social."
+  ],
+  [
+    "ninez-adolescencia-y-genero",
+    ["infancias", "vinculos"],
+    { "genero": 3, "derechos": 3, "adolescencias": 2, "familias": 2 },
+    "Prácticas de salud y educación atravesadas por la perspectiva de género y la ampliación de derechos."
+  ]
+]

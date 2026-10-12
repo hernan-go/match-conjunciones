@@ -1,4 +1,5 @@
 import type { Question } from "../domain/types";
+import additional from "./phase2-questions.json";
 
 // Cada fila es una pregunta curada; las cuatro opciones siguen el orden de sus facetas.
 // El peso común identifica el área explícita de la pregunta; el específico diferencia intereses.
@@ -457,7 +458,7 @@ const banks: Record<
     ],
   },
 };
-export const questions: Question[] = Object.entries(banks).flatMap(
+const originalQuestions: Question[] = Object.entries(banks).flatMap(
   ([topic, { facets, rows }]) =>
     rows.map(([text, ...texts], i) => ({
       id: `${topic}-${i + 1}`,
@@ -477,3 +478,19 @@ export const questions: Question[] = Object.entries(banks).flatMap(
       })),
     })),
 );
+// Fase 2: diferencias editoriales nuevas; el banco original se conserva íntegro.
+export const questions: Question[] = [
+  ...originalQuestions,
+  ...Object.entries(additional).flatMap(([topic, rows]) =>
+    rows.map((row, i) => ({
+      id: `${topic}-extra-${i + 1}`,
+      topicIds: [topic],
+      text: row[0] as string,
+      approach: ["conversacion", "experiencia", "pregunta", "formacion"][i],
+      options: row.slice(1).map((option, j) => {
+        const [text, weights] = option as [string, Record<string, number>];
+        return { id: `o${j + 1}`, text, weights: { [topic]: 0.5, ...weights } };
+      }),
+    })),
+  ),
+];

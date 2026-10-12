@@ -1,0 +1,347 @@
+{
+  "salud": [
+    [
+      "¿Qué experiencia de atención te gustaría conocer mejor?",
+      [
+        "El acompañamiento ante consumos problemáticos",
+        { "consumos": 3, "comunidad": 1 }
+      ],
+      [
+        "El cuidado de quienes trabajan cuidando",
+        { "cuidados": 3, "instituciones": 1 }
+      ],
+      [
+        "El trabajo en hospitales y servicios",
+        { "instituciones": 3, "clinica": 1 }
+      ],
+      ["La salud mental en el territorio", { "comunidad": 3, "derechos": 1 }]
+    ],
+    [
+      "¿Sobre qué dispositivo buscarías una lectura?",
+      [
+        "Un hospital de día para consumos problemáticos",
+        { "consumos": 3, "instituciones": 2 }
+      ],
+      [
+        "Un tratamiento ambulatorio intensivo",
+        { "consumos": 3, "intervencion": 2 }
+      ],
+      [
+        "Un equipo de acompañamiento terapéutico",
+        { "redes": 3, "interdisciplina": 2 }
+      ],
+      [
+        "Un espacio de reflexión para cuidadores",
+        { "cuidados": 3, "escucha": 2 }
+      ]
+    ],
+    [
+      "¿Qué cruce entre salud y vida cotidiana te interesa?",
+      [
+        "El envejecimiento y los cuidados",
+        { "envejecimiento": 3, "cuidados": 2 }
+      ],
+      [
+        "La salud mental de niños y adolescentes",
+        { "clinica": 3, "diagnosticos": 2 }
+      ],
+      [
+        "La inclusión social ante consumos problemáticos",
+        { "consumos": 3, "derechos": 2 }
+      ],
+      [
+        "La transformación de instituciones de salud",
+        { "instituciones": 3, "derechos": 2 }
+      ]
+    ],
+    [
+      "¿Qué pregunta llevarías a un encuentro de profesionales?",
+      ["Cómo acompañar sin encerrar", { "comunidad": 3, "consumos": 2 }],
+      [
+        "Cómo sostener a quienes cuidan",
+        { "cuidados": 3, "interdisciplina": 2 }
+      ],
+      ["Cómo escuchar en un hospital", { "clinica": 3, "instituciones": 2 }],
+      ["Cómo construir redes de atención", { "redes": 3, "comunidad": 2 }]
+    ]
+  ],
+  "infancias": [
+    [
+      "¿Qué dimensión de la infancia te gustaría explorar?",
+      ["La construcción del lenguaje", { "lenguaje": 3, "expresion": 2 }],
+      ["Los primeros tiempos del desarrollo", { "desarrollo": 3, "cuerpo": 2 }],
+      ["La experiencia frente a las pantallas", { "digital": 3, "juego": 2 }],
+      ["Los vínculos en una adopción", { "adopciones": 3, "familias": 2 }]
+    ],
+    [
+      "¿Qué escena infantil elegirías para pensar?",
+      ["Un niño que empieza a hablar", { "lenguaje": 3, "interdisciplina": 2 }],
+      ["Un bebé y sus primeras relaciones", { "desarrollo": 3, "familias": 2 }],
+      ["Un juego entre cuerpos y movimientos", { "cuerpo": 3, "juego": 2 }],
+      ["Una familia que se está conociendo", { "adopciones": 3, "escucha": 2 }]
+    ],
+    [
+      "¿Qué relación entre infancia y contexto te interesa?",
+      ["Las pantallas y las formas de jugar", { "digital": 3, "cuerpo": 2 }],
+      [
+        "El derecho de niños y niñas a ser escuchados",
+        { "escucha": 3, "derechos": 2 }
+      ],
+      [
+        "Los diagnósticos y la diversidad",
+        { "diagnosticos": 3, "diversidad": 2 }
+      ],
+      [
+        "Las perspectivas de género en la crianza",
+        { "genero": 3, "familias": 2 }
+      ]
+    ],
+    [
+      "¿Sobre qué acompañamiento buscarías ideas?",
+      [
+        "La atención del lenguaje con familia y escuela",
+        { "lenguaje": 3, "aprendizaje": 2 }
+      ],
+      [
+        "La primera infancia en espacios de cuidado",
+        { "desarrollo": 3, "instituciones": 2 }
+      ],
+      [
+        "La preparación para experiencias hospitalarias",
+        { "cuidados": 3, "intervencion": 2 }
+      ],
+      [
+        "La escucha de dificultades de aprendizaje",
+        { "aprendizaje": 3, "clinica": 2 }
+      ]
+    ]
+  ],
+  "educacion": [
+    [
+      "¿Qué experiencia de aprendizaje te gustaría comprender?",
+      [
+        "La lectura como creación de sentidos",
+        { "lectura": 3, "subjetividad": 2 }
+      ],
+      ["El desarrollo del lenguaje", { "lenguaje": 3, "aprendizaje": 2 }],
+      ["La integración escolar", { "diversidad": 3, "equipos": 2 }],
+      ["El juego y las pantallas", { "digital": 3, "juego": 2 }]
+    ],
+    [
+      "¿Qué conversación abrirías con un equipo educativo?",
+      [
+        "La inclusión y los lazos en la escuela",
+        { "convivencia": 3, "diversidad": 2 }
+      ],
+      ["Los problemas de aprendizaje", { "aprendizaje": 3, "clinica": 2 }],
+      ["La lectura y la subjetividad", { "lectura": 3, "subjetividad": 2 }],
+      [
+        "La articulación con terapeutas del lenguaje",
+        { "lenguaje": 3, "interdisciplina": 2 }
+      ]
+    ],
+    [
+      "¿Qué recurso te interesa pensar para enseñar?",
+      [
+        "El juego como experiencia de aprendizaje",
+        { "juego": 3, "aprendizaje": 2 }
+      ],
+      ["La lectura y la interpretación", { "lectura": 3, "aprendizaje": 2 }],
+      [
+        "La construcción de propuestas inclusivas",
+        { "diversidad": 3, "didactica": 2 }
+      ],
+      ["El trabajo conjunto de profesionales", { "equipos": 3, "gestion": 2 }]
+    ],
+    [
+      "¿Qué pregunta educativa buscarías en un libro?",
+      [
+        "Cómo se enlazan aprendizaje y subjetividad",
+        { "subjetividad": 3, "aprendizaje": 2 }
+      ],
+      [
+        "Cómo acompañar primeras experiencias infantiles",
+        { "desarrollo": 3, "equipos": 2 }
+      ],
+      [
+        "Cómo comprender la desatención en su contexto",
+        { "diagnosticos": 3, "aprendizaje": 2 }
+      ],
+      [
+        "Cómo pensar la enseñanza con tecnologías",
+        { "digital": 3, "aprendizaje": 2 }
+      ]
+    ]
+  ],
+  "vinculos": [
+    [
+      "¿Qué transformación de los vínculos te interesa?",
+      ["Los procesos de adopción", { "adopciones": 3, "familias": 2 }],
+      ["Las maternidades contemporáneas", { "genero": 3, "familias": 2 }],
+      ["La amistad y las masculinidades", { "genero": 3, "convivencia": 2 }],
+      ["Los acuerdos de pareja", { "parejas": 3, "convivencia": 2 }]
+    ],
+    [
+      "¿Qué dimensión familiar te gustaría explorar?",
+      ["La vinculación en una adopción", { "adopciones": 3, "escucha": 2 }],
+      [
+        "Las primeras relaciones en la crianza",
+        { "desarrollo": 3, "familias": 2 }
+      ],
+      [
+        "Los deseos y mandatos sobre la maternidad",
+        { "genero": 3, "subjetividad": 2 }
+      ],
+      ["Las conversaciones en familia", { "familias": 3, "escucha": 2 }]
+    ],
+    [
+      "¿Qué relación entre vínculos y época te interesa?",
+      [
+        "Los lazos ante fragmentación y consumismo",
+        { "subjetividad": 3, "comunidad": 2 }
+      ],
+      ["La violencia en entornos digitales", { "digital": 3, "violencias": 2 }],
+      [
+        "Los derechos y la perspectiva de género",
+        { "genero": 3, "derechos": 2 }
+      ],
+      ["Las experiencias de inclusión", { "diversidad": 3, "convivencia": 2 }]
+    ],
+    [
+      "¿Qué conversación sobre vínculos elegirías?",
+      [
+        "Adopciones y derechos de niños y niñas",
+        { "adopciones": 3, "derechos": 2 }
+      ],
+      [
+        "La sensibilidad y la amistad entre varones",
+        { "genero": 3, "escucha": 2 }
+      ],
+      ["La escucha de las infancias", { "escucha": 3, "familias": 2 }],
+      ["Los conflictos y la agresividad", { "violencias": 3, "clinica": 2 }]
+    ]
+  ],
+  "prevencion": [
+    [
+      "¿En qué ámbito te gustaría pensar el acompañamiento?",
+      ["Los consumos problemáticos", { "consumos": 3, "intervencion": 2 }],
+      ["El envejecimiento", { "envejecimiento": 3, "cuidados": 2 }],
+      [
+        "Las experiencias quirúrgicas infantiles",
+        { "cuidados": 3, "familias": 2 }
+      ],
+      ["Los entornos digitales", { "digital": 3, "violencias": 2 }]
+    ],
+    [
+      "¿Qué práctica preventiva te interesa conocer?",
+      [
+        "La atención ambulatoria de consumos",
+        { "consumos": 3, "intervencion": 2 }
+      ],
+      [
+        "El acompañamiento territorial a adolescentes",
+        { "adolescencias": 3, "redes": 2 }
+      ],
+      [
+        "Los programas frente a la fragilidad",
+        { "envejecimiento": 3, "interdisciplina": 2 }
+      ],
+      [
+        "La protección frente a violencias digitales",
+        { "digital": 3, "derechos": 2 }
+      ]
+    ],
+    [
+      "¿Qué red de cuidado elegirías explorar?",
+      [
+        "Los equipos de un hospital de día",
+        { "consumos": 3, "instituciones": 2 }
+      ],
+      ["Los centros de día para jóvenes", { "redes": 3, "adolescencias": 2 }],
+      [
+        "Los apoyos para pacientes y familias",
+        { "cuidados": 3, "intervencion": 2 }
+      ],
+      [
+        "Los dispositivos en situaciones de exclusión",
+        { "comunidad": 3, "violencias": 2 }
+      ]
+    ],
+    [
+      "¿Qué pregunta sobre cuidado te interesa más?",
+      [
+        "Cómo pensar un envejecimiento digno",
+        { "envejecimiento": 3, "intervencion": 2 }
+      ],
+      [
+        "Cómo acompañar ante consumos problemáticos",
+        { "consumos": 3, "redes": 2 }
+      ],
+      [
+        "Cómo proteger a las infancias en línea",
+        { "digital": 3, "violencias": 2 }
+      ],
+      [
+        "Cómo escuchar a adolescentes vulnerados",
+        { "escucha": 3, "adolescencias": 2 }
+      ]
+    ]
+  ],
+  "emociones": [
+    [
+      "¿Qué experiencia subjetiva te gustaría leer?",
+      ["El desgaste de quienes cuidan", { "cuidados": 3, "escucha": 2 }],
+      ["Los deseos sobre la maternidad", { "genero": 3, "familias": 2 }],
+      ["La lectura y sus sentidos", { "lectura": 3, "subjetividad": 2 }],
+      ["El juego y la sensibilidad", { "juego": 3, "expresion": 2 }]
+    ],
+    [
+      "¿Qué relación entre emociones y contexto te interesa?",
+      [
+        "La fragmentación social y los lazos",
+        { "subjetividad": 3, "comunidad": 2 }
+      ],
+      [
+        "Las masculinidades y la sensibilidad",
+        { "genero": 3, "convivencia": 2 }
+      ],
+      [
+        "El cuidado y el trabajo profesional",
+        { "cuidados": 3, "instituciones": 2 }
+      ],
+      ["Las experiencias juveniles", { "adolescencias": 3, "clinica": 2 }]
+    ],
+    [
+      "¿Qué forma de expresión te gustaría explorar?",
+      [
+        "Los sentidos que abre una lectura",
+        { "lectura": 3, "subjetividad": 2 }
+      ],
+      ["El cuerpo y las escenas de juego", { "cuerpo": 3, "expresion": 2 }],
+      ["La palabra en un espacio de escucha", { "escucha": 3, "clinica": 2 }],
+      [
+        "Los relatos de la historia personal",
+        { "subjetividad": 3, "desarrollo": 2 }
+      ]
+    ],
+    [
+      "¿Qué experiencia de acompañamiento te interesa?",
+      [
+        "Los espacios de reflexión para cuidadores",
+        { "cuidados": 3, "escucha": 2 }
+      ],
+      [
+        "El trabajo clínico con niños y familias",
+        { "familias": 3, "clinica": 2 }
+      ],
+      [
+        "La adolescencia como exploración",
+        { "adolescencias": 3, "subjetividad": 2 }
+      ],
+      [
+        "La lectura en procesos de aprendizaje",
+        { "lectura": 3, "aprendizaje": 2 }
+      ]
+    ]
+  ]
+}

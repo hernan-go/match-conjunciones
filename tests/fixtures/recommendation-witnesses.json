@@ -1,0 +1,2162 @@
+{
+  "fin-del-manicomio-el": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o2",
+      "salud-3": "o1",
+      "salud-extra-3": "o2",
+      "salud-2": "o3",
+      "salud-extra-1": "o4",
+      "salud-10": "o3",
+      "salud-9": "o1",
+      "salud-extra-2": "o1",
+      "salud-extra-4": "o1",
+      "salud-1": "o4"
+    }
+  },
+  "abordajes-del-sufrimiento-psicosocial-en-las-infancias-y-adolescencias": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o2",
+      "salud-3": "o1",
+      "salud-extra-3": "o2",
+      "salud-2": "o3",
+      "salud-extra-1": "o4",
+      "salud-10": "o3",
+      "salud-9": "o1",
+      "salud-extra-2": "o1",
+      "salud-extra-4": "o1",
+      "salud-1": "o4"
+    }
+  },
+  "ley-nacional-de-salud-mental-una-brujula-para-la-crisis": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o2",
+      "salud-3": "o1",
+      "salud-extra-3": "o2",
+      "salud-2": "o3",
+      "salud-extra-1": "o4",
+      "salud-10": "o3",
+      "salud-9": "o1",
+      "salud-extra-2": "o1",
+      "salud-extra-4": "o1",
+      "salud-1": "o4"
+    }
+  },
+  "practicas-en-salud-mental": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o2",
+      "salud-3": "o1",
+      "salud-extra-3": "o2",
+      "salud-2": "o3",
+      "salud-extra-1": "o4",
+      "salud-10": "o3",
+      "salud-9": "o1",
+      "salud-extra-2": "o1",
+      "salud-extra-4": "o1",
+      "salud-1": "o4"
+    }
+  },
+  "acompanamiento-terapeutico": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o2",
+      "salud-3": "o1",
+      "salud-extra-3": "o2",
+      "salud-2": "o3",
+      "salud-extra-1": "o4",
+      "salud-10": "o3",
+      "salud-9": "o1",
+      "salud-extra-2": "o1",
+      "salud-extra-4": "o1",
+      "salud-1": "o4"
+    }
+  },
+  "consumo-problematico-de-drogas": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o2",
+      "salud-3": "o2",
+      "salud-extra-3": "o4",
+      "salud-2": "o2",
+      "salud-extra-1": "o4",
+      "salud-10": "o1",
+      "salud-9": "o4",
+      "salud-extra-2": "o1",
+      "salud-extra-4": "o1",
+      "salud-1": "o2"
+    }
+  },
+  "cuando-la-clinica-desborda-el-consultorio": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o2",
+      "salud-3": "o2",
+      "salud-extra-3": "o2",
+      "salud-2": "o2",
+      "salud-extra-1": "o4",
+      "salud-10": "o2",
+      "salud-9": "o2",
+      "salud-extra-2": "o3",
+      "salud-extra-4": "o3",
+      "salud-1": "o2"
+    }
+  },
+  "psicoanalisis-en-situaciones-sociales-criticas-el": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o2",
+      "salud-3": "o2",
+      "salud-extra-3": "o2",
+      "salud-2": "o2",
+      "salud-extra-1": "o4",
+      "salud-10": "o2",
+      "salud-9": "o2",
+      "salud-extra-2": "o3",
+      "salud-extra-4": "o3",
+      "salud-1": "o2"
+    }
+  },
+  "dispositivo-del-hospital-de-dia-en-adicciones-el": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o4",
+      "salud-3": "o4",
+      "salud-extra-3": "o4",
+      "salud-2": "o4",
+      "salud-extra-1": "o3",
+      "salud-10": "o4",
+      "salud-9": "o4",
+      "salud-extra-2": "o3",
+      "salud-extra-4": "o4",
+      "salud-1": "o4"
+    }
+  },
+  "practicas-en-salud-mental-infantojuvenil": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o4",
+      "salud-3": "o4",
+      "salud-extra-3": "o4",
+      "salud-2": "o4",
+      "salud-extra-1": "o3",
+      "salud-10": "o4",
+      "salud-9": "o4",
+      "salud-extra-2": "o3",
+      "salud-extra-4": "o4",
+      "salud-1": "o4"
+    }
+  },
+  "que-hace-un-psicoanalista-en-un-hospital": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o4",
+      "salud-3": "o4",
+      "salud-extra-3": "o4",
+      "salud-2": "o4",
+      "salud-extra-1": "o3",
+      "salud-10": "o4",
+      "salud-9": "o4",
+      "salud-extra-2": "o3",
+      "salud-extra-4": "o4",
+      "salud-1": "o4"
+    }
+  },
+  "clinica-de-las-adicciones-mitos-y-prejuicios-acerca-del-consumo-de-sustancias": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o1",
+      "salud-3": "o1",
+      "salud-extra-3": "o3",
+      "salud-2": "o1",
+      "salud-extra-1": "o1",
+      "salud-10": "o1",
+      "salud-9": "o1",
+      "salud-extra-2": "o2",
+      "salud-extra-4": "o1",
+      "salud-1": "o1"
+    }
+  },
+  "cuidado-de-cuidadores-sindrome-de-burnout": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o3",
+      "salud-3": "o3",
+      "salud-extra-3": "o4",
+      "salud-2": "o3",
+      "salud-extra-1": "o2",
+      "salud-10": "o4",
+      "salud-9": "o4",
+      "salud-extra-2": "o4",
+      "salud-extra-4": "o2",
+      "salud-1": "o3"
+    }
+  },
+  "infancias-y-adolescencias-patologizadas": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o1",
+      "salud-3": "o1",
+      "salud-extra-3": "o2",
+      "salud-2": "o1",
+      "salud-extra-1": "o4",
+      "salud-10": "o1",
+      "salud-9": "o1",
+      "salud-extra-2": "o3",
+      "salud-extra-4": "o3",
+      "salud-1": "o1"
+    }
+  },
+  "fragilidad-en-el-envejecimiento": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o3",
+      "salud-3": "o3",
+      "salud-extra-3": "o1",
+      "salud-2": "o3",
+      "salud-extra-1": "o2",
+      "salud-10": "o3",
+      "salud-9": "o3",
+      "salud-extra-2": "o4",
+      "salud-extra-4": "o2",
+      "salud-1": "o3"
+    }
+  },
+  "intervenciones-con-adolescencias-vulneradas": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o1",
+      "salud-3": "o1",
+      "salud-extra-3": "o4",
+      "salud-2": "o4",
+      "salud-extra-1": "o3",
+      "salud-10": "o1",
+      "salud-9": "o4",
+      "salud-extra-2": "o3",
+      "salud-extra-4": "o4",
+      "salud-1": "o1"
+    }
+  },
+  "patologias-actuales-en-la-infancia": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-6",
+      "salud-3",
+      "salud-extra-3",
+      "salud-2",
+      "salud-extra-1",
+      "salud-10",
+      "salud-9",
+      "salud-extra-2",
+      "salud-extra-4",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-6": "o4",
+      "salud-3": "o4",
+      "salud-extra-3": "o2",
+      "salud-2": "o4",
+      "salud-extra-1": "o3",
+      "salud-10": "o4",
+      "salud-9": "o4",
+      "salud-extra-2": "o1",
+      "salud-extra-4": "o3",
+      "salud-1": "o4"
+    }
+  },
+  "ninas-ninos-y-adolescentes-en-tiempos-de-desamparo-colectivo": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-5",
+      "salud-10",
+      "salud-1",
+      "salud-extra-2",
+      "salud-extra-3",
+      "salud-7",
+      "salud-extra-4",
+      "salud-extra-1",
+      "salud-2",
+      "salud-8"
+    ],
+    "answers": {
+      "salud-5": "o1",
+      "salud-10": "o4",
+      "salud-1": "o1",
+      "salud-extra-2": "o4",
+      "salud-extra-3": "o4",
+      "salud-7": "o4",
+      "salud-extra-4": "o3",
+      "salud-extra-1": "o3",
+      "salud-2": "o1",
+      "salud-8": "o1"
+    }
+  },
+  "evaluacion-del-riesgo-suicida-y-fortalecimiento-psiquico": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-5",
+      "salud-10",
+      "salud-1",
+      "salud-extra-2",
+      "salud-extra-3",
+      "salud-7",
+      "salud-extra-4",
+      "salud-extra-1",
+      "salud-2",
+      "salud-8"
+    ],
+    "answers": {
+      "salud-5": "o3",
+      "salud-10": "o4",
+      "salud-1": "o4",
+      "salud-extra-2": "o3",
+      "salud-extra-3": "o4",
+      "salud-7": "o4",
+      "salud-extra-4": "o4",
+      "salud-extra-1": "o3",
+      "salud-2": "o3",
+      "salud-8": "o4"
+    }
+  },
+  "diagnosticos-y-clasificaciones-en-la-infancia": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-5",
+      "salud-10",
+      "salud-1",
+      "salud-extra-2",
+      "salud-extra-3",
+      "salud-7",
+      "salud-extra-4",
+      "salud-extra-1",
+      "salud-2",
+      "salud-8"
+    ],
+    "answers": {
+      "salud-5": "o1",
+      "salud-10": "o1",
+      "salud-1": "o1",
+      "salud-extra-2": "o4",
+      "salud-extra-3": "o2",
+      "salud-7": "o1",
+      "salud-extra-4": "o3",
+      "salud-extra-1": "o3",
+      "salud-2": "o1",
+      "salud-8": "o1"
+    }
+  },
+  "autolesiones-y-situaciones-de-suicidioen-adolescentes": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-8",
+      "salud-extra-1",
+      "salud-2",
+      "salud-extra-2",
+      "salud-5",
+      "salud-extra-4",
+      "salud-3",
+      "salud-10",
+      "salud-6",
+      "salud-1"
+    ],
+    "answers": {
+      "salud-8": "o4",
+      "salud-extra-1": "o3",
+      "salud-2": "o4",
+      "salud-extra-2": "o3",
+      "salud-5": "o4",
+      "salud-extra-4": "o4",
+      "salud-3": "o4",
+      "salud-10": "o4",
+      "salud-6": "o4",
+      "salud-1": "o4"
+    }
+  },
+  "intervenciones-en-primera-infancia": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-9",
+      "salud-3",
+      "salud-5",
+      "salud-2",
+      "salud-extra-3",
+      "salud-extra-2",
+      "salud-10",
+      "salud-7",
+      "salud-6",
+      "salud-8"
+    ],
+    "answers": {
+      "salud-9": "o4",
+      "salud-3": "o3",
+      "salud-5": "o4",
+      "salud-2": "o3",
+      "salud-extra-3": "o1",
+      "salud-extra-2": "o4",
+      "salud-10": "o4",
+      "salud-7": "o3",
+      "salud-6": "o4",
+      "salud-8": "o3"
+    }
+  },
+  "una-nueva-epidemia-de-nombres-impropios": {
+    "topicId": "salud",
+    "questionIds": [
+      "salud-2",
+      "salud-3",
+      "salud-5",
+      "salud-7",
+      "salud-6",
+      "salud-10",
+      "salud-extra-3",
+      "salud-1",
+      "salud-9",
+      "salud-8"
+    ],
+    "answers": {
+      "salud-2": "o1",
+      "salud-3": "o1",
+      "salud-5": "o1",
+      "salud-7": "o1",
+      "salud-6": "o1",
+      "salud-10": "o1",
+      "salud-extra-3": "o2",
+      "salud-1": "o1",
+      "salud-9": "o1",
+      "salud-8": "o1"
+    }
+  },
+  "existe-el-autismo-en-la-ninez": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o2",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o3",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o3",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o1",
+      "infancias-extra-4": "o1",
+      "infancias-1": "o4"
+    }
+  },
+  "plasticidad-simbolica": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o2",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o3",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o3",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o1",
+      "infancias-extra-4": "o1",
+      "infancias-1": "o4"
+    }
+  },
+  "autismo-y-acompanamiento-terapeutico": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o2",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o3",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o3",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o1",
+      "infancias-extra-4": "o1",
+      "infancias-1": "o4"
+    }
+  },
+  "supervision-en-la-clinica-con-ninas-y-ninos": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o2",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o3",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o3",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o1",
+      "infancias-extra-4": "o1",
+      "infancias-1": "o4"
+    }
+  },
+  "amistad-en-las-infancias-la": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o2",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o3",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o3",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o1",
+      "infancias-extra-4": "o1",
+      "infancias-1": "o4"
+    }
+  },
+  "autismos-espectro-o-diversidad": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o3",
+      "infancias-3": "o3",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o3",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o3",
+      "infancias-9": "o3",
+      "infancias-extra-2": "o1",
+      "infancias-extra-4": "o2",
+      "infancias-1": "o3"
+    }
+  },
+  "retraso-mental-en-ninos-y-adolescentes": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o3",
+      "infancias-3": "o3",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o3",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o3",
+      "infancias-9": "o3",
+      "infancias-extra-2": "o1",
+      "infancias-extra-4": "o2",
+      "infancias-1": "o3"
+    }
+  },
+  "en-la-infancia-los-diagnosticos-se-escriben-con-lapiz": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o3",
+      "infancias-3": "o3",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o3",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o3",
+      "infancias-9": "o3",
+      "infancias-extra-2": "o1",
+      "infancias-extra-4": "o2",
+      "infancias-1": "o3"
+    }
+  },
+  "aproximaciones-psicoanaliticas-al-juego-y-al-aprendizaje": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o1",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o1",
+      "infancias-extra-1": "o1",
+      "infancias-10": "o1",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o3",
+      "infancias-extra-4": "o4",
+      "infancias-1": "o1"
+    }
+  },
+  "juego-historia-de-chicos-el": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o1",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o1",
+      "infancias-extra-1": "o1",
+      "infancias-10": "o1",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o3",
+      "infancias-extra-4": "o4",
+      "infancias-1": "o1"
+    }
+  },
+  "dimension-desconocida-de-la-infancia-la": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o1",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o1",
+      "infancias-extra-1": "o1",
+      "infancias-10": "o1",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o3",
+      "infancias-extra-4": "o4",
+      "infancias-1": "o1"
+    }
+  },
+  "complicidades-sensibles-en-la-clinica-con-las-infancias": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o1",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o1",
+      "infancias-extra-1": "o1",
+      "infancias-10": "o1",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o3",
+      "infancias-extra-4": "o4",
+      "infancias-1": "o1"
+    }
+  },
+  "discapacidad-clinica-y-educacion": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o3",
+      "infancias-3": "o3",
+      "infancias-extra-3": "o3",
+      "infancias-2": "o3",
+      "infancias-extra-1": "o2",
+      "infancias-10": "o4",
+      "infancias-9": "o4",
+      "infancias-extra-2": "o3",
+      "infancias-extra-4": "o1",
+      "infancias-1": "o3"
+    }
+  },
+  "constitucion-del-sujeto-y-desarrollo-psicomotor": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o2",
+      "infancias-3": "o2",
+      "infancias-extra-3": "o3",
+      "infancias-2": "o2",
+      "infancias-extra-1": "o2",
+      "infancias-10": "o1",
+      "infancias-9": "o2",
+      "infancias-extra-2": "o3",
+      "infancias-extra-4": "o1",
+      "infancias-1": "o2"
+    }
+  },
+  "hacia-una-infancia-virtual": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o1",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o1",
+      "infancias-extra-1": "o3",
+      "infancias-10": "o1",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o3",
+      "infancias-extra-4": "o4",
+      "infancias-1": "o1"
+    }
+  },
+  "ninos-desatentos-e-hiperactivos-add-adhd": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o4",
+      "infancias-3": "o4",
+      "infancias-extra-3": "o3",
+      "infancias-2": "o4",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o4",
+      "infancias-9": "o4",
+      "infancias-extra-2": "o3",
+      "infancias-extra-4": "o4",
+      "infancias-1": "o4"
+    }
+  },
+  "intervenciones-en-la-clinica-psicoanalitica-con-ninos": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o1",
+      "infancias-3": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o1",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o1",
+      "infancias-9": "o1",
+      "infancias-extra-2": "o2",
+      "infancias-extra-4": "o4",
+      "infancias-1": "o1"
+    }
+  },
+  "versiones-actuales-del-sufrimiento-infantil": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o4",
+      "infancias-3": "o4",
+      "infancias-extra-3": "o3",
+      "infancias-2": "o4",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o4",
+      "infancias-9": "o4",
+      "infancias-extra-2": "o1",
+      "infancias-extra-4": "o4",
+      "infancias-1": "o4"
+    }
+  },
+  "terapia-del-lenguaje-en-las-infancias1": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-6",
+      "infancias-3",
+      "infancias-extra-3",
+      "infancias-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-9",
+      "infancias-extra-2",
+      "infancias-extra-4",
+      "infancias-1"
+    ],
+    "answers": {
+      "infancias-6": "o3",
+      "infancias-3": "o3",
+      "infancias-extra-3": "o2",
+      "infancias-2": "o2",
+      "infancias-extra-1": "o1",
+      "infancias-10": "o1",
+      "infancias-9": "o4",
+      "infancias-extra-2": "o1",
+      "infancias-extra-4": "o1",
+      "infancias-1": "o2"
+    }
+  },
+  "procesos-de-adopciones-de-ninos-ninas-y-adolescentes-los": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-5",
+      "infancias-10",
+      "infancias-1",
+      "infancias-extra-2",
+      "infancias-extra-3",
+      "infancias-7",
+      "infancias-extra-4",
+      "infancias-extra-1",
+      "infancias-2",
+      "infancias-8"
+    ],
+    "answers": {
+      "infancias-5": "o3",
+      "infancias-10": "o4",
+      "infancias-1": "o1",
+      "infancias-extra-2": "o4",
+      "infancias-extra-3": "o2",
+      "infancias-7": "o4",
+      "infancias-extra-4": "o3",
+      "infancias-extra-1": "o4",
+      "infancias-2": "o1",
+      "infancias-8": "o1"
+    }
+  },
+  "placer-de-criar-la-riqueza-de-pensar-el": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-5",
+      "infancias-10",
+      "infancias-1",
+      "infancias-extra-2",
+      "infancias-extra-3",
+      "infancias-7",
+      "infancias-extra-4",
+      "infancias-extra-1",
+      "infancias-2",
+      "infancias-8"
+    ],
+    "answers": {
+      "infancias-5": "o3",
+      "infancias-10": "o4",
+      "infancias-1": "o1",
+      "infancias-extra-2": "o2",
+      "infancias-extra-3": "o2",
+      "infancias-7": "o4",
+      "infancias-extra-4": "o2",
+      "infancias-extra-1": "o2",
+      "infancias-2": "o1",
+      "infancias-8": "o1"
+    }
+  },
+  "sufrimiento-psiquico-en-los-ninos-el": {
+    "topicId": "infancias",
+    "questionIds": [
+      "infancias-7",
+      "infancias-9",
+      "infancias-3",
+      "infancias-extra-2",
+      "infancias-extra-1",
+      "infancias-10",
+      "infancias-8",
+      "infancias-extra-3",
+      "infancias-6",
+      "infancias-extra-4"
+    ],
+    "answers": {
+      "infancias-7": "o4",
+      "infancias-9": "o1",
+      "infancias-3": "o4",
+      "infancias-extra-2": "o4",
+      "infancias-extra-1": "o4",
+      "infancias-10": "o3",
+      "infancias-8": "o1",
+      "infancias-extra-3": "o2",
+      "infancias-6": "o2",
+      "infancias-extra-4": "o4"
+    }
+  },
+  "educar-con-coraje": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o2",
+      "educacion-3": "o1",
+      "educacion-extra-3": "o2",
+      "educacion-2": "o3",
+      "educacion-extra-1": "o4",
+      "educacion-10": "o3",
+      "educacion-9": "o1",
+      "educacion-extra-2": "o1",
+      "educacion-extra-4": "o1",
+      "educacion-1": "o4"
+    }
+  },
+  "subjetividad-y-aprendizaje-problematicas-educativas-y-psicoanalisis": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o2",
+      "educacion-3": "o1",
+      "educacion-extra-3": "o2",
+      "educacion-2": "o3",
+      "educacion-extra-1": "o4",
+      "educacion-10": "o3",
+      "educacion-9": "o1",
+      "educacion-extra-2": "o1",
+      "educacion-extra-4": "o1",
+      "educacion-1": "o4"
+    }
+  },
+  "promesas-incumplidas-de-la-inclusion-las": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o2",
+      "educacion-3": "o1",
+      "educacion-extra-3": "o2",
+      "educacion-2": "o3",
+      "educacion-extra-1": "o4",
+      "educacion-10": "o3",
+      "educacion-9": "o1",
+      "educacion-extra-2": "o1",
+      "educacion-extra-4": "o1",
+      "educacion-1": "o4"
+    }
+  },
+  "gestionar-desde-las-oportunidades": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o2",
+      "educacion-3": "o1",
+      "educacion-extra-3": "o2",
+      "educacion-2": "o3",
+      "educacion-extra-1": "o4",
+      "educacion-10": "o3",
+      "educacion-9": "o1",
+      "educacion-extra-2": "o1",
+      "educacion-extra-4": "o1",
+      "educacion-1": "o4"
+    }
+  },
+  "lectura-y-subjetividad-en-el-diagnostico-psicopedagogico": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o2",
+      "educacion-3": "o1",
+      "educacion-extra-3": "o2",
+      "educacion-2": "o3",
+      "educacion-extra-1": "o4",
+      "educacion-10": "o3",
+      "educacion-9": "o1",
+      "educacion-extra-2": "o1",
+      "educacion-extra-4": "o1",
+      "educacion-1": "o4"
+    }
+  },
+  "construccion-de-liderazgos-en-la-gestion-educativa": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o2",
+      "educacion-3": "o2",
+      "educacion-extra-3": "o4",
+      "educacion-2": "o2",
+      "educacion-extra-1": "o2",
+      "educacion-10": "o1",
+      "educacion-9": "o2",
+      "educacion-extra-2": "o2",
+      "educacion-extra-4": "o1",
+      "educacion-1": "o2"
+    }
+  },
+  "directivos-y-la-organizacion-de-la-vida-cotidiana-los": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o2",
+      "educacion-3": "o2",
+      "educacion-extra-3": "o4",
+      "educacion-2": "o2",
+      "educacion-extra-1": "o2",
+      "educacion-10": "o1",
+      "educacion-9": "o2",
+      "educacion-extra-2": "o2",
+      "educacion-extra-4": "o1",
+      "educacion-1": "o2"
+    }
+  },
+  "puentes-de-la-gestion-educativa-los": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o2",
+      "educacion-3": "o2",
+      "educacion-extra-3": "o4",
+      "educacion-2": "o2",
+      "educacion-extra-1": "o2",
+      "educacion-10": "o1",
+      "educacion-9": "o2",
+      "educacion-extra-2": "o2",
+      "educacion-extra-4": "o1",
+      "educacion-1": "o2"
+    }
+  },
+  "integracion-escolar-como-problematica-profesional-la": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o2",
+      "educacion-3": "o2",
+      "educacion-extra-3": "o4",
+      "educacion-2": "o2",
+      "educacion-extra-1": "o3",
+      "educacion-10": "o4",
+      "educacion-9": "o4",
+      "educacion-extra-2": "o2",
+      "educacion-extra-4": "o2",
+      "educacion-1": "o2"
+    }
+  },
+  "caja-de-herramientas-para-la-educacion-emocional": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o3",
+      "educacion-3": "o3",
+      "educacion-extra-3": "o4",
+      "educacion-2": "o3",
+      "educacion-extra-1": "o1",
+      "educacion-10": "o1",
+      "educacion-9": "o4",
+      "educacion-extra-2": "o2",
+      "educacion-extra-4": "o1",
+      "educacion-1": "o1"
+    }
+  },
+  "clinica-psicopedagogica-y-alteridad1": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o3",
+      "educacion-3": "o3",
+      "educacion-extra-3": "o2",
+      "educacion-2": "o3",
+      "educacion-extra-1": "o2",
+      "educacion-10": "o3",
+      "educacion-9": "o3",
+      "educacion-extra-2": "o2",
+      "educacion-extra-4": "o1",
+      "educacion-1": "o3"
+    }
+  },
+  "tratamiento-de-los-problemas-en-el-aprendizaje": {
+    "topicId": "educacion",
+    "questionIds": [
+      "educacion-6",
+      "educacion-3",
+      "educacion-extra-3",
+      "educacion-2",
+      "educacion-extra-1",
+      "educacion-10",
+      "educacion-9",
+      "educacion-extra-2",
+      "educacion-extra-4",
+      "educacion-1"
+    ],
+    "answers": {
+      "educacion-6": "o3",
+      "educacion-3": "o3",
+      "educacion-extra-3": "o3",
+      "educacion-2": "o3",
+      "educacion-extra-1": "o3",
+      "educacion-10": "o3",
+      "educacion-9": "o3",
+      "educacion-extra-2": "o2",
+      "educacion-extra-4": "o3",
+      "educacion-1": "o3"
+    }
+  },
+  "violencia-social-violencia-escolar": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o2",
+      "vinculos-3": "o1",
+      "vinculos-extra-3": "o2",
+      "vinculos-2": "o3",
+      "vinculos-extra-1": "o4",
+      "vinculos-10": "o3",
+      "vinculos-9": "o1",
+      "vinculos-extra-2": "o1",
+      "vinculos-extra-4": "o1",
+      "vinculos-1": "o4"
+    }
+  },
+  "parejas-abiertas": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o2",
+      "vinculos-3": "o1",
+      "vinculos-extra-3": "o2",
+      "vinculos-2": "o3",
+      "vinculos-extra-1": "o4",
+      "vinculos-10": "o3",
+      "vinculos-9": "o1",
+      "vinculos-extra-2": "o1",
+      "vinculos-extra-4": "o1",
+      "vinculos-1": "o4"
+    }
+  },
+  "crueldades-sexuales-contra-infancias-y-adolescencias1": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o2",
+      "vinculos-3": "o1",
+      "vinculos-extra-3": "o2",
+      "vinculos-2": "o3",
+      "vinculos-extra-1": "o4",
+      "vinculos-10": "o3",
+      "vinculos-9": "o1",
+      "vinculos-extra-2": "o1",
+      "vinculos-extra-4": "o1",
+      "vinculos-1": "o4"
+    }
+  },
+  "psicoterapia-de-parejas-jovenes": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o2",
+      "vinculos-3": "o1",
+      "vinculos-extra-3": "o2",
+      "vinculos-2": "o3",
+      "vinculos-extra-1": "o4",
+      "vinculos-10": "o3",
+      "vinculos-9": "o1",
+      "vinculos-extra-2": "o1",
+      "vinculos-extra-4": "o1",
+      "vinculos-1": "o4"
+    }
+  },
+  "terapia-vincular-familiar": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o2",
+      "vinculos-3": "o2",
+      "vinculos-extra-3": "o4",
+      "vinculos-2": "o2",
+      "vinculos-extra-1": "o4",
+      "vinculos-10": "o2",
+      "vinculos-9": "o2",
+      "vinculos-extra-2": "o4",
+      "vinculos-extra-4": "o3",
+      "vinculos-1": "o2"
+    }
+  },
+  "varones-de-carne-y-hueso": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o2",
+      "vinculos-3": "o2",
+      "vinculos-extra-3": "o4",
+      "vinculos-2": "o2",
+      "vinculos-extra-1": "o4",
+      "vinculos-10": "o2",
+      "vinculos-9": "o2",
+      "vinculos-extra-2": "o4",
+      "vinculos-extra-4": "o3",
+      "vinculos-1": "o2"
+    }
+  },
+  "escuchar-las-infancias": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o2",
+      "vinculos-3": "o2",
+      "vinculos-extra-3": "o4",
+      "vinculos-2": "o2",
+      "vinculos-extra-1": "o4",
+      "vinculos-10": "o2",
+      "vinculos-9": "o2",
+      "vinculos-extra-2": "o4",
+      "vinculos-extra-4": "o3",
+      "vinculos-1": "o2"
+    }
+  },
+  "fronteras-inciertas-de-la-agresividad-las": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o2",
+      "vinculos-3": "o2",
+      "vinculos-extra-3": "o2",
+      "vinculos-2": "o2",
+      "vinculos-extra-1": "o4",
+      "vinculos-10": "o1",
+      "vinculos-9": "o2",
+      "vinculos-extra-2": "o3",
+      "vinculos-extra-4": "o4",
+      "vinculos-1": "o2"
+    }
+  },
+  "perversiones-sexuales-en-entornos-digitales": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o1",
+      "vinculos-3": "o1",
+      "vinculos-extra-3": "o2",
+      "vinculos-2": "o1",
+      "vinculos-extra-1": "o1",
+      "vinculos-10": "o1",
+      "vinculos-9": "o1",
+      "vinculos-extra-2": "o4",
+      "vinculos-extra-4": "o4",
+      "vinculos-1": "o1"
+    }
+  },
+  "mundos-adolescentes-y-vertigo-civilizatorio": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o1",
+      "vinculos-3": "o1",
+      "vinculos-extra-3": "o2",
+      "vinculos-2": "o1",
+      "vinculos-extra-1": "o1",
+      "vinculos-10": "o1",
+      "vinculos-9": "o1",
+      "vinculos-extra-2": "o4",
+      "vinculos-extra-4": "o4",
+      "vinculos-1": "o1"
+    }
+  },
+  "sujeto-y-la-subjetividad-en-la-psicologia-social-el": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o3",
+      "vinculos-3": "o3",
+      "vinculos-extra-3": "o1",
+      "vinculos-2": "o3",
+      "vinculos-extra-1": "o4",
+      "vinculos-10": "o3",
+      "vinculos-9": "o3",
+      "vinculos-extra-2": "o3",
+      "vinculos-extra-4": "o1",
+      "vinculos-1": "o3"
+    }
+  },
+  "avatares-del-yo-en-tiempos-de-fragmentacion-social-y-consumismo": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o3",
+      "vinculos-3": "o3",
+      "vinculos-extra-3": "o1",
+      "vinculos-2": "o3",
+      "vinculos-extra-1": "o4",
+      "vinculos-10": "o3",
+      "vinculos-9": "o3",
+      "vinculos-extra-2": "o3",
+      "vinculos-extra-4": "o1",
+      "vinculos-1": "o3"
+    }
+  },
+  "maternidades-en-tiempos-de-deseobediencias": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o4",
+      "vinculos-3": "o4",
+      "vinculos-extra-3": "o3",
+      "vinculos-2": "o4",
+      "vinculos-extra-1": "o2",
+      "vinculos-10": "o4",
+      "vinculos-9": "o4",
+      "vinculos-extra-2": "o3",
+      "vinculos-extra-4": "o2",
+      "vinculos-1": "o4"
+    }
+  },
+  "ninez-adolescencia-y-genero": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o4",
+      "vinculos-3": "o4",
+      "vinculos-extra-3": "o3",
+      "vinculos-2": "o4",
+      "vinculos-extra-1": "o2",
+      "vinculos-10": "o4",
+      "vinculos-9": "o4",
+      "vinculos-extra-2": "o3",
+      "vinculos-extra-4": "o2",
+      "vinculos-1": "o4"
+    }
+  },
+  "adopciones-analisis-acciones-y-propuestas-concretas-de-abordajes": {
+    "topicId": "vinculos",
+    "questionIds": [
+      "vinculos-6",
+      "vinculos-3",
+      "vinculos-extra-3",
+      "vinculos-2",
+      "vinculos-extra-1",
+      "vinculos-10",
+      "vinculos-9",
+      "vinculos-extra-2",
+      "vinculos-extra-4",
+      "vinculos-1"
+    ],
+    "answers": {
+      "vinculos-6": "o4",
+      "vinculos-3": "o4",
+      "vinculos-extra-3": "o3",
+      "vinculos-2": "o4",
+      "vinculos-extra-1": "o1",
+      "vinculos-10": "o4",
+      "vinculos-9": "o4",
+      "vinculos-extra-2": "o1",
+      "vinculos-extra-4": "o1",
+      "vinculos-1": "o4"
+    }
+  },
+  "suicidio-en-el-campo-de-las-infancias-y-adolescencias": {
+    "topicId": "prevencion",
+    "questionIds": [
+      "prevencion-6",
+      "prevencion-3",
+      "prevencion-extra-3",
+      "prevencion-2",
+      "prevencion-extra-1",
+      "prevencion-10",
+      "prevencion-9",
+      "prevencion-extra-2",
+      "prevencion-extra-4",
+      "prevencion-1"
+    ],
+    "answers": {
+      "prevencion-6": "o2",
+      "prevencion-3": "o1",
+      "prevencion-extra-3": "o2",
+      "prevencion-2": "o3",
+      "prevencion-extra-1": "o4",
+      "prevencion-10": "o3",
+      "prevencion-9": "o1",
+      "prevencion-extra-2": "o1",
+      "prevencion-extra-4": "o1",
+      "prevencion-1": "o4"
+    }
+  },
+  "tratamiento-ambulatorio-intensivo": {
+    "topicId": "prevencion",
+    "questionIds": [
+      "prevencion-6",
+      "prevencion-3",
+      "prevencion-extra-3",
+      "prevencion-2",
+      "prevencion-extra-1",
+      "prevencion-10",
+      "prevencion-9",
+      "prevencion-extra-2",
+      "prevencion-extra-4",
+      "prevencion-1"
+    ],
+    "answers": {
+      "prevencion-6": "o2",
+      "prevencion-3": "o1",
+      "prevencion-extra-3": "o2",
+      "prevencion-2": "o3",
+      "prevencion-extra-1": "o4",
+      "prevencion-10": "o3",
+      "prevencion-9": "o1",
+      "prevencion-extra-2": "o1",
+      "prevencion-extra-4": "o1",
+      "prevencion-1": "o4"
+    }
+  },
+  "psicoprofilaxis-clinica-y-quirurgica-en-infancias-y-adolescencias": {
+    "topicId": "prevencion",
+    "questionIds": [
+      "prevencion-6",
+      "prevencion-3",
+      "prevencion-extra-3",
+      "prevencion-2",
+      "prevencion-extra-1",
+      "prevencion-10",
+      "prevencion-9",
+      "prevencion-extra-2",
+      "prevencion-extra-4",
+      "prevencion-1"
+    ],
+    "answers": {
+      "prevencion-6": "o3",
+      "prevencion-3": "o3",
+      "prevencion-extra-3": "o2",
+      "prevencion-2": "o3",
+      "prevencion-extra-1": "o1",
+      "prevencion-10": "o1",
+      "prevencion-9": "o3",
+      "prevencion-extra-2": "o2",
+      "prevencion-extra-4": "o4",
+      "prevencion-1": "o1"
+    }
+  },
+  "urgencias-subjetivas-y-psicoanalisis": {
+    "topicId": "prevencion",
+    "questionIds": [
+      "prevencion-6",
+      "prevencion-3",
+      "prevencion-extra-3",
+      "prevencion-2",
+      "prevencion-extra-1",
+      "prevencion-10",
+      "prevencion-9",
+      "prevencion-extra-2",
+      "prevencion-extra-4",
+      "prevencion-1"
+    ],
+    "answers": {
+      "prevencion-6": "o3",
+      "prevencion-3": "o3",
+      "prevencion-extra-3": "o3",
+      "prevencion-2": "o3",
+      "prevencion-extra-1": "o1",
+      "prevencion-10": "o3",
+      "prevencion-9": "o3",
+      "prevencion-extra-2": "o1",
+      "prevencion-extra-4": "o1",
+      "prevencion-1": "o3"
+    }
+  },
+  "condenados-a-explorar": {
+    "topicId": "prevencion",
+    "questionIds": [
+      "prevencion-6",
+      "prevencion-3",
+      "prevencion-extra-3",
+      "prevencion-2",
+      "prevencion-extra-1",
+      "prevencion-10",
+      "prevencion-9",
+      "prevencion-extra-2",
+      "prevencion-extra-4",
+      "prevencion-1"
+    ],
+    "answers": {
+      "prevencion-6": "o1",
+      "prevencion-3": "o1",
+      "prevencion-extra-3": "o2",
+      "prevencion-2": "o1",
+      "prevencion-extra-1": "o4",
+      "prevencion-10": "o1",
+      "prevencion-9": "o1",
+      "prevencion-extra-2": "o2",
+      "prevencion-extra-4": "o4",
+      "prevencion-1": "o1"
+    }
+  },
+  "disparadores-emocionales-para-la-clinica": {
+    "topicId": "emociones",
+    "questionIds": [
+      "emociones-6",
+      "emociones-3",
+      "emociones-extra-3",
+      "emociones-2",
+      "emociones-extra-1",
+      "emociones-10",
+      "emociones-9",
+      "emociones-extra-2",
+      "emociones-extra-4",
+      "emociones-1"
+    ],
+    "answers": {
+      "emociones-6": "o2",
+      "emociones-3": "o1",
+      "emociones-extra-3": "o2",
+      "emociones-2": "o3",
+      "emociones-extra-1": "o4",
+      "emociones-10": "o3",
+      "emociones-9": "o1",
+      "emociones-extra-2": "o1",
+      "emociones-extra-4": "o1",
+      "emociones-1": "o4"
+    }
+  },
+  "huellas-y-marcas-de-la-infancia": {
+    "topicId": "emociones",
+    "questionIds": [
+      "emociones-6",
+      "emociones-3",
+      "emociones-extra-3",
+      "emociones-2",
+      "emociones-extra-1",
+      "emociones-10",
+      "emociones-9",
+      "emociones-extra-2",
+      "emociones-extra-4",
+      "emociones-1"
+    ],
+    "answers": {
+      "emociones-6": "o2",
+      "emociones-3": "o2",
+      "emociones-extra-3": "o4",
+      "emociones-2": "o2",
+      "emociones-extra-1": "o3",
+      "emociones-10": "o2",
+      "emociones-9": "o2",
+      "emociones-extra-2": "o1",
+      "emociones-extra-4": "o3",
+      "emociones-1": "o2"
+    }
+  },
+  "estructuracion-psiquica-y-subjetivacion-del-nino-de-escolaridad-primaria": {
+    "topicId": "emociones",
+    "questionIds": [
+      "emociones-6",
+      "emociones-3",
+      "emociones-extra-3",
+      "emociones-2",
+      "emociones-extra-1",
+      "emociones-10",
+      "emociones-9",
+      "emociones-extra-2",
+      "emociones-extra-4",
+      "emociones-1"
+    ],
+    "answers": {
+      "emociones-6": "o2",
+      "emociones-3": "o2",
+      "emociones-extra-3": "o4",
+      "emociones-2": "o2",
+      "emociones-extra-1": "o3",
+      "emociones-10": "o2",
+      "emociones-9": "o2",
+      "emociones-extra-2": "o1",
+      "emociones-extra-4": "o3",
+      "emociones-1": "o2"
+    }
+  }
+}

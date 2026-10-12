@@ -5,6 +5,7 @@ import { recommend, profile, similarity } from "../src/domain/match";
 import { selectQuestions } from "../src/domain/select";
 import { gameReducer, initialState } from "../src/state/game";
 import type { Answers, Question } from "../src/domain/types";
+import witnesses from "./fixtures/recommendation-witnesses.json";
 
 function rng(seed: number) {
   return () => {
@@ -15,6 +16,25 @@ function rng(seed: number) {
 const answers = (bank: Question[], index: number): Answers =>
   Object.fromEntries(bank.map((q) => [q.id, q.options[index].id]));
 describe("Integridad y cobertura editorial", () => {
+  it("las 80 obras tienen un perfil real reproducible que permite recomendarlas", () => {
+    expect(catalog.books.length).toBeGreaterThanOrEqual(80);
+    for (const book of catalog.books) {
+      const witness = witnesses[book.id as keyof typeof witnesses];
+      expect(witness, book.title).toBeDefined();
+      const bank = witness.questionIds.map((id) =>
+        questions.find((q) => q.id === id)!,
+      );
+      expect(bank.every((q) => q.topicIds.includes(witness.topicId))).toBe(
+        true,
+      );
+      expect(
+        recommend(catalog, bank, witness.answers, witness.topicId).some(
+          (m) => m.book.id === book.id,
+        ),
+        book.title,
+      ).toBe(true);
+    }
+  });
   it("cumple contratos, seis temáticas, autores y cada opción con tres obras", () =>
     expect(validateCatalog(catalog, questions)).toEqual([]));
   it("detecta cobertura rota y autor obligatorio ausente", () => {

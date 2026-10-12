@@ -4,7 +4,9 @@
       "id": "practicas-en-salud-mental",
       "workId": "practicas-en-salud-mental",
       "title": "Prácticas en Salud Mental",
-      "authorIds": ["a1"],
+      "authorIds": [
+        "a1"
+      ],
       "contributors": [
         {
           "authorId": "a1",
@@ -13,7 +15,10 @@
       ],
       "collectionId": "c1",
       "isbn": "978-987-538-842-0",
-      "topicIds": ["salud", "emociones"],
+      "topicIds": [
+        "salud",
+        "emociones"
+      ],
       "weights": {
         "salud": 1,
         "emociones": 1,
@@ -43,7 +48,10 @@
       "id": "ley-nacional-de-salud-mental-una-brujula-para-la-crisis",
       "workId": "ley-nacional-de-salud-mental-una-brujula-para-la-crisis",
       "title": "Ley Nacional de Salud Mental: una brújula para la crisis",
-      "authorIds": ["a2", "a3"],
+      "authorIds": [
+        "a2",
+        "a3"
+      ],
       "contributors": [
         {
           "authorId": "a2",
@@ -56,7 +64,9 @@
       ],
       "collectionId": null,
       "isbn": "978-631-91457-5-5",
-      "topicIds": ["salud"],
+      "topicIds": [
+        "salud"
+      ],
       "weights": {
         "salud": 1,
         "derechos": 3,
@@ -170,7 +180,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-928-1",
-      "topicIds": ["salud", "infancias"],
+      "topicIds": [
+        "salud",
+        "infancias"
+      ],
       "weights": {
         "salud": 1,
         "infancias": 1,
@@ -200,7 +213,9 @@
       "id": "cuando-la-clinica-desborda-el-consultorio",
       "workId": "cuando-la-clinica-desborda-el-consultorio",
       "title": "Cuando la clínica desborda el consultorio",
-      "authorIds": ["a20"],
+      "authorIds": [
+        "a20"
+      ],
       "contributors": [
         {
           "authorId": "a20",
@@ -209,7 +224,11 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-365-4",
-      "topicIds": ["salud", "infancias", "emociones"],
+      "topicIds": [
+        "salud",
+        "infancias",
+        "emociones"
+      ],
       "weights": {
         "salud": 1,
         "infancias": 1,
@@ -241,7 +260,9 @@
       "id": "existe-el-autismo-en-la-ninez",
       "workId": "existe-el-autismo-en-la-ninez",
       "title": "¿Existe el autismo en la niñez?",
-      "authorIds": ["a21"],
+      "authorIds": [
+        "a21"
+      ],
       "contributors": [
         {
           "authorId": "a21",
@@ -250,7 +271,9 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-999-1",
-      "topicIds": ["infancias"],
+      "topicIds": [
+        "infancias"
+      ],
       "weights": {
         "infancias": 1,
         "diversidad": 3,
@@ -278,7 +301,9 @@
       "id": "plasticidad-simbolica",
       "workId": "plasticidad-simbolica",
       "title": "Plasticidad simbólica",
-      "authorIds": ["a21"],
+      "authorIds": [
+        "a21"
+      ],
       "contributors": [
         {
           "authorId": "a21",
@@ -287,7 +312,9 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-995-3",
-      "topicIds": ["infancias"],
+      "topicIds": [
+        "infancias"
+      ],
       "weights": {
         "infancias": 1,
         "cuerpo": 3,
@@ -315,7 +342,9 @@
       "id": "autismo-y-acompanamiento-terapeutico",
       "workId": "autismo-y-acompanamiento-terapeutico",
       "title": "Autismo y acompañamiento terapéutico",
-      "authorIds": ["a22"],
+      "authorIds": [
+        "a22"
+      ],
       "contributors": [
         {
           "authorId": "a22",
@@ -324,7 +353,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6603-96-8",
-      "topicIds": ["infancias", "salud"],
+      "topicIds": [
+        "infancias",
+        "salud"
+      ],
       "weights": {
         "infancias": 1,
         "salud": 1,
@@ -354,7 +386,15 @@
       "id": "en-la-infancia-los-diagnosticos-se-escriben-con-lapiz",
       "workId": "en-la-infancia-los-diagnosticos-se-escriben-con-lapiz",
       "title": "En la infancia los diagnósticos se escriben con lápiz",
-      "authorIds": ["a23", "a24", "a25", "a26", "a27", "a28", "a29"],
+      "authorIds": [
+        "a23",
+        "a24",
+        "a25",
+        "a26",
+        "a27",
+        "a28",
+        "a29"
+      ],
       "contributors": [
         {
           "authorId": "a23",
@@ -387,7 +427,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-373-9",
-      "topicIds": ["infancias", "educacion"],
+      "topicIds": [
+        "infancias",
+        "educacion"
+      ],
       "weights": {
         "infancias": 1,
         "educacion": 1,
@@ -416,7 +459,10 @@
       "id": "supervision-en-la-clinica-con-ninas-y-ninos",
       "workId": "supervision-en-la-clinica-con-ninas-y-ninos",
       "title": "Supervisión en la clínica con niñas y niños",
-      "authorIds": ["a21", "a30"],
+      "authorIds": [
+        "a21",
+        "a30"
+      ],
       "contributors": [
         {
           "authorId": "a21",
@@ -429,7 +475,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6603-30-2",
-      "topicIds": ["infancias", "emociones"],
+      "topicIds": [
+        "infancias",
+        "emociones"
+      ],
       "weights": {
         "infancias": 1,
         "emociones": 1,
@@ -459,7 +508,9 @@
       "id": "ninas-ninos-y-adolescentes-en-tiempos-de-desamparo-colectivo",
       "workId": "ninas-ninos-y-adolescentes-en-tiempos-de-desamparo-colectivo",
       "title": "Niñas, niños y adolescentes en tiempos de desamparo colectivo",
-      "authorIds": ["a31"],
+      "authorIds": [
+        "a31"
+      ],
       "contributors": [
         {
           "authorId": "a31",
@@ -468,7 +519,11 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-931-1",
-      "topicIds": ["infancias", "salud", "emociones"],
+      "topicIds": [
+        "infancias",
+        "salud",
+        "emociones"
+      ],
       "weights": {
         "infancias": 1,
         "salud": 1,
@@ -500,7 +555,9 @@
       "id": "amistad-en-las-infancias-la",
       "workId": "amistad-en-las-infancias-la",
       "title": "Amistad en las infancias, La",
-      "authorIds": ["a21"],
+      "authorIds": [
+        "a21"
+      ],
       "contributors": [
         {
           "authorId": "a21",
@@ -513,7 +570,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-937-3",
-      "topicIds": ["infancias", "vinculos"],
+      "topicIds": [
+        "infancias",
+        "vinculos"
+      ],
       "weights": {
         "infancias": 1,
         "vinculos": 1,
@@ -544,7 +604,9 @@
       "id": "educar-con-coraje",
       "workId": "educar-con-coraje",
       "title": "Educar con coraje",
-      "authorIds": ["a33"],
+      "authorIds": [
+        "a33"
+      ],
       "contributors": [
         {
           "authorId": "a33",
@@ -553,7 +615,9 @@
       ],
       "collectionId": "c1",
       "isbn": "978-987-538-512-2",
-      "topicIds": ["educacion"],
+      "topicIds": [
+        "educacion"
+      ],
       "weights": {
         "educacion": 1,
         "gestion": 3,
@@ -582,7 +646,12 @@
       "id": "gestionar-desde-las-oportunidades",
       "workId": "gestionar-desde-las-oportunidades",
       "title": "Gestionar desde las oportunidades",
-      "authorIds": ["a33", "a34", "a35", "a36"],
+      "authorIds": [
+        "a33",
+        "a34",
+        "a35",
+        "a36"
+      ],
       "contributors": [
         {
           "authorId": "a33",
@@ -603,7 +672,9 @@
       ],
       "collectionId": "c3",
       "isbn": "978-631-660-305-0",
-      "topicIds": ["educacion"],
+      "topicIds": [
+        "educacion"
+      ],
       "weights": {
         "educacion": 1,
         "gestion": 3,
@@ -631,7 +702,10 @@
       "id": "puentes-de-la-gestion-educativa-los",
       "workId": "puentes-de-la-gestion-educativa-los",
       "title": "Puentes de la gestión educativa, Los",
-      "authorIds": ["a33", "a34"],
+      "authorIds": [
+        "a33",
+        "a34"
+      ],
       "contributors": [
         {
           "authorId": "a33",
@@ -644,7 +718,9 @@
       ],
       "collectionId": "c3",
       "isbn": "978-631-6828-19-4",
-      "topicIds": ["educacion"],
+      "topicIds": [
+        "educacion"
+      ],
       "weights": {
         "educacion": 1,
         "gestion": 3,
@@ -672,7 +748,10 @@
       "id": "construccion-de-liderazgos-en-la-gestion-educativa",
       "workId": "construccion-de-liderazgos-en-la-gestion-educativa",
       "title": "Construcción de liderazgos en la gestión educativa",
-      "authorIds": ["a33", "a34"],
+      "authorIds": [
+        "a33",
+        "a34"
+      ],
       "contributors": [
         {
           "authorId": "a33",
@@ -685,7 +764,9 @@
       ],
       "collectionId": "c3",
       "isbn": "978-987-538-398-2",
-      "topicIds": ["educacion"],
+      "topicIds": [
+        "educacion"
+      ],
       "weights": {
         "educacion": 1,
         "gestion": 3,
@@ -712,7 +793,10 @@
       "id": "directivos-y-la-organizacion-de-la-vida-cotidiana-los",
       "workId": "directivos-y-la-organizacion-de-la-vida-cotidiana-los",
       "title": "Directivos y la organización de la vida cotidiana, Los",
-      "authorIds": ["a33", "a34"],
+      "authorIds": [
+        "a33",
+        "a34"
+      ],
       "contributors": [
         {
           "authorId": "a33",
@@ -725,7 +809,9 @@
       ],
       "collectionId": "c3",
       "isbn": "978-987-538-941-0",
-      "topicIds": ["educacion"],
+      "topicIds": [
+        "educacion"
+      ],
       "weights": {
         "educacion": 1,
         "gestion": 3,
@@ -753,7 +839,11 @@
       "id": "caja-de-herramientas-para-la-educacion-emocional",
       "workId": "caja-de-herramientas-para-la-educacion-emocional",
       "title": "Caja de herramientas para la educación emocional",
-      "authorIds": ["a37", "a38", "a39"],
+      "authorIds": [
+        "a37",
+        "a38",
+        "a39"
+      ],
       "contributors": [
         {
           "authorId": "a37",
@@ -770,7 +860,10 @@
       ],
       "collectionId": null,
       "isbn": "978-987-538-475-0",
-      "topicIds": ["educacion", "emociones"],
+      "topicIds": [
+        "educacion",
+        "emociones"
+      ],
       "weights": {
         "educacion": 1,
         "emociones": 1,
@@ -801,7 +894,9 @@
       "id": "violencia-social-violencia-escolar",
       "workId": "violencia-social-violencia-escolar",
       "title": "Violencia social - Violencia escolar",
-      "authorIds": ["a40"],
+      "authorIds": [
+        "a40"
+      ],
       "contributors": [
         {
           "authorId": "a40",
@@ -810,7 +905,11 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-228-2",
-      "topicIds": ["vinculos", "educacion", "emociones"],
+      "topicIds": [
+        "vinculos",
+        "educacion",
+        "emociones"
+      ],
       "weights": {
         "vinculos": 1,
         "educacion": 1,
@@ -841,7 +940,14 @@
       "id": "crueldades-sexuales-contra-infancias-y-adolescencias1",
       "workId": "crueldades-sexuales-contra-infancias-y-adolescencias1",
       "title": "Crueldades sexuales contra infancias y adolescencias",
-      "authorIds": ["a41", "a42", "a43", "a44", "a45", "a46"],
+      "authorIds": [
+        "a41",
+        "a42",
+        "a43",
+        "a44",
+        "a45",
+        "a46"
+      ],
       "contributors": [
         {
           "authorId": "a41",
@@ -870,7 +976,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-660-303-6",
-      "topicIds": ["vinculos", "infancias"],
+      "topicIds": [
+        "vinculos",
+        "infancias"
+      ],
       "weights": {
         "vinculos": 1,
         "infancias": 1,
@@ -899,7 +1008,10 @@
       "id": "parejas-abiertas",
       "workId": "parejas-abiertas",
       "title": "Parejas abiertas",
-      "authorIds": ["a47", "a48"],
+      "authorIds": [
+        "a47",
+        "a48"
+      ],
       "contributors": [
         {
           "authorId": "a47",
@@ -912,7 +1024,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6828-09-5",
-      "topicIds": ["vinculos", "emociones"],
+      "topicIds": [
+        "vinculos",
+        "emociones"
+      ],
       "weights": {
         "vinculos": 1,
         "emociones": 1,
@@ -941,7 +1056,9 @@
       "id": "psicoterapia-de-parejas-jovenes",
       "workId": "psicoterapia-de-parejas-jovenes",
       "title": "Psicoterapia de parejas jóvenes",
-      "authorIds": ["a49"],
+      "authorIds": [
+        "a49"
+      ],
       "contributors": [
         {
           "authorId": "a49",
@@ -950,7 +1067,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6828-30-9",
-      "topicIds": ["vinculos", "emociones"],
+      "topicIds": [
+        "vinculos",
+        "emociones"
+      ],
       "weights": {
         "vinculos": 1,
         "emociones": 1,
@@ -980,7 +1100,9 @@
       "id": "terapia-vincular-familiar",
       "workId": "terapia-vincular-familiar",
       "title": "Terapia Vincular-Familiar",
-      "authorIds": ["a50"],
+      "authorIds": [
+        "a50"
+      ],
       "contributors": [
         {
           "authorId": "a50",
@@ -989,7 +1111,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-781-2",
-      "topicIds": ["vinculos", "emociones"],
+      "topicIds": [
+        "vinculos",
+        "emociones"
+      ],
       "weights": {
         "vinculos": 1,
         "emociones": 1,
@@ -1019,7 +1144,10 @@
       "id": "autolesiones-y-situaciones-de-suicidioen-adolescentes",
       "workId": "autolesiones-y-situaciones-de-suicidioen-adolescentes",
       "title": "Autolesiones y situaciones de suicidio en adolescentes",
-      "authorIds": ["a51", "a52"],
+      "authorIds": [
+        "a51",
+        "a52"
+      ],
       "contributors": [
         {
           "authorId": "a51",
@@ -1032,7 +1160,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6603-11-1",
-      "topicIds": ["prevencion", "salud"],
+      "topicIds": [
+        "prevencion",
+        "salud"
+      ],
       "weights": {
         "prevencion": 1,
         "salud": 1,
@@ -1113,7 +1244,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6603-87-6",
-      "topicIds": ["prevencion", "emociones"],
+      "topicIds": [
+        "prevencion",
+        "emociones"
+      ],
       "weights": {
         "prevencion": 1,
         "emociones": 1,
@@ -1144,7 +1278,9 @@
       "id": "evaluacion-del-riesgo-suicida-y-fortalecimiento-psiquico",
       "workId": "evaluacion-del-riesgo-suicida-y-fortalecimiento-psiquico",
       "title": "Evaluación del riesgo suicida y fortalecimiento psíquico",
-      "authorIds": ["a62"],
+      "authorIds": [
+        "a62"
+      ],
       "contributors": [
         {
           "authorId": "a62",
@@ -1153,7 +1289,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6828-22-4",
-      "topicIds": ["prevencion", "salud"],
+      "topicIds": [
+        "prevencion",
+        "salud"
+      ],
       "weights": {
         "prevencion": 1,
         "salud": 1,
@@ -1183,7 +1322,9 @@
       "id": "urgencias-subjetivas-y-psicoanalisis",
       "workId": "urgencias-subjetivas-y-psicoanalisis",
       "title": "Urgencias subjetivas y psicoanálisis",
-      "authorIds": ["a22"],
+      "authorIds": [
+        "a22"
+      ],
       "contributors": [
         {
           "authorId": "a22",
@@ -1192,7 +1333,10 @@
       ],
       "collectionId": "c2",
       "isbn": "978-631-6828-29-3",
-      "topicIds": ["prevencion", "emociones"],
+      "topicIds": [
+        "prevencion",
+        "emociones"
+      ],
       "weights": {
         "prevencion": 1,
         "emociones": 1,
@@ -1222,7 +1366,9 @@
       "id": "mundos-adolescentes-y-vertigo-civilizatorio",
       "workId": "mundos-adolescentes-y-vertigo-civilizatorio",
       "title": "Mundos adolescentes y vértigo civilizatorio",
-      "authorIds": ["a63"],
+      "authorIds": [
+        "a63"
+      ],
       "contributors": [
         {
           "authorId": "a63",
@@ -1231,7 +1377,11 @@
       ],
       "collectionId": "c2",
       "isbn": "978-987-538-388-3",
-      "topicIds": ["prevencion", "vinculos", "emociones"],
+      "topicIds": [
+        "prevencion",
+        "vinculos",
+        "emociones"
+      ],
       "weights": {
         "prevencion": 1,
         "vinculos": 1,
@@ -1262,7 +1412,9 @@
       "id": "disparadores-emocionales-para-la-clinica",
       "workId": "disparadores-emocionales-para-la-clinica",
       "title": "Disparadores emocionales para la clínica",
-      "authorIds": ["a64"],
+      "authorIds": [
+        "a64"
+      ],
       "contributors": [
         {
           "authorId": "a64",
@@ -1275,7 +1427,9 @@
       ],
       "collectionId": null,
       "isbn": "978-987-538-549-8",
-      "topicIds": ["emociones"],
+      "topicIds": [
+        "emociones"
+      ],
       "weights": {
         "emociones": 1,
         "expresion": 3,
@@ -1298,6 +1452,3347 @@
           "Portada de ficha oficial recuperada y contrastada visualmente con título y autoría el 11/10/2026"
         ]
       }
+    },
+    {
+      "id": "acompanamiento-terapeutico",
+      "workId": "acompanamiento-terapeutico",
+      "title": "Acompañamiento terapéutico",
+      "authorIds": [
+        "a22",
+        "a66",
+        "a67",
+        "a68"
+      ],
+      "contributors": [
+        {
+          "authorId": "a22",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a66",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a67",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a68",
+          "role": "autoría y coordinación"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-973-1",
+      "topicIds": [
+        "salud"
+      ],
+      "weights": {
+        "salud": 1,
+        "comunidad": 3,
+        "interdisciplina": 3,
+        "instituciones": 2,
+        "redes": 2
+      },
+      "summary": "Dispositivos de acompañamiento terapéutico en ámbitos clínicos, institucionales y comunitarios.",
+      "productUrl": "https://www.noveduc.com/productos/acompanamiento-terapeutico/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Dispositivos de acompañamiento terapéutico en ámbitos clínicos, institucionales y comunitarios. Materias editoriales: Salud Mental - Trabajo Social - Psicología.",
+      "cover": {
+        "kind": "original",
+        "file": "acompanamiento-terapeutico.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110139789875389731-864381ecc40b51282f17917453899656-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "autismos-espectro-o-diversidad",
+      "workId": "autismos-espectro-o-diversidad",
+      "title": "Autismos: ¿espectro o diversidad?",
+      "authorIds": [
+        "a69"
+      ],
+      "contributors": [
+        {
+          "authorId": "a69",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-415-6",
+      "topicIds": [
+        "infancias"
+      ],
+      "weights": {
+        "infancias": 1,
+        "diversidad": 3,
+        "diagnosticos": 3,
+        "subjetividad": 2
+      },
+      "summary": "Una lectura crítica de las clasificaciones del autismo y de la diversidad de experiencias infantiles.",
+      "productUrl": "https://www.noveduc.com/productos/autismos-espectro-o-diversidad/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Una lectura crítica de las clasificaciones del autismo y de la diversidad de experiencias infantiles. Materias editoriales: Psicología infantil - Psicopedagogía - Autismo - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "autismos-espectro-o-diversidad.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-106149789875384156-074d870453f321b01717916014077745-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "avatares-del-yo-en-tiempos-de-fragmentacion-social-y-consumismo",
+      "workId": "avatares-del-yo-en-tiempos-de-fragmentacion-social-y-consumismo",
+      "title": "Avatares del yo en tiempos de fragmentación social y consumismo",
+      "authorIds": [
+        "a70"
+      ],
+      "contributors": [
+        {
+          "authorId": "a70",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6603-84-5",
+      "topicIds": [
+        "emociones",
+        "vinculos"
+      ],
+      "weights": {
+        "emociones": 1,
+        "vinculos": 1,
+        "subjetividad": 3,
+        "escucha": 2,
+        "convivencia": 2,
+        "comunidad": 2
+      },
+      "summary": "Reflexiones sobre subjetividad, consumismo y lazos sociales en la vida contemporánea.",
+      "productUrl": "https://www.noveduc.com/productos/avatares-del-yo-en-tiempos-de-fragmentacion-social-y-consumismo/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Reflexiones sobre subjetividad, consumismo y lazos sociales en la vida contemporánea. Materias editoriales: Salud Mental - Psicoanálisis.",
+      "cover": {
+        "kind": "original",
+        "file": "avatares-del-yo-en-tiempos-de-fragmentacion-social-y-consumismo.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110739786316603845-ab34b3553c9837256317916015330342-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "clinica-de-las-adicciones-mitos-y-prejuicios-acerca-del-consumo-de-sustancias",
+      "workId": "clinica-de-las-adicciones-mitos-y-prejuicios-acerca-del-consumo-de-sustancias",
+      "title": "Clínica de las adicciones. Mitos y prejuicios acerca del consumo de sustancias",
+      "authorIds": [
+        "a71",
+        "a72",
+        "a73",
+        "a74",
+        "a75",
+        "a76",
+        "a77",
+        "a78",
+        "a79",
+        "a80",
+        "a81",
+        "a82",
+        "a83",
+        "a84",
+        "a85",
+        "a86",
+        "a87",
+        "a88",
+        "a89",
+        "a90"
+      ],
+      "contributors": [
+        {
+          "authorId": "a71",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a3",
+          "role": "prólogo"
+        },
+        {
+          "authorId": "a72",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a73",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a74",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a75",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a76",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a77",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a78",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a79",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a80",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a81",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a82",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a83",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a84",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a85",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a86",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a87",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a88",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a89",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a90",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-588-7",
+      "topicIds": [
+        "salud",
+        "prevencion"
+      ],
+      "weights": {
+        "salud": 1,
+        "prevencion": 1,
+        "consumos": 3,
+        "derechos": 3,
+        "interdisciplina": 2,
+        "intervencion": 2
+      },
+      "summary": "El consumo problemático desde una perspectiva de derechos, subjetividad y atención interdisciplinaria.",
+      "productUrl": "https://www.noveduc.com/productos/clinica-de-las-adicciones-mitos-y-prejuicios-acerca-del-consumo-de-sustancias/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: El consumo problemático desde una perspectiva de derechos, subjetividad y atención interdisciplinaria. Materias editoriales: Salud - Psicoanálisis - Adicciones - Psiquiatría.",
+      "cover": {
+        "kind": "original",
+        "file": "clinica-de-las-adicciones-mitos-y-prejuicios-acerca-del-consumo-de-sustancias.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108249789875385887-eef743ba6526d9508a17917453718749-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "clinica-psicopedagogica-y-alteridad1",
+      "workId": "clinica-psicopedagogica-y-alteridad1",
+      "title": "Clínica psicopedagógica y alteridad",
+      "authorIds": [
+        "a91",
+        "a92",
+        "a93",
+        "a94",
+        "a95",
+        "a96",
+        "a97",
+        "a98",
+        "a99",
+        "a100",
+        "a101",
+        "a102",
+        "a103"
+      ],
+      "contributors": [
+        {
+          "authorId": "a91",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a92",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a93",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a94",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a95",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a96",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a97",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a98",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a99",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a100",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a101",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a102",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a103",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-240-4",
+      "topicIds": [
+        "educacion",
+        "infancias"
+      ],
+      "weights": {
+        "educacion": 1,
+        "infancias": 1,
+        "aprendizaje": 3,
+        "clinica": 3,
+        "escucha": 2
+      },
+      "summary": "Experiencias de tratamiento psicopedagógico que exploran el encuentro con otros y las dificultades de aprendizaje.",
+      "productUrl": "https://www.noveduc.com/productos/clinica-psicopedagogica-y-alteridad1/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Experiencias de tratamiento psicopedagógico que exploran el encuentro con otros y las dificultades de aprendizaje. Materias editoriales: Psicopedagogía - Psicología educativa - Adolescencia.",
+      "cover": {
+        "kind": "original",
+        "file": "clinica-psicopedagogica-y-alteridad1.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-103419789875382404-8036b8931e00ac63d717914740279423-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "complicidades-sensibles-en-la-clinica-con-las-infancias",
+      "workId": "complicidades-sensibles-en-la-clinica-con-las-infancias",
+      "title": "Complicidades sensibles en la clínica con las infancias",
+      "authorIds": [
+        "a21"
+      ],
+      "contributors": [
+        {
+          "authorId": "a21",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6603-57-9",
+      "topicIds": [
+        "infancias",
+        "emociones"
+      ],
+      "weights": {
+        "infancias": 1,
+        "emociones": 1,
+        "juego": 3,
+        "cuerpo": 3,
+        "expresion": 3,
+        "clinica": 2
+      },
+      "summary": "Escenas de juego, cuerpo y sensibilidad para pensar el encuentro clínico con las infancias.",
+      "productUrl": "https://www.noveduc.com/productos/complicidades-sensibles-en-la-clinica-con-las-infancias/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Escenas de juego, cuerpo y sensibilidad para pensar el encuentro clínico con las infancias. Materias editoriales: Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "complicidades-sensibles-en-la-clinica-con-las-infancias.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110579786316603579-2468e9052f5dd539bb17917453988824-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "constitucion-del-sujeto-y-desarrollo-psicomotor",
+      "workId": "constitucion-del-sujeto-y-desarrollo-psicomotor",
+      "title": "Constitución del sujeto y desarrollo psicomotor",
+      "authorIds": [
+        "a21"
+      ],
+      "contributors": [
+        {
+          "authorId": "a21",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-525-2",
+      "topicIds": [
+        "infancias"
+      ],
+      "weights": {
+        "infancias": 1,
+        "cuerpo": 3,
+        "juego": 2,
+        "desarrollo": 3,
+        "subjetividad": 2
+      },
+      "summary": "Explora los vínculos entre desarrollo psicomotor, juego, gestos y constitución subjetiva.",
+      "productUrl": "https://www.noveduc.com/productos/constitucion-del-sujeto-y-desarrollo-psicomotor/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Explora los vínculos entre desarrollo psicomotor, juego, gestos y constitución subjetiva. Materias editoriales: Psicomotricidad - Psicoanálisis.",
+      "cover": {
+        "kind": "original",
+        "file": "constitucion-del-sujeto-y-desarrollo-psicomotor.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-107519789875385252-a52df1680faa7118fe17916900514231-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "consumo-problematico-de-drogas",
+      "workId": "consumo-problematico-de-drogas",
+      "title": "Consumo problemático de drogas",
+      "authorIds": [
+        "a3"
+      ],
+      "contributors": [
+        {
+          "authorId": "a3",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-542-9",
+      "topicIds": [
+        "salud",
+        "prevencion"
+      ],
+      "weights": {
+        "salud": 1,
+        "prevencion": 1,
+        "consumos": 3,
+        "comunidad": 3,
+        "derechos": 2,
+        "intervencion": 2
+      },
+      "summary": "Historia del consumo de sustancias y propuestas de atención ambulatoria e inclusión sociosanitaria.",
+      "productUrl": "https://www.noveduc.com/productos/consumo-problematico-de-drogas/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Historia del consumo de sustancias y propuestas de atención ambulatoria e inclusión sociosanitaria. Materias editoriales: Salud Mental - Psicoanálisis - Adicciones - Psiquiatría.",
+      "cover": {
+        "kind": "original",
+        "file": "consumo-problematico-de-drogas.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-107719789875385429-bbba67d7ecc2b20d8f17916014278165-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "cuidado-de-cuidadores-sindrome-de-burnout",
+      "workId": "cuidado-de-cuidadores-sindrome-de-burnout",
+      "title": "Cuidado de cuidadores. Síndrome de burnout",
+      "authorIds": [
+        "a41"
+      ],
+      "contributors": [
+        {
+          "authorId": "a104",
+          "role": "prólogo"
+        },
+        {
+          "authorId": "a41",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-477-4",
+      "topicIds": [
+        "salud",
+        "emociones"
+      ],
+      "weights": {
+        "salud": 1,
+        "emociones": 1,
+        "cuidados": 3,
+        "instituciones": 2,
+        "interdisciplina": 2,
+        "escucha": 2
+      },
+      "summary": "El desgaste en las profesiones de cuidado y los dispositivos de reflexión, intercambio y autocuidado.",
+      "productUrl": "https://www.noveduc.com/productos/cuidado-de-cuidadores-sindrome-de-burnout/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: El desgaste en las profesiones de cuidado y los dispositivos de reflexión, intercambio y autocuidado. Materias editoriales: Salud - Psiquiatría.",
+      "cover": {
+        "kind": "original",
+        "file": "cuidado-de-cuidadores-sindrome-de-burnout.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-106929789875384774-8018dc44a78831d1e217917453605522-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "diagnosticos-y-clasificaciones-en-la-infancia",
+      "workId": "diagnosticos-y-clasificaciones-en-la-infancia",
+      "title": "Diagnósticos y clasificaciones en la infancia",
+      "authorIds": [
+        "a105",
+        "a106",
+        "a70",
+        "a23",
+        "a69",
+        "a107",
+        "a108",
+        "a109",
+        "a110",
+        "a111",
+        "a112",
+        "a113",
+        "a114",
+        "a115",
+        "a116"
+      ],
+      "contributors": [
+        {
+          "authorId": "a105",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a106",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a70",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a23",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a69",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a107",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a108",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a109",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a110",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a111",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a112",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a113",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a114",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a115",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a116",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-595-5",
+      "topicIds": [
+        "infancias",
+        "salud"
+      ],
+      "weights": {
+        "infancias": 1,
+        "salud": 1,
+        "diagnosticos": 3,
+        "derechos": 2,
+        "diversidad": 2,
+        "clinica": 2
+      },
+      "summary": "Preguntas sobre los diagnósticos infantiles y las consecuencias de clasificar sin considerar la historia del sujeto.",
+      "productUrl": "https://www.noveduc.com/productos/diagnosticos-y-clasificaciones-en-la-infancia/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Preguntas sobre los diagnósticos infantiles y las consecuencias de clasificar sin considerar la historia del sujeto. Materias editoriales: Diagnósticos - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "diagnosticos-y-clasificaciones-en-la-infancia.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108319789875385955-c7346750dc08db8c7617916014444675-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "dimension-desconocida-de-la-infancia-la",
+      "workId": "dimension-desconocida-de-la-infancia-la",
+      "title": "Dimensión desconocida de la infancia, La",
+      "authorIds": [
+        "a21"
+      ],
+      "contributors": [
+        {
+          "authorId": "a21",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-655-6",
+      "topicIds": [
+        "infancias"
+      ],
+      "weights": {
+        "infancias": 1,
+        "juego": 3,
+        "cuerpo": 3,
+        "diagnosticos": 2,
+        "expresion": 2
+      },
+      "summary": "El juego y la sensibilidad corporal como vías para explorar la experiencia infantil.",
+      "productUrl": "https://www.noveduc.com/productos/dimension-desconocida-de-la-infancia-la/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: El juego y la sensibilidad corporal como vías para explorar la experiencia infantil. Materias editoriales: Autismo - Patologización - Diagnósticos - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "dimension-desconocida-de-la-infancia-la.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108509789875386556-4f3d6739cc90a73e4117916014457787-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "discapacidad-clinica-y-educacion",
+      "workId": "discapacidad-clinica-y-educacion",
+      "title": "Discapacidad: clínica y educación",
+      "authorIds": [
+        "a21"
+      ],
+      "contributors": [
+        {
+          "authorId": "a21",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-524-5",
+      "topicIds": [
+        "infancias",
+        "educacion"
+      ],
+      "weights": {
+        "infancias": 1,
+        "educacion": 1,
+        "diversidad": 3,
+        "cuerpo": 3,
+        "aprendizaje": 2,
+        "diagnosticos": 2
+      },
+      "summary": "Una reflexión sobre discapacidad, cuerpo y prácticas clínicas y educativas en la infancia.",
+      "productUrl": "https://www.noveduc.com/productos/discapacidad-clinica-y-educacion/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Una reflexión sobre discapacidad, cuerpo y prácticas clínicas y educativas en la infancia. Materias editoriales: Psicomotricidad - Discapacidad - Psicoanálisis.",
+      "cover": {
+        "kind": "original",
+        "file": "discapacidad-clinica-y-educacion.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-107529789875385245-c1a2adec79eda758da17916014223634-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "dispositivo-del-hospital-de-dia-en-adicciones-el",
+      "workId": "dispositivo-del-hospital-de-dia-en-adicciones-el",
+      "title": "Dispositivo del Hospital de Día en Adicciones, El",
+      "authorIds": [
+        "a117",
+        "a1",
+        "a3",
+        "a118",
+        "a119",
+        "a120",
+        "a121",
+        "a122",
+        "a123",
+        "a124",
+        "a125",
+        "a126",
+        "a127",
+        "a128",
+        "a129",
+        "a130",
+        "a131",
+        "a132",
+        "a133",
+        "a134",
+        "a135",
+        "a136",
+        "a137",
+        "a138",
+        "a139"
+      ],
+      "contributors": [
+        {
+          "authorId": "a117",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a1",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a3",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a118",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a119",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a120",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a121",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a122",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a123",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a124",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a125",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a126",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a127",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a128",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a129",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a130",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a131",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a132",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a133",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a134",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a135",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a136",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a137",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a138",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a139",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-587-0",
+      "topicIds": [
+        "salud",
+        "prevencion"
+      ],
+      "weights": {
+        "salud": 1,
+        "prevencion": 1,
+        "consumos": 3,
+        "instituciones": 3,
+        "derechos": 2,
+        "redes": 2
+      },
+      "summary": "La experiencia de un hospital de día que aloja y acompaña a personas con consumos problemáticos.",
+      "productUrl": "https://www.noveduc.com/productos/dispositivo-del-hospital-de-dia-en-adicciones-el/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: La experiencia de un hospital de día que aloja y acompaña a personas con consumos problemáticos. Materias editoriales: Salud Mental - Psicoanálisis - Adicciones.",
+      "cover": {
+        "kind": "original",
+        "file": "dispositivo-del-hospital-de-dia-en-adicciones-el.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108239789875385870-37c44ebf16b40e7af917916014432070-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "escuchar-las-infancias",
+      "workId": "escuchar-las-infancias",
+      "title": "Escuchar las infancias",
+      "authorIds": [
+        "a106",
+        "a1",
+        "a70",
+        "a23",
+        "a31",
+        "a69",
+        "a108",
+        "a109",
+        "a140",
+        "a113",
+        "a115",
+        "a141",
+        "a142",
+        "a143"
+      ],
+      "contributors": [
+        {
+          "authorId": "a106",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a1",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a70",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a23",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a31",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a69",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a108",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a109",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a140",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a113",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a115",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a141",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a142",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a143",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c4",
+      "isbn": "978-987-538-675-4",
+      "topicIds": [
+        "infancias",
+        "vinculos",
+        "emociones"
+      ],
+      "weights": {
+        "infancias": 1,
+        "vinculos": 1,
+        "emociones": 1,
+        "escucha": 3,
+        "derechos": 2,
+        "familias": 2,
+        "convivencia": 2
+      },
+      "summary": "Perspectivas clínicas y de derechos sobre la escucha de niños y niñas en distintos espacios.",
+      "productUrl": "https://www.noveduc.com/productos/escuchar-las-infancias/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Perspectivas clínicas y de derechos sobre la escucha de niños y niñas en distintos espacios. Materias editoriales: Desarrollo emocional - Derechos - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "escuchar-las-infancias.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108729789875386754-f83f77e48d04d9aa7c17916589671855-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "estructuracion-psiquica-y-subjetivacion-del-nino-de-escolaridad-primaria",
+      "workId": "estructuracion-psiquica-y-subjetivacion-del-nino-de-escolaridad-primaria",
+      "title": "Estructuración psíquica y subjetivación del niño de escolaridad primaria",
+      "authorIds": [
+        "a144"
+      ],
+      "contributors": [
+        {
+          "authorId": "a144",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-213-8",
+      "topicIds": [
+        "infancias",
+        "emociones"
+      ],
+      "weights": {
+        "infancias": 1,
+        "emociones": 1,
+        "desarrollo": 3,
+        "subjetividad": 3,
+        "clinica": 2
+      },
+      "summary": "Un estudio de la latencia y su importancia en la estructuración psíquica durante la escolaridad primaria.",
+      "productUrl": "https://www.noveduc.com/productos/estructuracion-psiquica-y-subjetivacion-del-nino-de-escolaridad-primaria/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Un estudio de la latencia y su importancia en la estructuración psíquica durante la escolaridad primaria. Materias editoriales: Psicoanálisis - Psicología educativa - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "estructuracion-psiquica-y-subjetivacion-del-nino-de-escolaridad-primaria.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-102959789875382138-2610925d4bd281b4c017908693844324-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "fragilidad-en-el-envejecimiento",
+      "workId": "fragilidad-en-el-envejecimiento",
+      "title": "Fragilidad en el envejecimiento",
+      "authorIds": [
+        "a145",
+        "a146",
+        "a147",
+        "a148",
+        "a149",
+        "a150",
+        "a151",
+        "a152",
+        "a153",
+        "a154",
+        "a155",
+        "a156",
+        "a157",
+        "a158",
+        "a159"
+      ],
+      "contributors": [
+        {
+          "authorId": "a145",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a146",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a147",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a148",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a149",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a150",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a151",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a152",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a153",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a154",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a155",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a156",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a157",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a158",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a159",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-974-8",
+      "topicIds": [
+        "prevencion",
+        "salud"
+      ],
+      "weights": {
+        "prevencion": 1,
+        "salud": 1,
+        "envejecimiento": 3,
+        "intervencion": 3,
+        "interdisciplina": 2,
+        "cuidados": 2
+      },
+      "summary": "Aportes interdisciplinarios para detectar y prevenir la fragilidad y pensar un envejecimiento digno.",
+      "productUrl": "https://www.noveduc.com/productos/fragilidad-en-el-envejecimiento/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Aportes interdisciplinarios para detectar y prevenir la fragilidad y pensar un envejecimiento digno. Materias editoriales: Salud Mental - Psicología - Psiquiatría.",
+      "cover": {
+        "kind": "original",
+        "file": "fragilidad-en-el-envejecimiento.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110149789875389748-55d55697a1f65171d317917453909755-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "fronteras-inciertas-de-la-agresividad-las",
+      "workId": "fronteras-inciertas-de-la-agresividad-las",
+      "title": "Fronteras inciertas de la agresividad, Las",
+      "authorIds": [
+        "a160"
+      ],
+      "contributors": [
+        {
+          "authorId": "a160",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6828-15-6",
+      "topicIds": [
+        "vinculos",
+        "emociones"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "emociones": 1,
+        "violencias": 3,
+        "convivencia": 2,
+        "clinica": 3,
+        "subjetividad": 2
+      },
+      "summary": "Explora las ambigüedades de la agresividad en la cultura y en la clínica psicoanalítica.",
+      "productUrl": "https://www.noveduc.com/productos/fronteras-inciertas-de-la-agresividad-las/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Explora las ambigüedades de la agresividad en la cultura y en la clínica psicoanalítica. Materias editoriales: Salud Mental - Violencia y conflictos - Psicoanálisis - Lanzamiento.",
+      "cover": {
+        "kind": "original",
+        "file": "fronteras-inciertas-de-la-agresividad-las.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110989786316828156-6e7e0fd3d179d1737717917332933344-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "hacia-una-infancia-virtual",
+      "workId": "hacia-una-infancia-virtual",
+      "title": "¿Hacia una infancia virtual?",
+      "authorIds": [
+        "a21"
+      ],
+      "contributors": [
+        {
+          "authorId": "a21",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-558-0",
+      "topicIds": [
+        "infancias",
+        "educacion"
+      ],
+      "weights": {
+        "infancias": 1,
+        "educacion": 1,
+        "digital": 3,
+        "juego": 3,
+        "cuerpo": 2,
+        "aprendizaje": 2
+      },
+      "summary": "Preguntas sobre pantallas, juguetes y los cambios de la experiencia infantil en la cultura digital.",
+      "productUrl": "https://www.noveduc.com/productos/hacia-una-infancia-virtual/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Preguntas sobre pantallas, juguetes y los cambios de la experiencia infantil en la cultura digital. Materias editoriales: Psicoanálisis con niños - Consumos digitales.",
+      "cover": {
+        "kind": "original",
+        "file": "hacia-una-infancia-virtual.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-107939789875385580-6ccca0a86346d5751617909556511681-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "huellas-y-marcas-de-la-infancia",
+      "workId": "huellas-y-marcas-de-la-infancia",
+      "title": "Huellas y marcas de la infancia",
+      "authorIds": [
+        "a21",
+        "a161"
+      ],
+      "contributors": [
+        {
+          "authorId": "a21",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a161",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-834-5",
+      "topicIds": [
+        "infancias",
+        "emociones"
+      ],
+      "weights": {
+        "infancias": 1,
+        "emociones": 1,
+        "subjetividad": 3,
+        "escucha": 2,
+        "clinica": 2,
+        "desarrollo": 2
+      },
+      "summary": "Relatos clínicos e historias de vida para pensar las primeras marcas de la subjetividad.",
+      "productUrl": "https://www.noveduc.com/productos/huellas-y-marcas-de-la-infancia/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Relatos clínicos e historias de vida para pensar las primeras marcas de la subjetividad. Materias editoriales: Psicoanálisis con niños - Infancia.",
+      "cover": {
+        "kind": "original",
+        "file": "huellas-y-marcas-de-la-infancia.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109409789875388345-1935c7cb08f054c73117917453803504-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "infancias-y-adolescencias-patologizadas",
+      "workId": "infancias-y-adolescencias-patologizadas",
+      "title": "Infancias y adolescencias patologizadas",
+      "authorIds": [
+        "a31"
+      ],
+      "contributors": [
+        {
+          "authorId": "a31",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-592-4",
+      "topicIds": [
+        "infancias",
+        "salud"
+      ],
+      "weights": {
+        "infancias": 1,
+        "salud": 1,
+        "diagnosticos": 3,
+        "derechos": 3,
+        "diversidad": 2,
+        "adolescencias": 2
+      },
+      "summary": "Una mirada crítica sobre la patologización que busca recuperar proyectos y subjetividades infantiles y juveniles.",
+      "productUrl": "https://www.noveduc.com/productos/infancias-y-adolescencias-patologizadas/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Una mirada crítica sobre la patologización que busca recuperar proyectos y subjetividades infantiles y juveniles. Materias editoriales: Patologización - Diagnósticos - Psicoanálisis con niños - Semana Psi.",
+      "cover": {
+        "kind": "original",
+        "file": "infancias-y-adolescencias-patologizadas.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108299789875385924-ec28e30dbacabad3ef17917453716188-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "intervenciones-con-adolescencias-vulneradas",
+      "workId": "intervenciones-con-adolescencias-vulneradas",
+      "title": "Intervenciones con adolescencias vulneradas",
+      "authorIds": [
+        "a162",
+        "a163",
+        "a164",
+        "a165"
+      ],
+      "contributors": [
+        {
+          "authorId": "a162",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a163",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a164",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a165",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-850-5",
+      "topicIds": [
+        "prevencion",
+        "salud"
+      ],
+      "weights": {
+        "prevencion": 1,
+        "salud": 1,
+        "adolescencias": 3,
+        "redes": 3,
+        "instituciones": 2,
+        "derechos": 2
+      },
+      "summary": "Prácticas institucionales y territoriales para acompañar a adolescentes y jóvenes con derechos vulnerados.",
+      "productUrl": "https://www.noveduc.com/productos/intervenciones-con-adolescencias-vulneradas/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Prácticas institucionales y territoriales para acompañar a adolescentes y jóvenes con derechos vulnerados. Materias editoriales: Salud Mental - Psicoanálisis - Adolescencia.",
+      "cover": {
+        "kind": "original",
+        "file": "intervenciones-con-adolescencias-vulneradas.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109539789875388505-f9db68ab323a2d078817917453825470-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "intervenciones-en-la-clinica-psicoanalitica-con-ninos",
+      "workId": "intervenciones-en-la-clinica-psicoanalitica-con-ninos",
+      "title": "Intervenciones en la clínica psicoanalítica con niños",
+      "authorIds": [
+        "a31"
+      ],
+      "contributors": [
+        {
+          "authorId": "a31",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-372-2",
+      "topicIds": [
+        "infancias",
+        "emociones"
+      ],
+      "weights": {
+        "infancias": 1,
+        "emociones": 1,
+        "clinica": 3,
+        "juego": 2,
+        "familias": 3,
+        "escucha": 2
+      },
+      "summary": "El encuentro clínico con niños y el lugar de los padres en el trabajo psicoanalítico.",
+      "productUrl": "https://www.noveduc.com/productos/intervenciones-en-la-clinica-psicoanalitica-con-ninos/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: El encuentro clínico con niños y el lugar de los padres en el trabajo psicoanalítico. Materias editoriales: Psicología infantil - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "intervenciones-en-la-clinica-psicoanalitica-con-ninos.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-105269789875383722-a2ccbb85c4b12bdc8817917453363350-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "intervenciones-en-primera-infancia",
+      "workId": "intervenciones-en-primera-infancia",
+      "title": "Intervenciones en primera infancia",
+      "authorIds": [
+        "a166",
+        "a167",
+        "a168",
+        "a169",
+        "a170",
+        "a171",
+        "a172",
+        "a173",
+        "a174",
+        "a175",
+        "a176"
+      ],
+      "contributors": [
+        {
+          "authorId": "a166",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a167",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a168",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a169",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a170",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a171",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a172",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a173",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a174",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a175",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a176",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-129-2",
+      "topicIds": [
+        "infancias",
+        "educacion",
+        "salud"
+      ],
+      "weights": {
+        "infancias": 1,
+        "educacion": 1,
+        "salud": 1,
+        "desarrollo": 3,
+        "instituciones": 2,
+        "interdisciplina": 2,
+        "equipos": 2
+      },
+      "summary": "Experiencias con bebés y niños pequeños en espacios educativos, hospitalarios y de formación.",
+      "productUrl": "https://www.noveduc.com/productos/intervenciones-en-primera-infancia/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Experiencias con bebés y niños pequeños en espacios educativos, hospitalarios y de formación. Materias editoriales: Salud - Psicopedagogía - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "intervenciones-en-primera-infancia.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-101309789875381292-bf7379dec77db33bd717916013360774-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "juego-historia-de-chicos-el",
+      "workId": "juego-historia-de-chicos-el",
+      "title": "Juego, historia de chicos, El",
+      "authorIds": [
+        "a177",
+        "a178",
+        "a179",
+        "a180",
+        "a181",
+        "a182"
+      ],
+      "contributors": [
+        {
+          "authorId": "a177",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a178",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a179",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a180",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a181",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a182",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-148-3",
+      "topicIds": [
+        "infancias",
+        "emociones"
+      ],
+      "weights": {
+        "infancias": 1,
+        "emociones": 1,
+        "juego": 3,
+        "expresion": 2,
+        "escucha": 3,
+        "clinica": 2
+      },
+      "summary": "Experiencias del trabajo con niños a través del juego y de la escucha de sus familias.",
+      "productUrl": "https://www.noveduc.com/productos/juego-historia-de-chicos-el/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Experiencias del trabajo con niños a través del juego y de la escucha de sus familias. Materias editoriales: Juego - Desarrollo emocional - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "juego-historia-de-chicos-el.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-101539789875381483-4a3aec5772fd5e812f17908262695329-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "lectura-y-subjetividad-en-el-diagnostico-psicopedagogico",
+      "workId": "lectura-y-subjetividad-en-el-diagnostico-psicopedagogico",
+      "title": "Lectura y subjetividad en el diagnóstico psicopedagógico",
+      "authorIds": [
+        "a183"
+      ],
+      "contributors": [
+        {
+          "authorId": "a183",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-304-3",
+      "topicIds": [
+        "educacion",
+        "emociones"
+      ],
+      "weights": {
+        "educacion": 1,
+        "emociones": 1,
+        "lectura": 3,
+        "aprendizaje": 3,
+        "subjetividad": 3,
+        "diagnosticos": 2
+      },
+      "summary": "La lectura como producción de sentidos y experiencia subjetiva en el diagnóstico psicopedagógico.",
+      "productUrl": "https://www.noveduc.com/productos/lectura-y-subjetividad-en-el-diagnostico-psicopedagogico/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: La lectura como producción de sentidos y experiencia subjetiva en el diagnóstico psicopedagógico. Materias editoriales: Prácticas del lenguaje - Psicopedagogía - Diagnósticos.",
+      "cover": {
+        "kind": "original",
+        "file": "lectura-y-subjetividad-en-el-diagnostico-psicopedagogico.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-104449789875383043-c2cf3bda7365e3a01917914832152663-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "maternidades-en-tiempos-de-deseobediencias",
+      "workId": "maternidades-en-tiempos-de-deseobediencias",
+      "title": "Maternidades en tiempos de des(e)obediencias",
+      "authorIds": [
+        "a184"
+      ],
+      "contributors": [
+        {
+          "authorId": "a184",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-674-7",
+      "topicIds": [
+        "vinculos",
+        "emociones"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "emociones": 1,
+        "genero": 3,
+        "familias": 3,
+        "subjetividad": 2,
+        "clinica": 2
+      },
+      "summary": "Un diálogo entre psicoanálisis y feminismos sobre el deseo y las formas contemporáneas de maternidad.",
+      "productUrl": "https://www.noveduc.com/productos/maternidades-en-tiempos-de-deseobediencias/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Un diálogo entre psicoanálisis y feminismos sobre el deseo y las formas contemporáneas de maternidad. Materias editoriales: Psicoanálisis - Familia - Género.",
+      "cover": {
+        "kind": "original",
+        "file": "maternidades-en-tiempos-de-deseobediencias.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108689789875386747-258e605a7592eac4ac17916900997061-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "ninos-desatentos-e-hiperactivos-add-adhd",
+      "workId": "ninos-desatentos-e-hiperactivos-add-adhd",
+      "title": "Niños desatentos e hiperactivos (ADD/ADHD)",
+      "authorIds": [
+        "a23",
+        "a31",
+        "a185",
+        "a186",
+        "a187",
+        "a188"
+      ],
+      "contributors": [
+        {
+          "authorId": "a23",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a31",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a185",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a186",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a187",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a188",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-112-4",
+      "topicIds": [
+        "infancias",
+        "educacion"
+      ],
+      "weights": {
+        "infancias": 1,
+        "educacion": 1,
+        "diagnosticos": 3,
+        "aprendizaje": 3,
+        "interdisciplina": 2
+      },
+      "summary": "Una mirada psicoanalítica e interdisciplinaria sobre desatención, hiperactividad e intervenciones escolares.",
+      "productUrl": "https://www.noveduc.com/productos/ninos-desatentos-e-hiperactivos-add-adhd/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Una mirada psicoanalítica e interdisciplinaria sobre desatención, hiperactividad e intervenciones escolares. Materias editoriales: Sexualidad - Psicopedagogía - Psicoanálisis - Diagnósticos.",
+      "cover": {
+        "kind": "original",
+        "file": "ninos-desatentos-e-hiperactivos-add-adhd.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-97009789875381124-549a5efb648603219f17917452844874-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "patologias-actuales-en-la-infancia",
+      "workId": "patologias-actuales-en-la-infancia",
+      "title": "Patologías actuales en la infancia",
+      "authorIds": [
+        "a23",
+        "a187",
+        "a188",
+        "a91",
+        "a189",
+        "a190"
+      ],
+      "contributors": [
+        {
+          "authorId": "a23",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a187",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a188",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a91",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a189",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a190",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-264-0",
+      "topicIds": [
+        "infancias",
+        "salud"
+      ],
+      "weights": {
+        "infancias": 1,
+        "salud": 1,
+        "clinica": 3,
+        "diagnosticos": 2,
+        "familias": 2,
+        "instituciones": 2
+      },
+      "summary": "Reflexiones clínicas sobre sufrimiento infantil, parentalidad e instituciones de salud y educación.",
+      "productUrl": "https://www.noveduc.com/productos/patologias-actuales-en-la-infancia/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Reflexiones clínicas sobre sufrimiento infantil, parentalidad e instituciones de salud y educación. Materias editoriales: Autismo - Diagnósticos - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "patologias-actuales-en-la-infancia.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-103769789875382640-ac9e1b3722f6ff778d17916013729008-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "perversiones-sexuales-en-entornos-digitales",
+      "workId": "perversiones-sexuales-en-entornos-digitales",
+      "title": "Perversiones sexuales en entornos digitales",
+      "authorIds": [
+        "a191"
+      ],
+      "contributors": [
+        {
+          "authorId": "a191",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6828-37-8",
+      "topicIds": [
+        "prevencion",
+        "vinculos"
+      ],
+      "weights": {
+        "prevencion": 1,
+        "vinculos": 1,
+        "digital": 3,
+        "violencias": 3,
+        "intervencion": 2,
+        "derechos": 2
+      },
+      "summary": "Violencia sexual en entornos digitales y herramientas conceptuales para abordarla desde los derechos.",
+      "productUrl": "https://www.noveduc.com/productos/perversiones-sexuales-en-entornos-digitales/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Violencia sexual en entornos digitales y herramientas conceptuales para abordarla desde los derechos. Materias editoriales: Psicología infantil - Abuso sexual - Lanzamiento.",
+      "cover": {
+        "kind": "original",
+        "file": "perversiones-sexuales-en-entornos-digitales.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-111129786316828378-e259827beab7a29ccb17917454134846-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "practicas-en-salud-mental-infantojuvenil",
+      "workId": "practicas-en-salud-mental-infantojuvenil",
+      "title": "Prácticas en Salud Mental infantojuvenil",
+      "authorIds": [
+        "a1",
+        "a5"
+      ],
+      "contributors": [
+        {
+          "authorId": "a1",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a5",
+          "role": "autoría y coordinación"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-485-9",
+      "topicIds": [
+        "salud",
+        "infancias"
+      ],
+      "weights": {
+        "salud": 1,
+        "infancias": 1,
+        "instituciones": 3,
+        "interdisciplina": 2,
+        "clinica": 3,
+        "diagnosticos": 2
+      },
+      "summary": "Debates sobre dispositivos, diagnósticos e invención en la atención del sufrimiento infantojuvenil.",
+      "productUrl": "https://www.noveduc.com/productos/practicas-en-salud-mental-infantojuvenil/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Debates sobre dispositivos, diagnósticos e invención en la atención del sufrimiento infantojuvenil. Materias editoriales: Salud Mental - Patologización - Diagnósticos - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "practicas-en-salud-mental-infantojuvenil.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-107109789875384859-28b308375c61259e1a17917453603273-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "procesos-de-adopciones-de-ninos-ninas-y-adolescentes-los",
+      "workId": "procesos-de-adopciones-de-ninos-ninas-y-adolescentes-los",
+      "title": "Procesos de adopciones de niños, niñas y adolescentes, Los",
+      "authorIds": [
+        "a192"
+      ],
+      "contributors": [
+        {
+          "authorId": "a192",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-573-3",
+      "topicIds": [
+        "vinculos",
+        "infancias"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "infancias": 1,
+        "adopciones": 3,
+        "familias": 3,
+        "escucha": 2,
+        "derechos": 2
+      },
+      "summary": "Herramientas para pensar la vinculación y el acompañamiento de procesos de adopción.",
+      "productUrl": "https://www.noveduc.com/productos/procesos-de-adopciones-de-ninos-ninas-y-adolescentes-los/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Herramientas para pensar la vinculación y el acompañamiento de procesos de adopción. Materias editoriales: Familia - Derechos.",
+      "cover": {
+        "kind": "original",
+        "file": "procesos-de-adopciones-de-ninos-ninas-y-adolescentes-los.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108079789875385733-0196bf67c6d6e5aa1117916014408384-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "promesas-incumplidas-de-la-inclusion-las",
+      "workId": "promesas-incumplidas-de-la-inclusion-las",
+      "title": "Promesas incumplidas de la inclusión, Las",
+      "authorIds": [
+        "a193",
+        "a23",
+        "a194",
+        "a195",
+        "a189",
+        "a196",
+        "a27",
+        "a197",
+        "a198",
+        "a199",
+        "a200"
+      ],
+      "contributors": [
+        {
+          "authorId": "a193",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a23",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a194",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a195",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a189",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a196",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a27",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a197",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a198",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a199",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a200",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-779-9",
+      "topicIds": [
+        "educacion",
+        "vinculos"
+      ],
+      "weights": {
+        "educacion": 1,
+        "vinculos": 1,
+        "diversidad": 3,
+        "convivencia": 3,
+        "aprendizaje": 2,
+        "didactica": 2
+      },
+      "summary": "Preguntas sobre inclusión, exclusión y construcción de lazos en las prácticas educativas.",
+      "productUrl": "https://www.noveduc.com/productos/promesas-incumplidas-de-la-inclusion-las/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Preguntas sobre inclusión, exclusión y construcción de lazos en las prácticas educativas. Materias editoriales: Psicopedagogía - Inclusión educativa.",
+      "cover": {
+        "kind": "original",
+        "file": "promesas-incumplidas-de-la-inclusion-las.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109109789875387799-15ffb1496a5e2b794f17916014618010-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "psicoanalisis-en-situaciones-sociales-criticas-el",
+      "workId": "psicoanalisis-en-situaciones-sociales-criticas-el",
+      "title": "Psicoanálisis en situaciones sociales críticas, El",
+      "authorIds": [
+        "a201",
+        "a202"
+      ],
+      "contributors": [
+        {
+          "authorId": "a201",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a202",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-579-5",
+      "topicIds": [
+        "salud",
+        "prevencion"
+      ],
+      "weights": {
+        "salud": 1,
+        "prevencion": 1,
+        "comunidad": 3,
+        "violencias": 2,
+        "redes": 3,
+        "escucha": 2
+      },
+      "summary": "El trabajo psicoanalítico, educativo y social en territorios atravesados por exclusión y violencia.",
+      "productUrl": "https://www.noveduc.com/productos/psicoanalisis-en-situaciones-sociales-criticas-el/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: El trabajo psicoanalítico, educativo y social en territorios atravesados por exclusión y violencia. Materias editoriales: Psicoanálisis.",
+      "cover": {
+        "kind": "original",
+        "file": "psicoanalisis-en-situaciones-sociales-criticas-el.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108139789875385795-2442b5d8b6bf51a04317912557842859-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "psicoprofilaxis-clinica-y-quirurgica-en-infancias-y-adolescencias",
+      "workId": "psicoprofilaxis-clinica-y-quirurgica-en-infancias-y-adolescencias",
+      "title": "Psicoprofilaxis clínica y quirúrgica en infancias y adolescencias",
+      "authorIds": [
+        "a203"
+      ],
+      "contributors": [
+        {
+          "authorId": "a203",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-972-4",
+      "topicIds": [
+        "prevencion",
+        "infancias"
+      ],
+      "weights": {
+        "prevencion": 1,
+        "infancias": 1,
+        "cuidados": 3,
+        "intervencion": 3,
+        "familias": 2,
+        "adolescencias": 2
+      },
+      "summary": "Estrategias de acompañamiento para niños, adolescentes y familias ante experiencias clínicas y quirúrgicas.",
+      "productUrl": "https://www.noveduc.com/productos/psicoprofilaxis-clinica-y-quirurgica-en-infancias-y-adolescencias/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Estrategias de acompañamiento para niños, adolescentes y familias ante experiencias clínicas y quirúrgicas. Materias editoriales: Salud Mental - Psicoanálisis - Psiquiatría.",
+      "cover": {
+        "kind": "original",
+        "file": "psicoprofilaxis-clinica-y-quirurgica-en-infancias-y-adolescencias.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110169789875389724-3344364744bacc90a217917453911258-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "que-hace-un-psicoanalista-en-un-hospital",
+      "workId": "que-hace-un-psicoanalista-en-un-hospital",
+      "title": "¿Qué hace un psicoanalista en un hospital?",
+      "authorIds": [
+        "a204"
+      ],
+      "contributors": [
+        {
+          "authorId": "a162",
+          "role": "prólogo"
+        },
+        {
+          "authorId": "a204",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-847-5",
+      "topicIds": [
+        "salud",
+        "infancias",
+        "prevencion"
+      ],
+      "weights": {
+        "salud": 1,
+        "infancias": 1,
+        "prevencion": 1,
+        "instituciones": 3,
+        "clinica": 3,
+        "violencias": 2,
+        "escucha": 2
+      },
+      "summary": "Experiencias de escucha y atención de padecimientos infantiles y juveniles en un hospital público.",
+      "productUrl": "https://www.noveduc.com/productos/que-hace-un-psicoanalista-en-un-hospital/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Experiencias de escucha y atención de padecimientos infantiles y juveniles en un hospital público. Materias editoriales: Salud Mental - Psicoanálisis - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "que-hace-un-psicoanalista-en-un-hospital.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109519789875388475-c7553bbe1d26ac5dab17916014772900-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "retraso-mental-en-ninos-y-adolescentes",
+      "workId": "retraso-mental-en-ninos-y-adolescentes",
+      "title": "Retraso mental en niños y adolescentes",
+      "authorIds": [
+        "a205",
+        "a188",
+        "a206"
+      ],
+      "contributors": [
+        {
+          "authorId": "a205",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a188",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a206",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-178-0",
+      "topicIds": [
+        "infancias",
+        "educacion"
+      ],
+      "weights": {
+        "infancias": 1,
+        "educacion": 1,
+        "diversidad": 3,
+        "diagnosticos": 2,
+        "aprendizaje": 3,
+        "interdisciplina": 2
+      },
+      "summary": "Experiencias clínicas y educativas sobre discapacidad intelectual desde distintos campos de saber.",
+      "productUrl": "https://www.noveduc.com/productos/retraso-mental-en-ninos-y-adolescentes/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Experiencias clínicas y educativas sobre discapacidad intelectual desde distintos campos de saber. Materias editoriales: Discapacidad - Psicopedagogía - Inclusión educativa - Autismo.",
+      "cover": {
+        "kind": "original",
+        "file": "retraso-mental-en-ninos-y-adolescentes.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-102069789875381780-e94d66fdb9337954f617917452886451-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "subjetividad-y-aprendizaje-problematicas-educativas-y-psicoanalisis",
+      "workId": "subjetividad-y-aprendizaje-problematicas-educativas-y-psicoanalisis",
+      "title": "Subjetividad y aprendizaje: problemáticas educativas y psicoanálisis",
+      "authorIds": [
+        "a40"
+      ],
+      "contributors": [
+        {
+          "authorId": "a40",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a207",
+          "role": "prólogo"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-921-2",
+      "topicIds": [
+        "educacion",
+        "emociones"
+      ],
+      "weights": {
+        "educacion": 1,
+        "emociones": 1,
+        "aprendizaje": 3,
+        "subjetividad": 3,
+        "lectura": 2
+      },
+      "summary": "Un seminario de Silvia Bleichmar sobre simbolización, aprendizaje y producción de subjetividad.",
+      "productUrl": "https://www.noveduc.com/productos/subjetividad-y-aprendizaje-problematicas-educativas-y-psicoanalisis/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Un seminario de Silvia Bleichmar sobre simbolización, aprendizaje y producción de subjetividad. Materias editoriales: Psicoanálisis - Psicología educativa.",
+      "cover": {
+        "kind": "original",
+        "file": "subjetividad-y-aprendizaje-problematicas-educativas-y-psicoanalisis.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109759789875389212-4298a9f1c0bdbf1bf117917453854398-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "sufrimiento-psiquico-en-los-ninos-el",
+      "workId": "sufrimiento-psiquico-en-los-ninos-el",
+      "title": "Sufrimiento psíquico en los niños, El",
+      "authorIds": [
+        "a31"
+      ],
+      "contributors": [
+        {
+          "authorId": "a31",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-312-8",
+      "topicIds": [
+        "infancias",
+        "emociones"
+      ],
+      "weights": {
+        "infancias": 1,
+        "emociones": 1,
+        "clinica": 3,
+        "escucha": 3,
+        "diagnosticos": 2,
+        "aprendizaje": 2
+      },
+      "summary": "La escucha del sufrimiento infantil y la relación entre historia subjetiva y síntomas.",
+      "productUrl": "https://www.noveduc.com/productos/sufrimiento-psiquico-en-los-ninos-el/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: La escucha del sufrimiento infantil y la relación entre historia subjetiva y síntomas. Materias editoriales: Psicopedagogía - Psicoanálisis con niños - Psiquiatría.",
+      "cover": {
+        "kind": "original",
+        "file": "sufrimiento-psiquico-en-los-ninos-el.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-104519789875383128-792f945afc13d11a6217916900926564-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "terapia-del-lenguaje-en-las-infancias1",
+      "workId": "terapia-del-lenguaje-en-las-infancias1",
+      "title": "Terapia del lenguaje en las infancias",
+      "authorIds": [
+        "a208"
+      ],
+      "contributors": [
+        {
+          "authorId": "a208",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6603-47-0",
+      "topicIds": [
+        "infancias",
+        "educacion"
+      ],
+      "weights": {
+        "infancias": 1,
+        "educacion": 1,
+        "lenguaje": 3,
+        "interdisciplina": 3,
+        "expresion": 2,
+        "aprendizaje": 2
+      },
+      "summary": "Una clínica del lenguaje que articula subjetividad, familia, escuela y trabajo interdisciplinario.",
+      "productUrl": "https://www.noveduc.com/productos/terapia-del-lenguaje-en-las-infancias1/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Una clínica del lenguaje que articula subjetividad, familia, escuela y trabajo interdisciplinario. Materias editoriales: Psicopedagogía - Psicoanálisis con niños - Dificultades de aprendizaje - Fonoaudiología.",
+      "cover": {
+        "kind": "original",
+        "file": "terapia-del-lenguaje-en-las-infancias1.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110569786316603470-2287b5fcba59583de517916877877081-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "tratamiento-ambulatorio-intensivo",
+      "workId": "tratamiento-ambulatorio-intensivo",
+      "title": "Tratamiento ambulatorio intensivo",
+      "authorIds": [
+        "a83"
+      ],
+      "contributors": [
+        {
+          "authorId": "a83",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-646-4",
+      "topicIds": [
+        "salud",
+        "prevencion"
+      ],
+      "weights": {
+        "salud": 1,
+        "prevencion": 1,
+        "consumos": 3,
+        "intervencion": 3,
+        "redes": 2,
+        "clinica": 2
+      },
+      "summary": "Experiencias y fundamentos del tratamiento ambulatorio intensivo de consumos problemáticos.",
+      "productUrl": "https://www.noveduc.com/productos/tratamiento-ambulatorio-intensivo/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Experiencias y fundamentos del tratamiento ambulatorio intensivo de consumos problemáticos. Materias editoriales: Adicciones - Psiquiatría.",
+      "cover": {
+        "kind": "original",
+        "file": "tratamiento-ambulatorio-intensivo.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108399789875386464-1a33bd7fc90af9686217916014466101-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "tratamiento-de-los-problemas-en-el-aprendizaje",
+      "workId": "tratamiento-de-los-problemas-en-el-aprendizaje",
+      "title": "Tratamiento de los problemas en el aprendizaje",
+      "authorIds": [
+        "a91",
+        "a92",
+        "a93",
+        "a94",
+        "a95",
+        "a96",
+        "a97",
+        "a209",
+        "a98",
+        "a99",
+        "a100",
+        "a210",
+        "a101"
+      ],
+      "contributors": [
+        {
+          "authorId": "a91",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a92",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a93",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a94",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a95",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a96",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a97",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a209",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a98",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a99",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a100",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a210",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a101",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-163-6",
+      "topicIds": [
+        "educacion",
+        "infancias"
+      ],
+      "weights": {
+        "educacion": 1,
+        "infancias": 1,
+        "aprendizaje": 3,
+        "clinica": 3,
+        "expresion": 2
+      },
+      "summary": "Ensayos clínicos sobre tratamiento grupal psicopedagógico y procesos de aprendizaje y subjetivación.",
+      "productUrl": "https://www.noveduc.com/productos/tratamiento-de-los-problemas-en-el-aprendizaje/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Ensayos clínicos sobre tratamiento grupal psicopedagógico y procesos de aprendizaje y subjetivación. Materias editoriales: Psicopedagogía - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "tratamiento-de-los-problemas-en-el-aprendizaje.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-101729789875381636-4c9cd90a5a466c074e17917452891820-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "una-nueva-epidemia-de-nombres-impropios",
+      "workId": "una-nueva-epidemia-de-nombres-impropios",
+      "title": "Una nueva epidemia de nombres impropios",
+      "authorIds": [
+        "a69"
+      ],
+      "contributors": [
+        {
+          "authorId": "a69",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-313-5",
+      "topicIds": [
+        "infancias",
+        "salud"
+      ],
+      "weights": {
+        "infancias": 1,
+        "salud": 1,
+        "diagnosticos": 3,
+        "diversidad": 2,
+        "derechos": 2
+      },
+      "summary": "Una crítica a las etiquetas diagnósticas y la medicalización de las experiencias infantiles.",
+      "productUrl": "https://www.noveduc.com/productos/una-nueva-epidemia-de-nombres-impropios/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Una crítica a las etiquetas diagnósticas y la medicalización de las experiencias infantiles. Materias editoriales: Psicoanálisis - Patologización - Diagnósticos - Psiquiatría.",
+      "cover": {
+        "kind": "original",
+        "file": "una-nueva-epidemia-de-nombres-impropios.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-104529789875383135-865f08735d59144c3617917453250169-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "varones-de-carne-y-hueso",
+      "workId": "varones-de-carne-y-hueso",
+      "title": "Varones de carne y hueso",
+      "authorIds": [
+        "a211"
+      ],
+      "contributors": [
+        {
+          "authorId": "a211",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-631-6828-08-8",
+      "topicIds": [
+        "vinculos",
+        "emociones"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "emociones": 1,
+        "genero": 3,
+        "convivencia": 3,
+        "subjetividad": 2,
+        "escucha": 2
+      },
+      "summary": "Una exploración de masculinidades contemporáneas, amistad y sensibilidad desde la clínica y la cultura.",
+      "productUrl": "https://www.noveduc.com/productos/varones-de-carne-y-hueso/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Una exploración de masculinidades contemporáneas, amistad y sensibilidad desde la clínica y la cultura. Materias editoriales: Psicoanálisis - Lanzamiento.",
+      "cover": {
+        "kind": "original",
+        "file": "varones-de-carne-y-hueso.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-110949786316828088-8b451aec7e06a7159a17917454099933-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "versiones-actuales-del-sufrimiento-infantil",
+      "workId": "versiones-actuales-del-sufrimiento-infantil",
+      "title": "Versiones actuales del sufrimiento infantil",
+      "authorIds": [
+        "a23"
+      ],
+      "contributors": [
+        {
+          "authorId": "a23",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-314-2",
+      "topicIds": [
+        "infancias",
+        "educacion"
+      ],
+      "weights": {
+        "infancias": 1,
+        "educacion": 1,
+        "diagnosticos": 3,
+        "aprendizaje": 2,
+        "subjetividad": 3
+      },
+      "summary": "Preguntas sobre atención, hiperactividad y sufrimiento infantil en su contexto social y escolar.",
+      "productUrl": "https://www.noveduc.com/productos/versiones-actuales-del-sufrimiento-infantil/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Preguntas sobre atención, hiperactividad y sufrimiento infantil en su contexto social y escolar. Materias editoriales: Psicoanálisis - Diagnósticos - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "versiones-actuales-del-sufrimiento-infantil.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-104509789875383142-9fa40c728315252c8e17916589244822-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "adopciones-analisis-acciones-y-propuestas-concretas-de-abordajes",
+      "workId": "adopciones-analisis-acciones-y-propuestas-concretas-de-abordajes",
+      "title": "Adopciones: Análisis, acciones y propuestas concretas de abordajes",
+      "authorIds": [
+        "a192",
+        "a212"
+      ],
+      "contributors": [
+        {
+          "authorId": "a192",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a212",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-814-7",
+      "topicIds": [
+        "vinculos",
+        "infancias"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "infancias": 1,
+        "adopciones": 3,
+        "derechos": 3,
+        "familias": 2,
+        "intervencion": 2
+      },
+      "summary": "Una propuesta psicojurídica para abordar adopciones desde los derechos de niños y niñas.",
+      "productUrl": "https://www.noveduc.com/productos/adopciones-analisis-acciones-y-propuestas-concretas-de-abordajes/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Una propuesta psicojurídica para abordar adopciones desde los derechos de niños y niñas. Materias editoriales: Familia - Derechos - Psicología.",
+      "cover": {
+        "kind": "original",
+        "file": "adopciones-analisis-acciones-y-propuestas-concretas-de-abordajes.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109289789875388147-8a3412673d17f9b57017917332688936-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "fin-del-manicomio-el",
+      "workId": "fin-del-manicomio-el",
+      "title": "Fin del manicomio, El",
+      "authorIds": [
+        "a117",
+        "a213",
+        "a1",
+        "a3",
+        "a201",
+        "a202",
+        "a130",
+        "a214",
+        "a215",
+        "a216",
+        "a217",
+        "a218",
+        "a219",
+        "a220",
+        "a221",
+        "a222",
+        "a223",
+        "a224",
+        "a225",
+        "a226",
+        "a227",
+        "a228",
+        "a2",
+        "a229",
+        "a230",
+        "a231",
+        "a232",
+        "a233",
+        "a234",
+        "a235",
+        "a236",
+        "a237",
+        "a238",
+        "a239",
+        "a240",
+        "a241",
+        "a242",
+        "a243",
+        "a244",
+        "a245",
+        "a246",
+        "a247"
+      ],
+      "contributors": [
+        {
+          "authorId": "a117",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a213",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a1",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a3",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a201",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a202",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a130",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a214",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a215",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a216",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a217",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a218",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a219",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a220",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a221",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a222",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a223",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a224",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a225",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a226",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a227",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a228",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a2",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a229",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a230",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a231",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a232",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a233",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a234",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a235",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a236",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a237",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a238",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a239",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a240",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a241",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a242",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a243",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a244",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a245",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a246",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a247",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-677-8",
+      "topicIds": [
+        "salud"
+      ],
+      "weights": {
+        "salud": 1,
+        "derechos": 3,
+        "comunidad": 3,
+        "instituciones": 3,
+        "interdisciplina": 3
+      },
+      "summary": "Aportes teóricos y prácticos para un sistema de salud mental basado en derechos y comunidad.",
+      "productUrl": "https://www.noveduc.com/productos/fin-del-manicomio-el/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Aportes teóricos y prácticos para un sistema de salud mental basado en derechos y comunidad. Materias editoriales: Salud Mental - Psicología - Psiquiatría.",
+      "cover": {
+        "kind": "original",
+        "file": "fin-del-manicomio-el.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-108759789875386778-eb371d4cf3b33856f117917453736583-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "integracion-escolar-como-problematica-profesional-la",
+      "workId": "integracion-escolar-como-problematica-profesional-la",
+      "title": "Integración escolar como problemática profesional, La",
+      "authorIds": [
+        "a248",
+        "a249",
+        "a250",
+        "a251",
+        "a252",
+        "a253",
+        "a254",
+        "a255",
+        "a256",
+        "a257",
+        "a258",
+        "a259"
+      ],
+      "contributors": [
+        {
+          "authorId": "a248",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a249",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a250",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a251",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a252",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a253",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a254",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a255",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a256",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a257",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a258",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a259",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-140-7",
+      "topicIds": [
+        "educacion"
+      ],
+      "weights": {
+        "educacion": 1,
+        "diversidad": 3,
+        "equipos": 3,
+        "gestion": 2,
+        "didactica": 2
+      },
+      "summary": "La integración escolar como responsabilidad compartida del sistema educativo y sus profesionales.",
+      "productUrl": "https://www.noveduc.com/productos/integracion-escolar-como-problematica-profesional-la/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: La integración escolar como responsabilidad compartida del sistema educativo y sus profesionales. Materias editoriales: Discapacidad - Psicopedagogía - Inclusión educativa - Educación Especial.",
+      "cover": {
+        "kind": "original",
+        "file": "integracion-escolar-como-problematica-profesional-la.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-101369789875381407-bf84601e6567900d0817917452906604-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "condenados-a-explorar",
+      "workId": "condenados-a-explorar",
+      "title": "Condenados a explorar",
+      "authorIds": [
+        "a260"
+      ],
+      "contributors": [
+        {
+          "authorId": "a260",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-307-4",
+      "topicIds": [
+        "prevencion",
+        "emociones"
+      ],
+      "weights": {
+        "prevencion": 1,
+        "emociones": 1,
+        "adolescencias": 3,
+        "subjetividad": 3,
+        "clinica": 2,
+        "escucha": 2
+      },
+      "summary": "Una lectura de la adolescencia que pone en el centro la exploración y los procesos subjetivos.",
+      "productUrl": "https://www.noveduc.com/productos/condenados-a-explorar/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Una lectura de la adolescencia que pone en el centro la exploración y los procesos subjetivos. Materias editoriales: Psicoanálisis - Adolescencia - Semana Psi.",
+      "cover": {
+        "kind": "original",
+        "file": "condenados-a-explorar.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-104439789875383074-505a5d114f9904829717916477114992-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "placer-de-criar-la-riqueza-de-pensar-el",
+      "workId": "placer-de-criar-la-riqueza-de-pensar-el",
+      "title": "Placer de criar, la riqueza de pensar, El",
+      "authorIds": [
+        "a261",
+        "a262",
+        "a166",
+        "a96",
+        "a263"
+      ],
+      "contributors": [
+        {
+          "authorId": "a261",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a262",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a166",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a96",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a263",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-118-6",
+      "topicIds": [
+        "vinculos",
+        "infancias"
+      ],
+      "weights": {
+        "vinculos": 1,
+        "infancias": 1,
+        "familias": 3,
+        "desarrollo": 3,
+        "comunidad": 2,
+        "escucha": 2
+      },
+      "summary": "Las primeras relaciones y el acompañamiento de la crianza en contextos de vulnerabilidad social.",
+      "productUrl": "https://www.noveduc.com/productos/placer-de-criar-la-riqueza-de-pensar-el/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Las primeras relaciones y el acompañamiento de la crianza en contextos de vulnerabilidad social. Materias editoriales: Desarrollo emocional - Psicología infantil - Crianza.",
+      "cover": {
+        "kind": "original",
+        "file": "placer-de-criar-la-riqueza-de-pensar-el.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-101029789875381186-82197a4ac5be0b8d5417917452847990-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "aproximaciones-psicoanaliticas-al-juego-y-al-aprendizaje",
+      "workId": "aproximaciones-psicoanaliticas-al-juego-y-al-aprendizaje",
+      "title": "Aproximaciones psicoanalíticas al juego y al aprendizaje",
+      "authorIds": [
+        "a260"
+      ],
+      "contributors": [
+        {
+          "authorId": "a260",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-221-3",
+      "topicIds": [
+        "infancias",
+        "educacion"
+      ],
+      "weights": {
+        "infancias": 1,
+        "educacion": 1,
+        "juego": 3,
+        "aprendizaje": 3,
+        "clinica": 2
+      },
+      "summary": "Aproximaciones a los lenguajes del juego y a sus vínculos con el aprendizaje infantil.",
+      "productUrl": "https://www.noveduc.com/productos/aproximaciones-psicoanaliticas-al-juego-y-al-aprendizaje/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Aproximaciones a los lenguajes del juego y a sus vínculos con el aprendizaje infantil. Materias editoriales: Psicopedagogía - Psicoanálisis con niños.",
+      "cover": {
+        "kind": "original",
+        "file": "aproximaciones-psicoanaliticas-al-juego-y-al-aprendizaje.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-103129789875382213-ead168cd6211ac987717908261184959-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "sujeto-y-la-subjetividad-en-la-psicologia-social-el",
+      "workId": "sujeto-y-la-subjetividad-en-la-psicologia-social-el",
+      "title": "Sujeto y la subjetividad en la psicología social, El",
+      "authorIds": [
+        "a264"
+      ],
+      "contributors": [
+        {
+          "authorId": "a264",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-296-1",
+      "topicIds": [
+        "emociones",
+        "vinculos"
+      ],
+      "weights": {
+        "emociones": 1,
+        "vinculos": 1,
+        "subjetividad": 3,
+        "comunidad": 3,
+        "convivencia": 2
+      },
+      "summary": "Una psicología social que explora la relación inseparable entre lo individual y lo social.",
+      "productUrl": "https://www.noveduc.com/productos/sujeto-y-la-subjetividad-en-la-psicologia-social-el/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Una psicología social que explora la relación inseparable entre lo individual y lo social. Materias editoriales: Psicología.",
+      "cover": {
+        "kind": "original",
+        "file": "sujeto-y-la-subjetividad-en-la-psicologia-social-el.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-104459789875382961-803c95b9f2f5b563c417908267960341-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
+    },
+    {
+      "id": "ninez-adolescencia-y-genero",
+      "workId": "ninez-adolescencia-y-genero",
+      "title": "Niñez, adolescencia y género",
+      "authorIds": [
+        "a265",
+        "a184",
+        "a266",
+        "a267",
+        "a268",
+        "a269",
+        "a270",
+        "a271",
+        "a272",
+        "a273",
+        "a274"
+      ],
+      "contributors": [
+        {
+          "authorId": "a265",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a184",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a266",
+          "role": "autoría y coordinación"
+        },
+        {
+          "authorId": "a267",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a268",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a269",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a270",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a271",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a272",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a273",
+          "role": "autoría según ficha"
+        },
+        {
+          "authorId": "a274",
+          "role": "autoría según ficha"
+        }
+      ],
+      "collectionId": "c2",
+      "isbn": "978-987-538-791-1",
+      "topicIds": [
+        "infancias",
+        "vinculos"
+      ],
+      "weights": {
+        "infancias": 1,
+        "vinculos": 1,
+        "genero": 3,
+        "derechos": 3,
+        "adolescencias": 2,
+        "familias": 2
+      },
+      "summary": "Prácticas de salud y educación atravesadas por la perspectiva de género y la ampliación de derechos.",
+      "productUrl": "https://www.noveduc.com/productos/ninez-adolescencia-y-genero/",
+      "verified": true,
+      "verifiedAt": "2026-10-11",
+      "evidence": "Curaduría basada en descripción e índice de la ficha oficial: Prácticas de salud y educación atravesadas por la perspectiva de género y la ampliación de derechos. Materias editoriales: Sexualidad - Género.",
+      "cover": {
+        "kind": "original",
+        "file": "ninez-adolescencia-y-genero.webp",
+        "sourceUrl": "https://acdn-us.mitiendanube.com/stores/002/335/553/products/xci-109169789875387911-c0604910b3cbd4bcbd17916014640009-640-0.webp",
+        "editionNote": null,
+        "reviewed": true,
+        "attempts": [
+          "Portada original de ficha oficial recuperada; título y autoría contrastados visualmente en láminas privadas el 11/10/2026."
+        ]
+      }
     }
   ],
   "topics": [
@@ -1306,7 +4801,12 @@
       "label": "Salud mental, derechos y comunidad",
       "shortLabel": "Salud mental",
       "description": "Instituciones, prácticas y redes para pensar el cuidado colectivo.",
-      "facets": ["derechos", "comunidad", "interdisciplina", "instituciones"],
+      "facets": [
+        "derechos",
+        "comunidad",
+        "interdisciplina",
+        "instituciones"
+      ],
       "tag": "salud",
       "enabled": true
     },
@@ -1315,7 +4815,12 @@
       "label": "Infancias, juego y diversidad",
       "shortLabel": "Infancias",
       "description": "Juego, cuerpo, desarrollo y miradas sobre las diferencias.",
-      "facets": ["juego", "cuerpo", "diversidad", "diagnosticos"],
+      "facets": [
+        "juego",
+        "cuerpo",
+        "diversidad",
+        "diagnosticos"
+      ],
       "tag": "infancias",
       "enabled": true
     },
@@ -1324,7 +4829,12 @@
       "label": "Educación, pedagogía y gestión institucional",
       "shortLabel": "Educación",
       "description": "Enseñanza, aprendizaje, didáctica y trabajo en las instituciones.",
-      "facets": ["didactica", "gestion", "aprendizaje", "equipos"],
+      "facets": [
+        "didactica",
+        "gestion",
+        "aprendizaje",
+        "equipos"
+      ],
       "tag": "educacion",
       "enabled": true
     },
@@ -1333,7 +4843,12 @@
       "label": "Violencias, vínculos y convivencia",
       "shortLabel": "Vínculos",
       "description": "Relaciones, familias, convivencia y prevención de violencias.",
-      "facets": ["violencias", "convivencia", "parejas", "familias"],
+      "facets": [
+        "violencias",
+        "convivencia",
+        "parejas",
+        "familias"
+      ],
       "tag": "vinculos",
       "enabled": true
     },
@@ -1342,7 +4857,12 @@
       "label": "Prevención, autolesiones y adolescencias",
       "shortLabel": "Prevención",
       "description": "Lecturas sobre prevención del suicidio, acompañamiento y redes.",
-      "facets": ["adolescencias", "redes", "intervencion", "escucha"],
+      "facets": [
+        "adolescencias",
+        "redes",
+        "intervencion",
+        "escucha"
+      ],
       "tag": "prevencion",
       "enabled": true
     },
@@ -1351,7 +4871,12 @@
       "label": "Emociones, subjetividad y herramientas clínicas",
       "shortLabel": "Emociones",
       "description": "La expresión, la escucha y los modos de comprender la subjetividad.",
-      "facets": ["expresion", "subjetividad", "clinica", "escucha"],
+      "facets": [
+        "expresion",
+        "subjetividad",
+        "clinica",
+        "escucha"
+      ],
       "tag": "emociones",
       "enabled": true
     }
@@ -1472,6 +4997,42 @@
     {
       "id": "clinica",
       "label": "perspectivas clínicas"
+    },
+    {
+      "id": "consumos",
+      "label": "consumos problemáticos"
+    },
+    {
+      "id": "adopciones",
+      "label": "adopciones"
+    },
+    {
+      "id": "lenguaje",
+      "label": "lenguaje en las infancias"
+    },
+    {
+      "id": "desarrollo",
+      "label": "primeros tiempos del desarrollo"
+    },
+    {
+      "id": "digital",
+      "label": "experiencias digitales"
+    },
+    {
+      "id": "cuidados",
+      "label": "cuidado de quienes cuidan"
+    },
+    {
+      "id": "envejecimiento",
+      "label": "envejecimiento"
+    },
+    {
+      "id": "lectura",
+      "label": "lectura y producción de sentidos"
+    },
+    {
+      "id": "genero",
+      "label": "perspectivas de género"
     }
   ],
   "authors": [
@@ -1734,6 +5295,842 @@
     {
       "id": "a65",
       "name": "Eduardo Pavlovsky"
+    },
+    {
+      "id": "a66",
+      "name": "Graciela Bustos"
+    },
+    {
+      "id": "a67",
+      "name": "María Laura Frank"
+    },
+    {
+      "id": "a68",
+      "name": "Karina González"
+    },
+    {
+      "id": "a69",
+      "name": "Juan Vasen"
+    },
+    {
+      "id": "a70",
+      "name": "Miguel Ángel Tollo"
+    },
+    {
+      "id": "a71",
+      "name": "Laura Gersberg"
+    },
+    {
+      "id": "a72",
+      "name": "Giselle Amador"
+    },
+    {
+      "id": "a73",
+      "name": "Iliana Díaz Placencia"
+    },
+    {
+      "id": "a74",
+      "name": "Rebeca Faur"
+    },
+    {
+      "id": "a75",
+      "name": "Andrea del Giorgio"
+    },
+    {
+      "id": "a76",
+      "name": "Guillermo González Guzmán"
+    },
+    {
+      "id": "a77",
+      "name": "Marcos Isolabella"
+    },
+    {
+      "id": "a78",
+      "name": "Mario A. Kameniecki"
+    },
+    {
+      "id": "a79",
+      "name": "Sandra Lauriti"
+    },
+    {
+      "id": "a80",
+      "name": "Diego Morales Duran"
+    },
+    {
+      "id": "a81",
+      "name": "Pilar Moreno Hernández"
+    },
+    {
+      "id": "a82",
+      "name": "Alejandro Olivera Herrera"
+    },
+    {
+      "id": "a83",
+      "name": "Federico Pavlovsky"
+    },
+    {
+      "id": "a84",
+      "name": "Héctor Pérez Barbosa"
+    },
+    {
+      "id": "a85",
+      "name": "César Rivelino Pérez Escobedo"
+    },
+    {
+      "id": "a86",
+      "name": "Raquel Peyraube"
+    },
+    {
+      "id": "a87",
+      "name": "Julieta Scinocca"
+    },
+    {
+      "id": "a88",
+      "name": "Nelly Tapia Ugalde"
+    },
+    {
+      "id": "a89",
+      "name": "Carina Villamayor"
+    },
+    {
+      "id": "a90",
+      "name": "Ana Marta Zárate"
+    },
+    {
+      "id": "a91",
+      "name": "Luisa Wettengel"
+    },
+    {
+      "id": "a92",
+      "name": "Gerardo Prol"
+    },
+    {
+      "id": "a93",
+      "name": "María Victoria Rego"
+    },
+    {
+      "id": "a94",
+      "name": "Teresita Bó"
+    },
+    {
+      "id": "a95",
+      "name": "Erica Hamuy"
+    },
+    {
+      "id": "a96",
+      "name": "Alejandrina Meza"
+    },
+    {
+      "id": "a97",
+      "name": "Liliana Contrafatti"
+    },
+    {
+      "id": "a98",
+      "name": "María Erhart del Campo"
+    },
+    {
+      "id": "a99",
+      "name": "Cecilia Kornblit"
+    },
+    {
+      "id": "a100",
+      "name": "Andrea Lucero"
+    },
+    {
+      "id": "a101",
+      "name": "Claudia Suárez"
+    },
+    {
+      "id": "a102",
+      "name": "Rosario Arana"
+    },
+    {
+      "id": "a103",
+      "name": "Sabina Grinberg"
+    },
+    {
+      "id": "a104",
+      "name": "Eva Giberti"
+    },
+    {
+      "id": "a105",
+      "name": "Marcela Bottinelli"
+    },
+    {
+      "id": "a106",
+      "name": "Carmen A. Fusca"
+    },
+    {
+      "id": "a107",
+      "name": "Silvia Morici"
+    },
+    {
+      "id": "a108",
+      "name": "Mariana V. Wassner"
+    },
+    {
+      "id": "a109",
+      "name": "María José Fattore"
+    },
+    {
+      "id": "a110",
+      "name": "María Martha Panizza"
+    },
+    {
+      "id": "a111",
+      "name": "Jennifer Bertin"
+    },
+    {
+      "id": "a112",
+      "name": "Lidia Ferraiuolo"
+    },
+    {
+      "id": "a113",
+      "name": "Julieta Inza"
+    },
+    {
+      "id": "a114",
+      "name": "Betina Frid"
+    },
+    {
+      "id": "a115",
+      "name": "Alejandra Giacobone"
+    },
+    {
+      "id": "a116",
+      "name": "Ariana Veónica Lebovic"
+    },
+    {
+      "id": "a117",
+      "name": "Alberto Calabrese"
+    },
+    {
+      "id": "a118",
+      "name": "Silvia Raggi"
+    },
+    {
+      "id": "a119",
+      "name": "Yesica Lasala"
+    },
+    {
+      "id": "a120",
+      "name": "Mariana Manté"
+    },
+    {
+      "id": "a121",
+      "name": "Jerónimo Grondona"
+    },
+    {
+      "id": "a122",
+      "name": "Betsabé Leicach"
+    },
+    {
+      "id": "a123",
+      "name": "Fabiana Santos"
+    },
+    {
+      "id": "a124",
+      "name": "Karina Elalle"
+    },
+    {
+      "id": "a125",
+      "name": "Carolina Galloni"
+    },
+    {
+      "id": "a126",
+      "name": "Darío Andrés Galante"
+    },
+    {
+      "id": "a127",
+      "name": "Karina Daniela Ferrari"
+    },
+    {
+      "id": "a128",
+      "name": "Jesús Del Canto"
+    },
+    {
+      "id": "a129",
+      "name": "Rocío Dubrovsky Berensztein"
+    },
+    {
+      "id": "a130",
+      "name": "Alejandro Brain"
+    },
+    {
+      "id": "a131",
+      "name": "Carla Menchi"
+    },
+    {
+      "id": "a132",
+      "name": "M. Agustina Yannibelli"
+    },
+    {
+      "id": "a133",
+      "name": "Jesica Fernández Muti"
+    },
+    {
+      "id": "a134",
+      "name": "Hernán Guido Arra"
+    },
+    {
+      "id": "a135",
+      "name": "Mellina Bianca Penna"
+    },
+    {
+      "id": "a136",
+      "name": "Rodrigo Videtta"
+    },
+    {
+      "id": "a137",
+      "name": "Luciano Iván Rosé"
+    },
+    {
+      "id": "a138",
+      "name": "M. Julieta Vaqueiro de Berecibar"
+    },
+    {
+      "id": "a139",
+      "name": "Laura Damonte"
+    },
+    {
+      "id": "a140",
+      "name": "Paula Horn"
+    },
+    {
+      "id": "a141",
+      "name": "Gisela Oriolo"
+    },
+    {
+      "id": "a142",
+      "name": "Adriana Granica"
+    },
+    {
+      "id": "a143",
+      "name": "Norberto Liwsky"
+    },
+    {
+      "id": "a144",
+      "name": "Rodolfo Urribarri"
+    },
+    {
+      "id": "a145",
+      "name": "Sergio Fajn"
+    },
+    {
+      "id": "a146",
+      "name": "Graciela Zarebski"
+    },
+    {
+      "id": "a147",
+      "name": "Juan D. Avilés Hernández"
+    },
+    {
+      "id": "a148",
+      "name": "Patricia Beatriz Cabrera"
+    },
+    {
+      "id": "a149",
+      "name": "Rosa Valentina Campos"
+    },
+    {
+      "id": "a150",
+      "name": "Adriana Elizabeth Capuano"
+    },
+    {
+      "id": "a151",
+      "name": "Carmen de Grado"
+    },
+    {
+      "id": "a152",
+      "name": "Annie E. García Nadal"
+    },
+    {
+      "id": "a153",
+      "name": "Jonathan Grinberg"
+    },
+    {
+      "id": "a154",
+      "name": "Alicia B. Kabanchik"
+    },
+    {
+      "id": "a155",
+      "name": "Graciela Lahuerta"
+    },
+    {
+      "id": "a156",
+      "name": "Mariana Andrea Rodríguez"
+    },
+    {
+      "id": "a157",
+      "name": "Laura Inés Salatino"
+    },
+    {
+      "id": "a158",
+      "name": "Juan A. Salmerón Aroca"
+    },
+    {
+      "id": "a159",
+      "name": "María Julia Xifra"
+    },
+    {
+      "id": "a160",
+      "name": "Jaime Fernández Miranda"
+    },
+    {
+      "id": "a161",
+      "name": "Marcelo D. Rocha"
+    },
+    {
+      "id": "a162",
+      "name": "Mecedes S. Minnicelli"
+    },
+    {
+      "id": "a163",
+      "name": "Iván Branner"
+    },
+    {
+      "id": "a164",
+      "name": "Silvia Grande"
+    },
+    {
+      "id": "a165",
+      "name": "Silvia Lampugnani"
+    },
+    {
+      "id": "a166",
+      "name": "Marcela Pereira"
+    },
+    {
+      "id": "a167",
+      "name": "Valeria Feder"
+    },
+    {
+      "id": "a168",
+      "name": "Lidia Susana Maquieira"
+    },
+    {
+      "id": "a169",
+      "name": "Clarisa Label"
+    },
+    {
+      "id": "a170",
+      "name": "Jessica Waisman"
+    },
+    {
+      "id": "a171",
+      "name": "Leticia López"
+    },
+    {
+      "id": "a172",
+      "name": "Dora Beatriz Ubici"
+    },
+    {
+      "id": "a173",
+      "name": "Gabriel Martino"
+    },
+    {
+      "id": "a174",
+      "name": "Marina Altmann de Litvan"
+    },
+    {
+      "id": "a175",
+      "name": "Ana Lía Ruiz"
+    },
+    {
+      "id": "a176",
+      "name": "Graciela Cardarelli"
+    },
+    {
+      "id": "a177",
+      "name": "Alicia Rozental"
+    },
+    {
+      "id": "a178",
+      "name": "Cristina Beiga"
+    },
+    {
+      "id": "a179",
+      "name": "Cecilia Illia"
+    },
+    {
+      "id": "a180",
+      "name": "Rubén Flores"
+    },
+    {
+      "id": "a181",
+      "name": "Raquel Gerber"
+    },
+    {
+      "id": "a182",
+      "name": "Silvia Peaguda"
+    },
+    {
+      "id": "a183",
+      "name": "Gustavo Cantú"
+    },
+    {
+      "id": "a184",
+      "name": "Graciela Beatriz Reid"
+    },
+    {
+      "id": "a185",
+      "name": "Osvaldo Tulio Frizzera"
+    },
+    {
+      "id": "a186",
+      "name": "Carmen Heuser"
+    },
+    {
+      "id": "a187",
+      "name": "María Cristina Rojas"
+    },
+    {
+      "id": "a188",
+      "name": "Jaime Tallis"
+    },
+    {
+      "id": "a189",
+      "name": "Graciela Szyber"
+    },
+    {
+      "id": "a190",
+      "name": "Liliana N. Kaufmann"
+    },
+    {
+      "id": "a191",
+      "name": "Sonia Almada"
+    },
+    {
+      "id": "a192",
+      "name": "María Federica Otero"
+    },
+    {
+      "id": "a193",
+      "name": "Denise Najmanovich"
+    },
+    {
+      "id": "a194",
+      "name": "Carlos Skliar"
+    },
+    {
+      "id": "a195",
+      "name": "Mónica Coronado"
+    },
+    {
+      "id": "a196",
+      "name": "Facundo Giuliano"
+    },
+    {
+      "id": "a197",
+      "name": "Andreia dos Santos de Jesus"
+    },
+    {
+      "id": "a198",
+      "name": "Renata Montrezol Brandstatter"
+    },
+    {
+      "id": "a199",
+      "name": "Mónica Lungo"
+    },
+    {
+      "id": "a200",
+      "name": "Marcela Alluz"
+    },
+    {
+      "id": "a201",
+      "name": "Emilia Estivalet Broide"
+    },
+    {
+      "id": "a202",
+      "name": "Jorge Broide"
+    },
+    {
+      "id": "a203",
+      "name": "Sandra Vorobechik"
+    },
+    {
+      "id": "a204",
+      "name": "Lorena P. Aguirre"
+    },
+    {
+      "id": "a205",
+      "name": "Ana Karina Hormigo"
+    },
+    {
+      "id": "a206",
+      "name": "Ana Elena Esterkind de Chein"
+    },
+    {
+      "id": "a207",
+      "name": "Nora Elichiry"
+    },
+    {
+      "id": "a208",
+      "name": "Giselle Aronson"
+    },
+    {
+      "id": "a209",
+      "name": "Jorgelina Lázaro"
+    },
+    {
+      "id": "a210",
+      "name": "Juliana Oelsner"
+    },
+    {
+      "id": "a211",
+      "name": "Lila María Feldman"
+    },
+    {
+      "id": "a212",
+      "name": "Carolina A. Videtta"
+    },
+    {
+      "id": "a213",
+      "name": "Susana Chames"
+    },
+    {
+      "id": "a214",
+      "name": "Germán Alemanni"
+    },
+    {
+      "id": "a215",
+      "name": "Aníbal Edgardo Areco"
+    },
+    {
+      "id": "a216",
+      "name": "Hugo Barrionuevo"
+    },
+    {
+      "id": "a217",
+      "name": "Ricardo Federico Bejarano"
+    },
+    {
+      "id": "a218",
+      "name": "Elizabeth Bertorello"
+    },
+    {
+      "id": "a219",
+      "name": "Gustavo Fernando Bertran"
+    },
+    {
+      "id": "a220",
+      "name": "Soledad del Rosario Buhlman"
+    },
+    {
+      "id": "a221",
+      "name": "Marcelo Caputo"
+    },
+    {
+      "id": "a222",
+      "name": "Hugo Cohen"
+    },
+    {
+      "id": "a223",
+      "name": "Natalia Da Silva"
+    },
+    {
+      "id": "a224",
+      "name": "Martín de Lellis"
+    },
+    {
+      "id": "a225",
+      "name": "Sol Victoria del Carpio"
+    },
+    {
+      "id": "a226",
+      "name": "Andrea Demasi"
+    },
+    {
+      "id": "a227",
+      "name": "Juan Carlos Fantin"
+    },
+    {
+      "id": "a228",
+      "name": "Guillermo Daniel Fotia"
+    },
+    {
+      "id": "a229",
+      "name": "Gabriela Greggio"
+    },
+    {
+      "id": "a230",
+      "name": "María Laura Guerrero"
+    },
+    {
+      "id": "a231",
+      "name": "Ramiro Hernández"
+    },
+    {
+      "id": "a232",
+      "name": "María Graciela Iglesias"
+    },
+    {
+      "id": "a233",
+      "name": "Alfredo Jorge Kraut"
+    },
+    {
+      "id": "a234",
+      "name": "Mariano Laufer Cabrera"
+    },
+    {
+      "id": "a235",
+      "name": "Sandra Merlo"
+    },
+    {
+      "id": "a236",
+      "name": "Graciela Natella"
+    },
+    {
+      "id": "a237",
+      "name": "Lucía Pomares"
+    },
+    {
+      "id": "a238",
+      "name": "Mercedes Rattagan"
+    },
+    {
+      "id": "a239",
+      "name": "Víctor Manuel Rodríguez González"
+    },
+    {
+      "id": "a240",
+      "name": "Jorge Rossetto"
+    },
+    {
+      "id": "a241",
+      "name": "Gustavo Pablo Rossi"
+    },
+    {
+      "id": "a242",
+      "name": "Macarena Sabin Paz"
+    },
+    {
+      "id": "a243",
+      "name": "Luis Sanfelippo"
+    },
+    {
+      "id": "a244",
+      "name": "Alberto Sava"
+    },
+    {
+      "id": "a245",
+      "name": "Ana Sofía Soberón Rebaza"
+    },
+    {
+      "id": "a246",
+      "name": "Alejandro Vainer"
+    },
+    {
+      "id": "a247",
+      "name": "Solana María Yoma"
+    },
+    {
+      "id": "a248",
+      "name": "Sandra Alegre"
+    },
+    {
+      "id": "a249",
+      "name": "María del Carmen Campos"
+    },
+    {
+      "id": "a250",
+      "name": "Adriana Amelia Gallo"
+    },
+    {
+      "id": "a251",
+      "name": "Adriana Mónica Gianella"
+    },
+    {
+      "id": "a252",
+      "name": "Graciela Margarita González"
+    },
+    {
+      "id": "a253",
+      "name": "Nora Dibner"
+    },
+    {
+      "id": "a254",
+      "name": "Daniela Gutesman"
+    },
+    {
+      "id": "a255",
+      "name": "Rut Kuitca"
+    },
+    {
+      "id": "a256",
+      "name": "Analía Kulesz"
+    },
+    {
+      "id": "a257",
+      "name": "Ana María Rita Niro"
+    },
+    {
+      "id": "a258",
+      "name": "Marta Sipes"
+    },
+    {
+      "id": "a259",
+      "name": "Silvia Dubrovsky"
+    },
+    {
+      "id": "a260",
+      "name": "Mario Waserman"
+    },
+    {
+      "id": "a261",
+      "name": "Silvina Cavalleris"
+    },
+    {
+      "id": "a262",
+      "name": "María Di Scala"
+    },
+    {
+      "id": "a263",
+      "name": "Silvia Schlemenson"
+    },
+    {
+      "id": "a264",
+      "name": "Fernando Luis González Rey"
+    },
+    {
+      "id": "a265",
+      "name": "Susana De la Sovera"
+    },
+    {
+      "id": "a266",
+      "name": "Débora Tajer"
+    },
+    {
+      "id": "a267",
+      "name": "María Laura Lavarello"
+    },
+    {
+      "id": "a268",
+      "name": "María Eugenia Cuadra"
+    },
+    {
+      "id": "a269",
+      "name": "Mónica Solís"
+    },
+    {
+      "id": "a270",
+      "name": "Lucía Saavedra"
+    },
+    {
+      "id": "a271",
+      "name": "Mariana Gaba"
+    },
+    {
+      "id": "a272",
+      "name": "Juliana Fernández Romeral"
+    },
+    {
+      "id": "a273",
+      "name": "Alejandra Lo Russo"
+    },
+    {
+      "id": "a274",
+      "name": "Rocío Fabbio"
     }
   ],
   "collections": [
@@ -1748,7 +6145,16 @@
     {
       "id": "c3",
       "name": "Noveduc Gestión"
+    },
+    {
+      "id": "c4",
+      "name": "Ensayos y Experiencias"
     }
   ],
-  "requiredAuthorIds": ["a1", "a21", "a33", "a40"]
+  "requiredAuthorIds": [
+    "a1",
+    "a21",
+    "a33",
+    "a40"
+  ]
 }
