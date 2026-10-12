@@ -16,7 +16,7 @@ npm run validate
 npm test
 ```
 
-El catálogo inicial tiene 28 obras con fichas verificadas, seis temáticas y 60 preguntas. Los JSON/datos de src/data se editan separados de la UI. Validar después de cambiar contenido. Estado y evidencia: docs/STATUS.md.
+El catálogo de Fase 2 tiene 80 obras con fichas verificadas, seis temáticas y 84 preguntas (60 originales y 24 adicionales). Los JSON/datos de src/data se editan separados de la UI. Validar después de cambiar contenido. Estado y evidencia: docs/STATUS.md.
 
 ## Recursos privados y build reproducible
 
@@ -60,10 +60,16 @@ Incluye auditoría Axe de accesibilidad y contraste WCAG A/AA en las tres pantal
 6. Abrir la URL (con `/` final si es subcarpeta), recargar y completar ambos modos. No debe haber recursos 404 ni contenido mixto.
 7. Probar Anterior, cambio de selección, resultados, LINK y Hacer otro match desde un teléfono. Probar seis temáticas y varias partidas consecutivas.
 
-El build usa `base: './'` y navegación en memoria, por lo que no necesita reglas de router ni Node en producción. Reemplazar por un nuevo build para actualizar. La URL y la prueba HTTPS final todavía dependen del usuario.
+El build usa `base: './'` y navegación en memoria, por lo que no necesita reglas de router ni Node en producción. Reemplazar por un nuevo build para actualizar. Sitio actual: https://mnicabeatrizp6.sg-host.com. Su raíz y recursos fueron comprobados por lectura HTTPS; esta fase no reemplaza archivos publicados. Requiere aprobación visual posterior.
 
 ## Pruebas reales pendientes
 
 En Safari/iPhone y Chrome/Android: completar ambos modos; tocar opciones sucesivas; volver y modificar respuestas; dar toques rápidos en navegación; girar vertical/horizontal; ampliar texto a 200%; revisar títulos largos y portadas; abrir LINK y regresar; reiniciar y completar otra partida. Confirmar ausencia de recortes, superposición y desplazamiento horizontal. Repetir en tablet.
 
 No se recopilan respuestas en un servidor, no hay analítica ni persistencia de datos personales. Recargar el navegador inicia una nueva partida; girar el dispositivo conserva el estado.
+
+## Auditoría de Fase 2
+
+Consultar docs/PHASE2_REPORT.md para las 52 incorporaciones, fuentes, distribución y evidencia. `npx tsx scripts/audit-reachability.ts` genera perfiles reproducibles y detecta obras sin alcance en la muestra de pruebas. `npm run verify:sources` comprueba título, autorías listadas, colección e ISBN contra cada ficha oficial; la interpretación de roles necesita revisión editorial. No ejecutar create-editorial-data.mjs para actualizar Fase 2: reconstruye la curaduría piloto y reemplaza el catálogo. La ampliación curada está en src/data/phase2-curation.json; research-phase2.mjs e import-phase2.mjs son herramientas de investigación/importación, no pasos de build. Los registros nuevos requieren revisión visual antes de habilitarse.
+
+Copia v1: artifacts/match-conjunciones-v1-66f2304.zip (privada). Puede subirse de nuevo para revertir al build local anterior; conservar además copia del public_html actual antes de cualquier actualización. Build/ZIP, investigación y portadas continúan fuera de Git. El fixture de medidas móviles preserva procedencia y hash del ZIP v1; no exige ese archivo para ejecutar tests en otro equipo.

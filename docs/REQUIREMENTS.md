@@ -41,3 +41,11 @@ Intervención exclusivamente visual: mantener catálogo, preguntas, pesos, algor
 Conservar Arial/Helvetica/sans-serif y Georgia/Times New Roman/serif, incluida cursiva editorial. Resultados con «Tu match literario.» como texto real: gris oscuro y «literario.» blanco dentro de señalador CSS rojo con punta derecha, adaptable a dos líneas en teléfonos. Sin sombras fuertes, gradientes o animaciones añadidas. Selección con rojo e indicador ✓; foco y controles de 48 px. Blanco/rojo (4,19:1) reservado a texto grande; acciones blancas en negrita de 1,2 rem y texto pequeño en gris oscuro.
 
 Repetir TypeScript, tests unitarios y E2E, seis anchos, orientación, texto 200%, contraste, carga de imágenes, señalador sin recortes y sistema oscuro conservando modo claro. Regenerar build y ZIP, documentar evidencia y sincronizar repositorio existente. Mostrar vista previa local para aprobación visual antes de publicar en SiteGround. Sin nuevas dependencias, PWA ni ampliación editorial.
+
+## Fase 2 autorizada
+
+Ampliar a mínimo 60 obras verificadas, procurar 80, priorizando Conjunciones sin excluir catálogo general. Conservar autores obligatorios y seis áreas, preguntas existentes salvo necesidad editorial demostrada, motor determinista, filtro estricto, diez preguntas y 3–5 obras. Verificar pertinencia, alcance efectivo de nuevos títulos y diversidad; documentar límites sin inventar datos. Recursos de imagen privados incluidos en build.
+
+Compactar mobile sin ocultar contenido ni fijar alturas: header orientativo 56–72 px, título inicial Georgia bold y vos. rojo/cursiva, modalidades visibles en teléfono habitual, selector compacto, progreso próximo al header, respuestas y navegación cercanas, footer mínimo centrado no fijo. Sustituir estrellas por punto rojo y shuffle SVG; conservar icono de lista. Sombra neutra suave en contenedor de portadas, tarjetas horizontales completas. Probar 320×568, 375×667, 390×844, 768×1024, 1024×768 y ancho 1440, texto 200%, tacto 48 px y áreas seguras. Scroll natural si necesario.
+
+Usuario informa publicación operativa en https://mnicabeatrizp6.sg-host.com. Preparar actualización local y ZIP, conservar versión anterior recuperable; no reemplazar sitio sin aprobación visual posterior.

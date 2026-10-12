@@ -28,3 +28,12 @@ Manifiesto versionado con URLs públicas, tipo, evidencia y nombre. Caché origi
 3. Verificar selección, navegación, seis tamaños, orientación, texto 200%, imágenes y contraste; añadir comprobación de modo claro con sistema oscuro. Contrastar SVG fuente/build byte por byte.
 4. Revisar capturas, actualizar documentación, regenerar y verificar ZIP; commit y push al repositorio existente.
 5. Mostrar preview local. Publicación SiteGround pendiente de aprobación visual y datos externos. Sin cambios en datos, dominio, estado o recursos editoriales.
+
+## Fase 2
+
+1. Respaldar ZIP v1 e investigar sistemáticamente fichas de Conjunciones y catálogo general, persistiendo solo datos editoriales.
+2. Curar nuevas obras, autorías, colecciones, etiquetas y resúmenes; revisar imágenes y evitar duplicados de obra/edición.
+3. Auditar cobertura y libros alcanzables con perfiles reales de preguntas; ajustar únicamente donde exista necesidad y evidencia.
+4. Compactar header, inicio, selector y quiz; punto/shuffle, footer mínimo y definición de portadas.
+5. Validaciones editoriales, unitarias y Playwright con tamaños y accesibilidad; medir espacio y revisar capturas.
+6. Build/ZIP íntegro con nuevas portadas y rutas relativas, documentación, commits separados y push. Preview local para aprobación; mantener SiteGround actual.

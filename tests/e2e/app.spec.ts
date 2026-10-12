@@ -1,6 +1,16 @@
 import { test, expect, type Page } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+import { writeFile } from "node:fs/promises";
+import baseline from "../fixtures/mobile-baseline.json" with { type: "json" };
 const widths = [320, 375, 390, 768, 1024, 1440];
+const heights: Record<number, number> = {
+  320: 568,
+  375: 667,
+  390: 844,
+  768: 1024,
+  1024: 768,
+  1440: 900,
+};
 async function noOverflow(page: Page) {
   const overflow = await page.evaluate(() => ({
     width: innerWidth,
@@ -55,7 +65,7 @@ for (const width of widths)
   test(`Responsive ${width}: inicio, preguntas, resultados y recursos`, async ({
     page,
   }, info) => {
-    await page.setViewportSize({ width, height: 900 });
+    await page.setViewportSize({ width, height: heights[width] });
     const failures: string[] = [];
     page.on("pageerror", (e) => failures.push(e.message));
     page.on("response", (r) => {
@@ -69,6 +79,11 @@ for (const width of widths)
       });
     await noOverflow(page);
     await page.getByRole("button", { name: "Elegir una temática" }).click();
+    if (width === 390)
+      await page.screenshot({
+        path: "artifacts/selector-390.png",
+        fullPage: true,
+      });
     await noOverflow(page);
     await expect(page.getByRole("radio")).toHaveCount(6);
     await page.getByRole("radio").first().check();
@@ -143,6 +158,46 @@ test("Navegación, conservación, cambio de selección y protección de ráfagas
   await expect(page.locator("input:checked")).toHaveValue(
     (await option.nth(2).locator("input").getAttribute("value")) as string,
   );
+});
+
+test("Densidad móvil: ambas modalidades visibles y encabezado compacto", async ({
+  page,
+}) => {
+  const metrics = [];
+  for (const [width, height] of [
+    [375, 667],
+    [390, 844],
+  ]) {
+    await page.setViewportSize({ width, height });
+    await page.goto("/");
+    const header = (await page.locator(".masthead").boundingBox())!;
+    expect(header.height).toBeGreaterThanOrEqual(56);
+    expect(header.height).toBeLessThanOrEqual(72);
+    const bottom =
+      (await page.getByRole("button", { name: "Sorprendeme" }).boundingBox())!
+        .y +
+      (await page.getByRole("button", { name: "Sorprendeme" }).boundingBox())!
+        .height;
+    expect(bottom).toBeLessThanOrEqual(height - 48); // reserva para barras móviles
+    await page.getByRole("button", { name: "Sorprendeme" }).click();
+    await expect(page.locator("footer")).toHaveCount(0);
+    const next = (await page.locator(".quiz-navigation").boundingBox())!;
+    metrics.push({
+      width,
+      height,
+      header: header.height,
+      modeBottom: bottom,
+      navigationBottom: next.y + next.height,
+    });
+    await noOverflow(page);
+  }
+  // Medidas v1 contrastadas contra el ZIP conservado, con hash en el fixture.
+  await writeFile(
+    "artifacts/mobile-density.json",
+    JSON.stringify({ baseline390: baseline, current: metrics }, null, 2),
+  );
+  expect(metrics[1].header).toBeLessThan(baseline.header);
+  expect(metrics[1].modeBottom).toBeLessThan(baseline.modeBottom);
 });
 test("Seis áreas completas respetan el filtro y permiten partidas consecutivas", async ({
   page,
