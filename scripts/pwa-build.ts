@@ -52,7 +52,7 @@ export async function createPwa() {
     })) {
       const path = folder + entry.name;
       if (entry.isDirectory()) await walk(path + "/");
-      else if (path !== "sw.js") files.push(path);
+      else if (path !== "sw.js" && !path.endsWith(".php")) files.push(path);
     }
   }
   await walk();
@@ -79,6 +79,7 @@ self.addEventListener("activate", (event) => {
   event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((key) => key.startsWith(PREFIX) && key !== CACHE).map((key) => caches.delete(key)))).then(() => self.clients.claim()));
 });
 self.addEventListener("fetch", (event) => {
+  if (new URL(event.request.url).pathname.endsWith(".php")) return;
   if (event.request.method !== "GET" || !event.request.url.startsWith(self.registration.scope)) return;
   event.respondWith(caches.open(CACHE).then(async (cache) => {
     if (event.request.mode === "navigate") return (await cache.match(url("index.html"))) || fetch(event.request);

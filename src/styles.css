@@ -1323,3 +1323,20 @@ footer {
 .quiz-navigation {
   margin-top: 40px;
 }
+.statistics {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 0 0 12px;
+  color: #707070;
+  font-size: 11px;
+  line-height: 1.4;
+  text-align: center;
+}
+.statistics div + div {
+  border-left: 1px solid #ddd;
+  padding-left: 18px;
+}
+.statistics dd {
+  margin: 2px 0 0;
+}

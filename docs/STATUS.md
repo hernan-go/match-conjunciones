@@ -1,4 +1,24 @@
-# Estado — Fase 3, 12/10/2026
+# Estado — Estadísticas temporales, 15/10/2026
+
+## Entrega actual — contadores preparados, SiteGround intacto
+
+Implementados exclusivamente VISITORS y MATCH COMPLETE. UUID estable por navegador en localStorage; UUID nuevo por partida y registro después del render de recomendaciones con diez respuestas. Guarda localmente pendientes hasta siete días, cinco intentos por evento/carga, timeout cinco segundos y reintentos espaciados/online. Eventos independientes por clave para no sobrescribir otra pestaña. Cubre finalización encolada mientras aún se confirma la visita. No transmite respuestas, libros ni datos personales. Fallos de almacenamiento/red nunca impiden jugar.
+
+PHP del mismo origen en server/stats.php: GET/POST solo devuelve visitors y matchComplete, validación estricta de tipo/UUID/payload/origen, deduplicación con huellas SHA256. JSON en carpeta match-noveduc-private hermana del public_html real; bloqueo en archivo separado y reemplazo atómico. No incluye datos privados en ZIP ni reinicia almacenamiento dañado. Ruta absoluta y permisos efectivos pendientes de verificar en hosting; no hubo acceso a Site Tools ni publicación.
+
+UI: dos columnas grises de 11 px bajo footer solo en inicio, ocultas en menú, catálogo, preguntas y resultados; guiones sin respuesta válida. Lectura al abrir/regresar al inicio, sin polling; confirmación de POST actualiza cifras visibles sin sobrescribirlas con GET anterior. Worker excluye PHP del precache y no intercepta GET/POST; cache no-store en cliente y endpoint. Catálogo, 84 preguntas, seis temáticas, motor y reducer sin cambios (git diff comprobado).
+
+Archivos: src/services/statistics.ts, src/components/Statistics.tsx, server/stats.php y scripts/test-statistics-php.mjs nuevos; integración en App/CSS, package-build/pwa-build/serve-build, pruebas unitarias/E2E y README/REQUIREMENTS/STATUS. Preview de pruebas responde 503 en PHP, sin servir su código ni inventar cifras.
+
+Evidencia ejecutada: npm run check aprobado (también dentro del build final); npm test 22/22; npm run build aprobado, validación de 80 obras/84 preguntas y ZIP descomprimido/comparado byte por byte. Suite Chromium 32/32 aprobada: regresión responsive, Axe, catálogo, diez preguntas, reinicio, ráfagas, PWA raíz/subcarpeta/offline/actualización; tres E2E de estadísticas con endpoint simulado prueban visita/recarga/nuevo navegador, incompleto, dos partidas, renders/ráfagas, caída/reenvío persistido con mismo ID, totales y GET/POST sin caché del worker. Las pruebas del navegador no equivalen a ejecutar PHP. Captura artifacts/chromium-home-390.png revisada: contador discreto bajo footer. Unitarias iniciales tuvieron un fallo transitorio de caché temporal del sandbox; repetición fuera del sandbox 22/22. E2E ejecutadas fuera del sandbox tras bloqueo inicial del servidor local.
+
+Build final: artifacts/match-conjunciones-siteground.zip, 92 archivos, aproximadamente 1553 KiB; 80 portadas, dos SVG, stats.php y PWA. Precache 90 recursos sin PHP, revisión f2e6b378c7cbed45ff7d. Recursos privados y builds siguen excluidos de Git.
+
+Pendiente explícito: node scripts/test-statistics-php.mjs no pudo ejecutar PHP porque no está instalado. Sintaxis/ejecución PHP, deduplicación real del endpoint, incrementos simultáneos bajo flock, persistencia real entre publicaciones y permisos/rutas/cabeceras de SiteGround NO se declaran aprobados. Script de integración aislado preparado para entorno PHP 7.4+; contención real requiere varios workers. Continúan pendientes Safari/WebKit y teléfonos físicos ya detallados debajo.
+
+Próximo paso: commit/push del código revisado; luego, cuando el usuario autorice publicar, seguir README: respaldar public_html y JSON privado; verificar PHP/carpeta privada escribible (700, archivos 600); extraer ZIP sin tocar carpeta privada, sw.js al final y stats.php excluido de caché de hosting. Comprobar endpoint, visitante estable tras recarga y aumento de finalizaciones al volver con Hacer otro match. La aplicación pública permanece funcionando sin esta actualización hasta la publicación manual autorizada.
+
+## Historial de Fase 3 — 12/10/2026
 
 ## Corrección visual puntual — entrega actual
 

@@ -28,6 +28,7 @@ for (const file of ["book1.svg", "book2.svg"]) {
   await sharp(bytes).metadata();
   await copyFile(`assets-private/ui/${file}`, `dist/ui/${file}`);
 }
+await copyFile("server/stats.php", "dist/stats.php");
 await createPwa();
 const contents: Record<string, Uint8Array> = {};
 async function walk(path: string) {

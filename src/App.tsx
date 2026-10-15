@@ -8,6 +8,13 @@ import { Chevron } from "./components/Chevron";
 import { CatalogMenu } from "./components/CatalogMenu";
 import { CatalogExplorer } from "./components/CatalogExplorer";
 import { usePwa } from "./state/pwa";
+import { Statistics } from "./components/Statistics";
+import {
+  registerVisitor,
+  registerComplete,
+  newMatchId,
+  flushStatistics,
+} from "./services/statistics";
 
 export default function App() {
   const [game, dispatch] = useReducer(gameReducer, initialState);
@@ -18,6 +25,8 @@ export default function App() {
   const menuButton = useRef<HTMLButtonElement>(null);
   const returnScroll = useRef(0);
   const pwa = usePwa();
+  const matchId = useRef<string | null>(null);
+  const recordedMatch = useRef<string | null>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const topic = catalog.topics.find((t) => t.id === game.topicId);
   const question = game.questions[game.index];
@@ -28,6 +37,28 @@ export default function App() {
         : [],
     [game],
   );
+  useEffect(() => {
+    registerVisitor();
+    const online = () => {
+      void flushStatistics();
+    };
+    window.addEventListener("online", online);
+    return () => window.removeEventListener("online", online);
+  }, []);
+  useEffect(() => {
+    if (
+      !explorer &&
+      game.screen === "results" &&
+      matches.length >= 3 &&
+      game.questions.length === 10 &&
+      game.questions.every((q) => game.answers[q.id]) &&
+      matchId.current &&
+      recordedMatch.current !== matchId.current
+    ) {
+      recordedMatch.current = matchId.current;
+      registerComplete(matchId.current);
+    }
+  }, [game, matches, explorer]);
   useEffect(() => {
     if (game.transition) {
       const timer = setTimeout(() => dispatch({ type: "unlock" }), 420);
@@ -40,12 +71,18 @@ export default function App() {
       window.scrollTo({ top: 0, behavior: "instant" });
     }
   }, [game.screen, game.index]);
-  const start = (topicId?: string) =>
+  const start = (topicId?: string) => {
+    try {
+      matchId.current = newMatchId();
+    } catch {
+      matchId.current = null;
+    }
     dispatch({
       type: "start",
       questions: selectQuestions(catalog, questions, topicId),
       topicId,
     });
+  };
   const reset = () => {
     dispatch({ type: "reset" });
     setChooseTopic(false);
@@ -393,6 +430,7 @@ export default function App() {
           </span>
         </footer>
       )}
+      {!explorer && !menuOpen && game.screen === "home" && <Statistics />}
     </div>
   );
 }

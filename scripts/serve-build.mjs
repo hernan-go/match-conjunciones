@@ -32,6 +32,12 @@ createServer(async (req, res) => {
       return;
     }
     const info = await stat(file);
+    // Nunca servir código PHP como contenido estático en el preview de pruebas.
+    if (extname(file) === ".php") {
+      res.writeHead(503, { "Content-Type": "application/json", "Cache-Control": "no-store" });
+      res.end("{}");
+      return;
+    }
     if (!info.isFile()) throw new Error("No file");
     res.writeHead(200, {
       "Content-Type": types[extname(file)] || "application/octet-stream",

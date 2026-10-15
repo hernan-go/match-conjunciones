@@ -69,7 +69,7 @@ for (const width of widths)
     const failures: string[] = [];
     page.on("pageerror", (e) => failures.push(e.message));
     page.on("response", (r) => {
-      if (r.status() >= 400) failures.push(r.url());
+      if (r.status() >= 400 && !r.url().endsWith("/stats.php")) failures.push(r.url());
     });
     await page.goto("/evento/");
     if (width === 390 || width === 1440)

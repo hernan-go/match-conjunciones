@@ -4,7 +4,7 @@ Fuente: autorizaciones definitivas del usuario, 11 y 12/10/2026. Fase 3 prevalec
 
 ## Producto
 
-Match literario de Noveduc, público general, español de Argentina, sin registro, diagnóstico ni datos personales. Vite + React + TypeScript, datos locales, sin backend ni APIs durante partidas. Arquitectura modular simple: datos, lógica, estado, UI, imágenes y validación separados. Contenido ampliable sin reescribir algoritmo ni componentes.
+Match literario de Noveduc, público general, español de Argentina, sin registro, diagnóstico ni datos personales. Vite + React + TypeScript, datos y juego locales; única excepción de servidor: estadísticas agregadas autorizadas el 15/10/2026, secundarias e independientes del juego. Arquitectura modular simple: datos, lógica, estado, UI, imágenes y validación separados. Contenido ampliable sin reescribir algoritmo ni componentes.
 
 ## Catálogo
 
@@ -70,3 +70,13 @@ Separación mínima 30 px desde última respuesta hasta navegación. Preservar c
 ## Corrección puntual posterior — 12/10/2026
 
 Revisión anterior no aprobada visualmente. Alcance limitado a tres puntos: quitar numeración del encabezado inicial y texto exacto «¿Por dónde iniciamos?», misma familia serif/editorial del hero, protagónico, centrado, bold/cursiva; distancia visible de navegación al menos 30 px (ajustada a 40 para mejorar percepción, comprobar rectángulos renderizados); tarjetas de temática independientes con blanco sobre beige, borde gris visible, gap 10 px y sombra sutil. Mantener panel beige, SVG, chevrons, footer centrado, toda identidad y funcionalidades de Fase 3. Sin otras modificaciones ni SiteGround. Verificar capturas móviles, familia/título, ausencia de numeración, grilla, separación real, overflow y regresión.
+
+## Estadísticas temporales autorizadas — 15/10/2026
+
+Solo VISITORS (navegadores aproximados, UUID estable en localStorage) y MATCH COMPLETE (una unidad por partida de diez respuestas, tras Ver mis resultados y render de recomendaciones). Nueva partida usa otro UUID; renders, ráfagas, recargas, reintentos y actualizaciones no duplican eventos. No transmitir respuestas, libros, nombres, IP ni User-Agent; sin cookies, analítica externa, MySQL, Node de servidor, autenticación ni panel.
+
+PHP mínimo del mismo origen: GET/POST devuelve exclusivamente dos agregados; valida evento/UUID y guarda únicamente totales y huellas SHA256 para deduplicar. JSON privado fuera de public_html, bloqueo exclusivo y reemplazo atómico; conservar entre ZIP. Fallos no afectan al juego. Cola local de eventos pendientes hasta siete días, máximo cinco intentos por evento/carga, reintento cada 15 segundos y al recuperar conexión. Almacenamiento local bloqueado puede impedir la medición; nunca impedir participar.
+
+Debajo del footer, solo inicio: dos columnas centradas, etiquetas VISITORS/MATCH COMPLETE y números reales debajo, gris neutro, 11 px, sin tarjetas/sombras. Guion si no hay lectura válida. GET al abrir/regresar al inicio, sin polling; POST exitoso actualiza cifras visibles. PHP fuera de precache y de interceptación del worker; fetch no-store, base Vite relativa y offline preservado. Mantener catálogo, preguntas, motor, reducer, menú, identidad y recursos.
+
+Ejecutar check, unitarias, build/ZIP y E2E de regresión/contadores; PHP local si está disponible, sino registrar pendiente explícito. Documentar permisos y ruta real a comprobar en SiteGround. Commit y push autorizados; no publicar todavía en hosting ni alterar QR.
