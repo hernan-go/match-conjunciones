@@ -16,7 +16,7 @@ Build final: artifacts/match-conjunciones-siteground.zip, 92 archivos, aproximad
 
 Pendiente explícito: node scripts/test-statistics-php.mjs no pudo ejecutar PHP porque no está instalado. Sintaxis/ejecución PHP, deduplicación real del endpoint, incrementos simultáneos bajo flock, persistencia real entre publicaciones y permisos/rutas/cabeceras de SiteGround NO se declaran aprobados. Script de integración aislado preparado para entorno PHP 7.4+; contención real requiere varios workers. Continúan pendientes Safari/WebKit y teléfonos físicos ya detallados debajo.
 
-Próximo paso: commit/push del código revisado; luego, cuando el usuario autorice publicar, seguir README: respaldar public_html y JSON privado; verificar PHP/carpeta privada escribible (700, archivos 600); extraer ZIP sin tocar carpeta privada, sw.js al final y stats.php excluido de caché de hosting. Comprobar endpoint, visitante estable tras recarga y aumento de finalizaciones al volver con Hacer otro match. La aplicación pública permanece funcionando sin esta actualización hasta la publicación manual autorizada.
+Git: implementación 52e40e3 sincronizada en origin/main; árbol limpio verificado después del push. Próximo paso: cuando el usuario autorice publicar, seguir README: respaldar public_html y JSON privado; verificar PHP/carpeta privada escribible (700, archivos 600); extraer ZIP sin tocar carpeta privada, sw.js al final y stats.php excluido de caché de hosting. Comprobar endpoint, visitante estable tras recarga y aumento de finalizaciones al volver con Hacer otro match. La aplicación pública permanece funcionando sin esta actualización hasta la publicación manual autorizada.
 
 ## Historial de Fase 3 — 12/10/2026
 
